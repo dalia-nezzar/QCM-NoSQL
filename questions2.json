@@ -445,7 +445,9 @@
       "clé-valeur colonnes documents graphes",
       "cle-valeur colonnes documents graphes",
       "key value colonnes documents graphes",
-      "clé valeur colonnes documents graphes"
+      "clé valeur colonnes documents graphes",
+      "clé valeur colonne document graphe",
+      "clé-valeur colonne document graphe"
     ],
     "number_of_answers": 4
   },
@@ -755,7 +757,8 @@
       "nœuds relations propriétés",
       "noeuds relations proprietes",
       "nœuds relations proprietes",
-      "nodes relations properties"
+      "nodes relations properties",
+      "noeuds relations propriétés"
     ],
     "number_of_answers": 3
   },
