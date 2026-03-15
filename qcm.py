@@ -23,10 +23,19 @@ def is_answer_correct(q, user_answer):
     if q["type"] == "free_answer":
         user_answers_normalized = [ans.lower().strip() for ans in user_answer if ans.strip()]
         correct_normalized = [c.lower().strip() for c in q["correct"]]
+
         if len(user_answers_normalized) == 0:
             return False
+
+        if q.get("number_of_answers", 1) > 1:
+            combined_answer = " ".join(user_answers_normalized)
+            return any(
+                combined_answer == correct or calculate_similarity(combined_answer, correct) >= 0.8
+                for correct in correct_normalized
+            )
+
         return any(
-            ans in correct_normalized or calculate_similarity(ans, correct) >= 0.8
+            ans == correct or calculate_similarity(ans, correct) >= 0.8
             for ans in user_answers_normalized
             for correct in correct_normalized
         )
