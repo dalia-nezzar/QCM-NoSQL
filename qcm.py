@@ -54,8 +54,7 @@ if "shuffled_options" not in st.session_state:
     st.session_state.shuffled_options = {}
 
 parts = {
-    "Synchronisation de Processus": "questions.json",
-    "Deadlocks et Starvation": "questions_deadlocks.json",
+    "Chapitre 1 - Introduction au BIG DATA (big dètaè)": "questions.json",
 }
 
 if not st.session_state.started:
