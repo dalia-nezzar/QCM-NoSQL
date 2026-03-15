@@ -65,6 +65,7 @@ if "shuffled_options" not in st.session_state:
 parts = {
     "Chapitre 1 - Introduction au BIG DATA (big dètaè)": "questions.json",
     "Chapitre 2 -  Introduction aux bases de données NoSQL": "questions2.json",
+    "Chapitre 3 - Introduction à Elasticsearch": "questions3.json",
 }
 
 if not st.session_state.started:

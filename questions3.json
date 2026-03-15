@@ -1,0 +1,1514 @@
+[
+  {
+    "id": 201,
+    "type": "multiple_choice",
+    "question": "Elasticsearch est principalement :",
+    "options": [
+      "Une base de données NoSQL dédiée à la recherche",
+      "Un compilateur Java",
+      "Un système d'exploitation distribué",
+      "Un serveur DNS"
+    ],
+    "correct": [
+      "Une base de données NoSQL dédiée à la recherche"
+    ]
+  },
+  {
+    "id": 202,
+    "type": "multiple_choice",
+    "question": "Elasticsearch a été développé en :",
+    "options": [
+      "Java",
+      "Python",
+      "C",
+      "PHP"
+    ],
+    "correct": [
+      "Java"
+    ]
+  },
+  {
+    "id": 203,
+    "type": "multiple_choice",
+    "question": "Elasticsearch est distribué sous quelle licence ?",
+    "options": [
+      "Apache 2.0",
+      "MIT",
+      "GPLv3",
+      "BSD"
+    ],
+    "correct": [
+      "Apache 2.0"
+    ]
+  },
+  {
+    "id": 204,
+    "type": "multiple_choice",
+    "question": "Elasticsearch stocke ses données principalement sous quel format ?",
+    "options": [
+      "JSON",
+      "XML",
+      "CSV",
+      "YAML"
+    ],
+    "correct": [
+      "JSON"
+    ]
+  },
+  {
+    "id": 205,
+    "type": "multiple_choice",
+    "question": "Elasticsearch est conçu pour être :",
+    "options": [
+      "Évolutif avec clustering et répartition de charge",
+      "Strictement mono-utilisateur",
+      "Uniquement local",
+      "Réservé aux bases relationnelles"
+    ],
+    "correct": [
+      "Évolutif avec clustering et répartition de charge"
+    ]
+  },
+  {
+    "id": 206,
+    "type": "multiple_choice",
+    "question": "Un des avantages d’Elasticsearch est :",
+    "options": [
+      "Des API REST simples",
+      "L'absence totale de réseau",
+      "Le refus des formats texte",
+      "L'impossibilité de faire des recherches"
+    ],
+    "correct": [
+      "Des API REST simples"
+    ]
+  },
+  {
+    "id": 207,
+    "type": "multiple_choice",
+    "question": "Les opérations d’Elasticsearch sont dites :",
+    "options": [
+      "En temps quasi réel",
+      "Toujours différées de plusieurs heures",
+      "Exclusivement hors ligne",
+      "Manuelles uniquement"
+    ],
+    "correct": [
+      "En temps quasi réel"
+    ]
+  },
+  {
+    "id": 208,
+    "type": "multiple_choice",
+    "question": "Quel outil est intégré à Elasticsearch pour la visualisation ?",
+    "options": [
+      "Kibana",
+      "Docker",
+      "Jenkins",
+      "Ansible"
+    ],
+    "correct": [
+      "Kibana"
+    ]
+  },
+  {
+    "id": 209,
+    "type": "multiple_choice",
+    "question": "Parmi ces outils, lesquels sont cités comme intégrés ou complémentaires à Elasticsearch ?",
+    "options": [
+      "Kibana",
+      "Beats",
+      "Logstash",
+      "Photoshop"
+    ],
+    "correct": [
+      "Kibana",
+      "Beats",
+      "Logstash"
+    ]
+  },
+  {
+    "id": 210,
+    "type": "multiple_choice",
+    "question": "Parmi les cas d’usage d’Elasticsearch, on retrouve :",
+    "options": [
+      "L’analyse de logs en temps réel",
+      "La recherche dans de gros volumes de contenu",
+      "Le monitoring de conteneurs",
+      "La fabrication de processeurs"
+    ],
+    "correct": [
+      "L’analyse de logs en temps réel",
+      "La recherche dans de gros volumes de contenu",
+      "Le monitoring de conteneurs"
+    ]
+  },
+  {
+    "id": 211,
+    "type": "multiple_choice",
+    "question": "Quelle entreprise est citée comme utilisatrice d’Elasticsearch ?",
+    "options": [
+      "Netflix",
+      "eBay",
+      "Walmart",
+      "Toutes les réponses précédentes"
+    ],
+    "correct": [
+      "Toutes les réponses précédentes"
+    ]
+  },
+  {
+    "id": 212,
+    "type": "multiple_choice",
+    "question": "Dans l’analogie avec un SGBD relationnel, un index Elasticsearch correspond plutôt à :",
+    "options": [
+      "Une base de données",
+      "Une ligne",
+      "Une colonne",
+      "Une clé étrangère"
+    ],
+    "correct": [
+      "Une base de données"
+    ]
+  },
+  {
+    "id": 213,
+    "type": "multiple_choice",
+    "question": "Dans l’analogie avec un SGBD relationnel, un type Elasticsearch correspond plutôt à :",
+    "options": [
+      "Une table",
+      "Une vue",
+      "Une transaction",
+      "Un trigger"
+    ],
+    "correct": [
+      "Une table"
+    ]
+  },
+  {
+    "id": 214,
+    "type": "multiple_choice",
+    "question": "Dans l’analogie avec un SGBD relationnel, un document Elasticsearch correspond plutôt à :",
+    "options": [
+      "Une ligne",
+      "Une base",
+      "Un index secondaire",
+      "Un utilisateur"
+    ],
+    "correct": [
+      "Une ligne"
+    ]
+  },
+  {
+    "id": 215,
+    "type": "multiple_choice",
+    "question": "Dans l’analogie avec un SGBD relationnel, les fields correspondent plutôt à :",
+    "options": [
+      "Des colonnes",
+      "Des vues matérialisées",
+      "Des fichiers logs",
+      "Des clusters"
+    ],
+    "correct": [
+      "Des colonnes"
+    ]
+  },
+  {
+    "id": 216,
+    "type": "multiple_choice",
+    "question": "Le mapping est comparable à :",
+    "options": [
+      "La définition du schéma",
+      "Une sauvegarde",
+      "Une jointure",
+      "Un index bitmap"
+    ],
+    "correct": [
+      "La définition du schéma"
+    ]
+  },
+  {
+    "id": 217,
+    "type": "multiple_choice",
+    "question": "Si aucun mapping n’est défini manuellement, Elasticsearch :",
+    "options": [
+      "Le génère automatiquement lors de la première indexation",
+      "Refuse toute insertion",
+      "Supprime l’index",
+      "Crée automatiquement un cluster"
+    ],
+    "correct": [
+      "Le génère automatiquement lors de la première indexation"
+    ]
+  },
+  {
+    "id": 218,
+    "type": "multiple_choice",
+    "question": "Une fois qu’un mapping est défini pour un index, selon le cours il est :",
+    "options": [
+      "Impossible à modifier directement",
+      "Modifiable à chaud sans contrainte",
+      "Supprimé à chaque requête",
+      "Toujours vide"
+    ],
+    "correct": [
+      "Impossible à modifier directement"
+    ]
+  },
+  {
+    "id": 219,
+    "type": "multiple_choice",
+    "question": "Un document Elasticsearch possède notamment :",
+    "options": [
+      "Un index",
+      "Un type",
+      "Un id",
+      "Un BIOS"
+    ],
+    "correct": [
+      "Un index",
+      "Un type",
+      "Un id"
+    ]
+  },
+  {
+    "id": 220,
+    "type": "multiple_choice",
+    "question": "Dans Elasticsearch, l’id d’un document joue le rôle de :",
+    "options": [
+      "Clé primaire",
+      "Clé étrangère",
+      "Mot de passe",
+      "Port réseau"
+    ],
+    "correct": [
+      "Clé primaire"
+    ]
+  },
+  {
+    "id": 221,
+    "type": "multiple_choice",
+    "question": "Un node est :",
+    "options": [
+      "Une instance d’Elasticsearch",
+      "Un document JSON",
+      "Une requête DSL",
+      "Une table SQL"
+    ],
+    "correct": [
+      "Une instance d’Elasticsearch"
+    ]
+  },
+  {
+    "id": 222,
+    "type": "multiple_choice",
+    "question": "Un cluster est :",
+    "options": [
+      "Une collection de nodes",
+      "Un seul champ texte",
+      "Une seule requête",
+      "Un format de fichier"
+    ],
+    "correct": [
+      "Une collection de nodes"
+    ]
+  },
+  {
+    "id": 223,
+    "type": "multiple_choice",
+    "question": "Les shards permettent principalement de :",
+    "options": [
+      "Répartir les données sur plusieurs nodes",
+      "Supprimer automatiquement les documents",
+      "Convertir JSON en XML",
+      "Créer des utilisateurs"
+    ],
+    "correct": [
+      "Répartir les données sur plusieurs nodes"
+    ]
+  },
+  {
+    "id": 224,
+    "type": "multiple_choice",
+    "question": "Un shard peut être :",
+    "options": [
+      "Primaire",
+      "Un duplicata",
+      "Un navigateur web",
+      "Un script Python"
+    ],
+    "correct": [
+      "Primaire",
+      "Un duplicata"
+    ]
+  },
+  {
+    "id": 225,
+    "type": "multiple_choice",
+    "question": "Les replicas sont :",
+    "options": [
+      "Des copies des shards primaires",
+      "Des index SQL",
+      "Des fichiers HTML",
+      "Des API clientes"
+    ],
+    "correct": [
+      "Des copies des shards primaires"
+    ]
+  },
+  {
+    "id": 226,
+    "type": "multiple_choice",
+    "question": "En cas d’erreur du shard primaire, un replica peut :",
+    "options": [
+      "Devenir primaire",
+      "Supprimer tout le cluster",
+      "Désactiver JSON",
+      "Changer le langage Java en Python"
+    ],
+    "correct": [
+      "Devenir primaire"
+    ]
+  },
+  {
+    "id": 227,
+    "type": "multiple_choice",
+    "question": "Quand un index devient trop grand pour un seul node, il est :",
+    "options": [
+      "Découpé en shards",
+      "Transformé en fichier CSV",
+      "Compilé en Java",
+      "Converti en table SQL"
+    ],
+    "correct": [
+      "Découpé en shards"
+    ]
+  },
+  {
+    "id": 228,
+    "type": "multiple_choice",
+    "question": "Selon le cours, la notion de type est :",
+    "options": [
+      "En cours de disparition",
+      "Nouvellement obligatoire",
+      "Remplacée par SQL",
+      "Réservée aux fichiers binaires"
+    ],
+    "correct": [
+      "En cours de disparition"
+    ]
+  },
+  {
+    "id": 229,
+    "type": "multiple_choice",
+    "question": "Chaque propriété de chaque document est indexée pour :",
+    "options": [
+      "Retrouver rapidement les documents correspondants",
+      "Empêcher les recherches",
+      "Crypter automatiquement toutes les données",
+      "Supprimer les champs vides"
+    ],
+    "correct": [
+      "Retrouver rapidement les documents correspondants"
+    ]
+  },
+  {
+    "id": 230,
+    "type": "multiple_choice",
+    "question": "Dans Elasticsearch, on appelle index inversé :",
+    "options": [
+      "La structure permettant de retrouver rapidement les documents contenant certains mots",
+      "Une sauvegarde compressée",
+      "Une erreur de mapping",
+      "Une réplication entre clusters"
+    ],
+    "correct": [
+      "La structure permettant de retrouver rapidement les documents contenant certains mots"
+    ]
+  },
+  {
+    "id": 231,
+    "type": "multiple_choice",
+    "question": "Parmi ces types de champs Elasticsearch, lesquels sont cités ?",
+    "options": [
+      "text",
+      "integer",
+      "geo_point",
+      "ip"
+    ],
+    "correct": [
+      "text",
+      "integer",
+      "geo_point",
+      "ip"
+    ]
+  },
+  {
+    "id": 232,
+    "type": "multiple_choice",
+    "question": "Quelle architecture Elasticsearch correspond à une seule machine ?",
+    "options": [
+      "Standalone",
+      "Multi-cluster",
+      "Cluster avec réplication",
+      "Cloud distribué mondial"
+    ],
+    "correct": [
+      "Standalone"
+    ]
+  },
+  {
+    "id": 233,
+    "type": "multiple_choice",
+    "question": "L’architecture standalone est recommandée surtout pour :",
+    "options": [
+      "Des applications à faible charge",
+      "Tous les cas de Big Data massifs",
+      "Les réseaux sans serveur",
+      "Les systèmes sans données"
+    ],
+    "correct": [
+      "Des applications à faible charge"
+    ]
+  },
+  {
+    "id": 234,
+    "type": "multiple_choice",
+    "question": "Dans une architecture en cluster, les nœuds sont organisés pour :",
+    "options": [
+      "Répartir données et requêtes",
+      "Éviter le point de défaillance unique",
+      "Augmenter la capacité de traitement",
+      "Supprimer HTTP"
+    ],
+    "correct": [
+      "Répartir données et requêtes",
+      "Éviter le point de défaillance unique",
+      "Augmenter la capacité de traitement"
+    ]
+  },
+  {
+    "id": 235,
+    "type": "multiple_choice",
+    "question": "L’architecture en cluster avec réplication sert surtout à améliorer :",
+    "options": [
+      "La redondance",
+      "La disponibilité",
+      "La tolérance aux pannes",
+      "La couleur de l’interface"
+    ],
+    "correct": [
+      "La redondance",
+      "La disponibilité",
+      "La tolérance aux pannes"
+    ]
+  },
+  {
+    "id": 236,
+    "type": "multiple_choice",
+    "question": "L’architecture multi-cluster est adaptée aux applications nécessitant :",
+    "options": [
+      "Une grande capacité de traitement",
+      "Une haute disponibilité",
+      "Une faible latence sur de grandes distances géographiques",
+      "Un seul document statique"
+    ],
+    "correct": [
+      "Une grande capacité de traitement",
+      "Une haute disponibilité",
+      "Une faible latence sur de grandes distances géographiques"
+    ]
+  },
+  {
+    "id": 237,
+    "type": "multiple_choice",
+    "question": "L’architecture cloud Elasticsearch repose sur des fournisseurs comme :",
+    "options": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "LibreOffice"
+    ],
+    "correct": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ]
+  },
+  {
+    "id": 238,
+    "type": "multiple_choice",
+    "question": "Un inconvénient possible du mode cloud mentionné dans le cours est :",
+    "options": [
+      "Des coûts supplémentaires liés au cloud et à la bande passante",
+      "L’impossibilité d’avoir des sauvegardes",
+      "L’absence totale de sécurité",
+      "Le refus des clusters"
+    ],
+    "correct": [
+      "Des coûts supplémentaires liés au cloud et à la bande passante"
+    ]
+  },
+  {
+    "id": 239,
+    "type": "multiple_choice",
+    "question": "JSON signifie :",
+    "options": [
+      "JavaScript Object Notation",
+      "Java Source Object Network",
+      "Joint Standard Open Notation",
+      "JSON Is Simple Node"
+    ],
+    "correct": [
+      "JavaScript Object Notation"
+    ]
+  },
+  {
+    "id": 240,
+    "type": "multiple_choice",
+    "question": "JSON définit principalement deux structures :",
+    "options": [
+      "Objet",
+      "Tableau",
+      "Classe",
+      "Thread"
+    ],
+    "correct": [
+      "Objet",
+      "Tableau"
+    ]
+  },
+  {
+    "id": 241,
+    "type": "multiple_choice",
+    "question": "Dans JSON, un objet est délimité par :",
+    "options": [
+      "Des accolades",
+      "Des crochets",
+      "Des parenthèses",
+      "Des chevrons"
+    ],
+    "correct": [
+      "Des accolades"
+    ]
+  },
+  {
+    "id": 242,
+    "type": "multiple_choice",
+    "question": "Dans JSON, un tableau est délimité par :",
+    "options": [
+      "Des crochets",
+      "Des accolades",
+      "Des parenthèses",
+      "Des guillemets simples"
+    ],
+    "correct": [
+      "Des crochets"
+    ]
+  },
+  {
+    "id": 243,
+    "type": "multiple_choice",
+    "question": "Dans JSON, le nom d’une clé est obligatoirement :",
+    "options": [
+      "Une chaîne de caractères",
+      "Un entier",
+      "Un booléen",
+      "Un tableau"
+    ],
+    "correct": [
+      "Une chaîne de caractères"
+    ]
+  },
+  {
+    "id": 244,
+    "type": "multiple_choice",
+    "question": "Parmi les types de données supportés par JSON, on trouve :",
+    "options": [
+      "number",
+      "string",
+      "boolean",
+      "null"
+    ],
+    "correct": [
+      "number",
+      "string",
+      "boolean",
+      "null"
+    ]
+  },
+  {
+    "id": 245,
+    "type": "multiple_choice",
+    "question": "Dans JSON, le séparateur d’un nombre flottant est :",
+    "options": [
+      "Le point",
+      "La virgule",
+      "Le slash",
+      "Le deux-points"
+    ],
+    "correct": [
+      "Le point"
+    ]
+  },
+  {
+    "id": 246,
+    "type": "multiple_choice",
+    "question": "Dans une chaîne JSON, le caractère d’échappement est :",
+    "options": [
+      "L’antislash",
+      "Le slash",
+      "Le point-virgule",
+      "Le dièse"
+    ],
+    "correct": [
+      "L’antislash"
+    ]
+  },
+  {
+    "id": 247,
+    "type": "multiple_choice",
+    "question": "Quelle méthode JavaScript analyse une chaîne JSON pour construire une valeur ou un objet ?",
+    "options": [
+      "parse()",
+      "stringify()",
+      "split()",
+      "append()"
+    ],
+    "correct": [
+      "parse()"
+    ]
+  },
+  {
+    "id": 248,
+    "type": "multiple_choice",
+    "question": "Quelle méthode JavaScript convertit une valeur JavaScript en chaîne JSON ?",
+    "options": [
+      "stringify()",
+      "parse()",
+      "join()",
+      "encode()"
+    ],
+    "correct": [
+      "stringify()"
+    ]
+  },
+  {
+    "id": 249,
+    "type": "multiple_choice",
+    "question": "REST signifie :",
+    "options": [
+      "Representational State Transfer",
+      "Remote State Text",
+      "Relational Search Transfer",
+      "Resource Standard Type"
+    ],
+    "correct": [
+      "Representational State Transfer"
+    ]
+  },
+  {
+    "id": 250,
+    "type": "multiple_choice",
+    "question": "REST est :",
+    "options": [
+      "Un style d’architecture logicielle",
+      "Un protocole réseau",
+      "Un système de fichiers",
+      "Un langage compilé"
+    ],
+    "correct": [
+      "Un style d’architecture logicielle"
+    ]
+  },
+  {
+    "id": 251,
+    "type": "multiple_choice",
+    "question": "Le protocole traditionnel d’échange sur Internet cité dans le cours est :",
+    "options": [
+      "HTTP",
+      "SMTP",
+      "SSH",
+      "SNMP"
+    ],
+    "correct": [
+      "HTTP"
+    ]
+  },
+  {
+    "id": 252,
+    "type": "multiple_choice",
+    "question": "Une URL est composée notamment de :",
+    "options": [
+      "Protocole",
+      "Host",
+      "Port",
+      "Path"
+    ],
+    "correct": [
+      "Protocole",
+      "Host",
+      "Port",
+      "Path"
+    ]
+  },
+  {
+    "id": 253,
+    "type": "multiple_choice",
+    "question": "La syntaxe typique d’une URL donnée dans le cours est :",
+    "options": [
+      "protocole://host:port/path/file",
+      "host://file:port/path",
+      "path://port/host/file",
+      "file://path:host/port"
+    ],
+    "correct": [
+      "protocole://host:port/path/file"
+    ]
+  },
+  {
+    "id": 254,
+    "type": "multiple_choice",
+    "question": "Quelles méthodes HTTP sont citées dans l’API REST d’Elasticsearch ?",
+    "options": [
+      "GET",
+      "PUT",
+      "POST",
+      "DELETE"
+    ],
+    "correct": [
+      "GET",
+      "PUT",
+      "POST",
+      "DELETE"
+    ]
+  },
+  {
+    "id": 255,
+    "type": "multiple_choice",
+    "question": "Une API est décrite comme :",
+    "options": [
+      "Un pont de connexion entre deux applications",
+      "Un contrat entre fournisseur et client",
+      "Une interface exposant des méthodes",
+      "Un disque dur distribué"
+    ],
+    "correct": [
+      "Un pont de connexion entre deux applications",
+      "Un contrat entre fournisseur et client",
+      "Une interface exposant des méthodes"
+    ]
+  },
+  {
+    "id": 256,
+    "type": "multiple_choice",
+    "question": "Dans REST, les ressources sont identifiées de façon unique par leurs :",
+    "options": [
+      "URI",
+      "Adresses MAC",
+      "Hashes MD5 uniquement",
+      "Ports USB"
+    ],
+    "correct": [
+      "URI"
+    ]
+  },
+  {
+    "id": 257,
+    "type": "multiple_choice",
+    "question": "Dans REST, le format d’échange mentionné comme principal est :",
+    "options": [
+      "JSON",
+      "BMP",
+      "EXE",
+      "BIN"
+    ],
+    "correct": [
+      "JSON"
+    ]
+  },
+  {
+    "id": 258,
+    "type": "multiple_choice",
+    "question": "La syntaxe générale de l’API Document donnée dans le cours est :",
+    "options": [
+      "<Verbe REST> [<index>] [<Type>] [<ID>]",
+      "<ID> [<Type>] <Verbe REST> <index>",
+      "<index>:<type>:<id>:<verbe>",
+      "<JSON> -> <REST> -> <cluster>"
+    ],
+    "correct": [
+      "<Verbe REST> [<index>] [<Type>] [<ID>]"
+    ]
+  },
+  {
+    "id": 259,
+    "type": "multiple_choice",
+    "question": "Pour créer un index appelé livre, le cours donne :",
+    "options": [
+      "PUT /livre",
+      "GET /livre",
+      "POST /livre/_search",
+      "DELETE /livre"
+    ],
+    "correct": [
+      "PUT /livre"
+    ]
+  },
+  {
+    "id": 260,
+    "type": "multiple_choice",
+    "question": "Pour récupérer un mapping sur l’index livre, on utilise :",
+    "options": [
+      "GET /livre/_mapping",
+      "POST /livre/_mapping",
+      "DELETE /livre/_mapping",
+      "PUT /livre/_mapping/1"
+    ],
+    "correct": [
+      "GET /livre/_mapping"
+    ]
+  },
+  {
+    "id": 261,
+    "type": "multiple_choice",
+    "question": "Pour récupérer un document avec l’id 1 dans l’index livre, le cours donne :",
+    "options": [
+      "GET /livre/_doc/1",
+      "POST /livre/_doc/1",
+      "DELETE /livre/_doc/1",
+      "PUT /livre/_search/1"
+    ],
+    "correct": [
+      "GET /livre/_doc/1"
+    ]
+  },
+  {
+    "id": 262,
+    "type": "multiple_choice",
+    "question": "Pour afficher tous les index, le cours propose :",
+    "options": [
+      "GET _cat/indices?v",
+      "GET /_all/indexes",
+      "POST /indices/list",
+      "SHOW INDEXES"
+    ],
+    "correct": [
+      "GET _cat/indices?v"
+    ]
+  },
+  {
+    "id": 263,
+    "type": "multiple_choice",
+    "question": "Pour afficher tous les documents d’un index, on utilise :",
+    "options": [
+      "GET /index/_search",
+      "PUT /index/_search",
+      "PATCH /index/_doc",
+      "DELETE /index/_all"
+    ],
+    "correct": [
+      "GET /index/_search"
+    ]
+  },
+  {
+    "id": 264,
+    "type": "multiple_choice",
+    "question": "Quelle requête permet d’afficher tous les documents avec match_all ?",
+    "options": [
+      "GET livre/_search avec {\"query\":{\"match_all\":{}}}",
+      "DELETE livre/_search",
+      "PUT livre/_doc",
+      "POST livre/_mapping"
+    ],
+    "correct": [
+      "GET livre/_search avec {\"query\":{\"match_all\":{}}}"
+    ]
+  },
+  {
+    "id": 265,
+    "type": "multiple_choice",
+    "question": "Pour mettre à jour un document, le cours utilise principalement :",
+    "options": [
+      "POST /livre/_update/1",
+      "GET /livre/_update/1",
+      "DELETE /livre/_update/1",
+      "PATCH /livre/_mapping/1"
+    ],
+    "correct": [
+      "POST /livre/_update/1"
+    ]
+  },
+  {
+    "id": 266,
+    "type": "multiple_choice",
+    "question": "L’API Bulk permet de :",
+    "options": [
+      "Indexer un grand volume de documents en une seule requête",
+      "Supprimer tout le cluster",
+      "Convertir les documents en XML",
+      "Télécharger Kibana"
+    ],
+    "correct": [
+      "Indexer un grand volume de documents en une seule requête"
+    ]
+  },
+  {
+    "id": 267,
+    "type": "multiple_choice",
+    "question": "Pour supprimer l’index livre, on utilise :",
+    "options": [
+      "DELETE /livre",
+      "GET /livre",
+      "PUT /livre",
+      "POST /livre/delete"
+    ],
+    "correct": [
+      "DELETE /livre"
+    ]
+  },
+  {
+    "id": 268,
+    "type": "multiple_choice",
+    "question": "Pour supprimer un document d’id 1 dans l’index livre, on utilise :",
+    "options": [
+      "DELETE /livre/_doc/1",
+      "POST /livre/_doc/1",
+      "GET /livre/_doc/1",
+      "PUT /livre/_delete/1"
+    ],
+    "correct": [
+      "DELETE /livre/_doc/1"
+    ]
+  },
+  {
+    "id": 269,
+    "type": "multiple_choice",
+    "question": "Selon le cours, avec POST l’identifiant est généralement :",
+    "options": [
+      "Auto-généré",
+      "Obligatoirement fixé à 0",
+      "Toujours le nom de l’index",
+      "Toujours absent du document"
+    ],
+    "correct": [
+      "Auto-généré"
+    ]
+  },
+  {
+    "id": 270,
+    "type": "multiple_choice",
+    "question": "Selon le cours, avec PUT on peut :",
+    "options": [
+      "Spécifier la valeur de l’identifiant",
+      "Créer ou indexer un document",
+      "Remplacer complètement un document",
+      "Uniquement lire un document"
+    ],
+    "correct": [
+      "Spécifier la valeur de l’identifiant",
+      "Créer ou indexer un document",
+      "Remplacer complètement un document"
+    ]
+  },
+  {
+    "id": 271,
+    "type": "multiple_choice",
+    "question": "Les recherches de documents se font en interrogeant principalement :",
+    "options": [
+      "/INDEX/_search",
+      "/INDEX/_mapping",
+      "/INDEX/_bulk",
+      "/INDEX/_cluster"
+    ],
+    "correct": [
+      "/INDEX/_search"
+    ]
+  },
+  {
+    "id": 272,
+    "type": "multiple_choice",
+    "question": "Le résultat d’une recherche Elasticsearch contient notamment :",
+    "options": [
+      "hits",
+      "total",
+      "max_score",
+      "_source"
+    ],
+    "correct": [
+      "hits",
+      "total",
+      "max_score",
+      "_source"
+    ]
+  },
+  {
+    "id": 273,
+    "type": "multiple_choice",
+    "question": "Le score dans les résultats de recherche dépend :",
+    "options": [
+      "De la coïncidence entre les mots cherchés et le document",
+      "De la température du serveur",
+      "Du nombre de ports ouverts",
+      "Du nom du cluster uniquement"
+    ],
+    "correct": [
+      "De la coïncidence entre les mots cherchés et le document"
+    ]
+  },
+  {
+    "id": 274,
+    "type": "multiple_choice",
+    "question": "Dans une recherche par URL, le paramètre size=N sert à :",
+    "options": [
+      "Limiter le nombre de résultats",
+      "Changer le mapping",
+      "Supprimer N documents",
+      "Fixer le nombre de shards"
+    ],
+    "correct": [
+      "Limiter le nombre de résultats"
+    ]
+  },
+  {
+    "id": 275,
+    "type": "multiple_choice",
+    "question": "DSL signifie :",
+    "options": [
+      "Domain Specific Language",
+      "Data Search Layer",
+      "Distributed Service Logic",
+      "Document Syntax Library"
+    ],
+    "correct": [
+      "Domain Specific Language"
+    ]
+  },
+  {
+    "id": 276,
+    "type": "multiple_choice",
+    "question": "Dans Elasticsearch, les requêtes DSL sont écrites en :",
+    "options": [
+      "JSON",
+      "C++",
+      "HTML",
+      "Bash uniquement"
+    ],
+    "correct": [
+      "JSON"
+    ]
+  },
+  {
+    "id": 277,
+    "type": "multiple_choice",
+    "question": "Quel opérateur de recherche est plutôt utilisé pour une égalité exacte sur un champ numérique ?",
+    "options": [
+      "term",
+      "match",
+      "range",
+      "bool"
+    ],
+    "correct": [
+      "term"
+    ]
+  },
+  {
+    "id": 278,
+    "type": "multiple_choice",
+    "question": "Quels opérateurs sont utilisés pour des champs de type text ?",
+    "options": [
+      "match",
+      "match_phrase",
+      "term uniquement",
+      "geo_distance"
+    ],
+    "correct": [
+      "match",
+      "match_phrase"
+    ]
+  },
+  {
+    "id": 279,
+    "type": "multiple_choice",
+    "question": "L’opérateur range utilise notamment quels comparateurs ?",
+    "options": [
+      "gt",
+      "gte",
+      "lt",
+      "lte"
+    ],
+    "correct": [
+      "gt",
+      "gte",
+      "lt",
+      "lte"
+    ]
+  },
+  {
+    "id": 280,
+    "type": "multiple_choice",
+    "question": "L’opérateur geo_distance sert à :",
+    "options": [
+      "Chercher des documents selon leur éloignement à un point fixe",
+      "Mesurer la charge CPU d’un nœud",
+      "Créer un mapping géographique automatiquement",
+      "Compresser les documents"
+    ],
+    "correct": [
+      "Chercher des documents selon leur éloignement à un point fixe"
+    ]
+  },
+  {
+    "id": 281,
+    "type": "multiple_choice",
+    "question": "Dans une requête bool, que signifie must ?",
+    "options": [
+      "Ce qui doit être dans les documents",
+      "Ce qui doit être absent",
+      "Un tri descendant",
+      "Un type d’agrégation"
+    ],
+    "correct": [
+      "Ce qui doit être dans les documents"
+    ]
+  },
+  {
+    "id": 282,
+    "type": "multiple_choice",
+    "question": "Dans une requête bool, que signifie must_not ?",
+    "options": [
+      "Ce qui doit être absent des documents",
+      "Ce qui est optionnel",
+      "Ce qui est trié",
+      "Ce qui est indexé en bulk"
+    ],
+    "correct": [
+      "Ce qui doit être absent des documents"
+    ]
+  },
+  {
+    "id": 283,
+    "type": "multiple_choice",
+    "question": "Dans une requête bool, que signifie should ?",
+    "options": [
+      "Indique des alternatives",
+      "Supprime les champs vides",
+      "Crée un replica",
+      "Transforme une recherche en agrégation"
+    ],
+    "correct": [
+      "Indique des alternatives"
+    ]
+  },
+  {
+    "id": 284,
+    "type": "multiple_choice",
+    "question": "Dans une requête bool, filter sert à :",
+    "options": [
+      "Appliquer des conditions non évaluées par un score",
+      "Créer un cluster",
+      "Modifier le mapping",
+      "Changer le type du document"
+    ],
+    "correct": [
+      "Appliquer des conditions non évaluées par un score"
+    ]
+  },
+  {
+    "id": 285,
+    "type": "multiple_choice",
+    "question": "L’opérateur exists permet de rechercher :",
+    "options": [
+      "Les documents possédant un champ non null et non vide",
+      "Les documents supprimés",
+      "Les shards manquants",
+      "Les clusters inactifs"
+    ],
+    "correct": [
+      "Les documents possédant un champ non null et non vide"
+    ]
+  },
+  {
+    "id": 286,
+    "type": "multiple_choice",
+    "question": "Pour trier autrement que par score, on ajoute dans la requête :",
+    "options": [
+      "sort",
+      "mapping",
+      "_bulk",
+      "exists"
+    ],
+    "correct": [
+      "sort"
+    ]
+  },
+  {
+    "id": 287,
+    "type": "multiple_choice",
+    "question": "Pour ne récupérer que certains champs des résultats, on utilise :",
+    "options": [
+      "_source",
+      "_cluster",
+      "_replica",
+      "_node"
+    ],
+    "correct": [
+      "_source"
+    ]
+  },
+  {
+    "id": 288,
+    "type": "multiple_choice",
+    "question": "Une agrégation Elasticsearch permet de :",
+    "options": [
+      "Générer des métriques",
+      "Faire des statistiques",
+      "Regrouper des documents similaires",
+      "Installer automatiquement le cluster"
+    ],
+    "correct": [
+      "Générer des métriques",
+      "Faire des statistiques",
+      "Regrouper des documents similaires"
+    ]
+  },
+  {
+    "id": 289,
+    "type": "multiple_choice",
+    "question": "Les résultats d’une agrégation se trouvent dans la réponse sous la clé :",
+    "options": [
+      "aggregations",
+      "mapping",
+      "source_only",
+      "cluster_state"
+    ],
+    "correct": [
+      "aggregations"
+    ]
+  },
+  {
+    "id": 290,
+    "type": "multiple_choice",
+    "question": "Pour retourner uniquement les résultats d’agrégation, il faut définir :",
+    "options": [
+      "size à 0",
+      "score à 0",
+      "hits à false",
+      "term à null"
+    ],
+    "correct": [
+      "size à 0"
+    ]
+  },
+  {
+    "id": 291,
+    "type": "multiple_choice",
+    "question": "On peut exécuter dans une même requête :",
+    "options": [
+      "Plusieurs agrégations",
+      "Des sous-agrégations",
+      "Des agrégations bucket",
+      "Des agrégations métriques"
+    ],
+    "correct": [
+      "Plusieurs agrégations",
+      "Des sous-agrégations",
+      "Des agrégations bucket",
+      "Des agrégations métriques"
+    ]
+  },
+  {
+    "id": 292,
+    "type": "multiple_choice",
+    "question": "Le paramètre typed_keys permet de :",
+    "options": [
+      "Retourner le type d’agrégation dans les résultats",
+      "Changer le type d’un champ",
+      "Crypter les clés JSON",
+      "Créer des documents typés automatiquement"
+    ],
+    "correct": [
+      "Retourner le type d’agrégation dans les résultats"
+    ]
+  },
+  {
+    "id": 293,
+    "type": "multiple_choice",
+    "question": "Les trois grandes catégories d’agrégations citées sont :",
+    "options": [
+      "Bucket",
+      "Métriques",
+      "Pipelines",
+      "Threads"
+    ],
+    "correct": [
+      "Bucket",
+      "Métriques",
+      "Pipelines"
+    ]
+  },
+  {
+    "id": 294,
+    "type": "multiple_choice",
+    "question": "Les agrégations de type bucket sont comparées à quelle fonctionnalité SQL ?",
+    "options": [
+      "GROUP BY",
+      "JOIN",
+      "DELETE",
+      "ROLLBACK"
+    ],
+    "correct": [
+      "GROUP BY"
+    ]
+  },
+  {
+    "id": 295,
+    "type": "multiple_choice",
+    "question": "L’agrégation terms est une agrégation de type :",
+    "options": [
+      "Bucket",
+      "Sécurité",
+      "Transport",
+      "Indexation brute"
+    ],
+    "correct": [
+      "Bucket"
+    ]
+  },
+  {
+    "id": 296,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple “prix moyen par catégorie”, l’agrégation terms porte sur :",
+    "options": [
+      "category.keyword",
+      "price",
+      "_id",
+      "_score"
+    ],
+    "correct": [
+      "category.keyword"
+    ]
+  },
+  {
+    "id": 297,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple “prix moyen par catégorie”, l’agrégation avg porte sur :",
+    "options": [
+      "price",
+      "category.keyword",
+      "title",
+      "_source"
+    ],
+    "correct": [
+      "price"
+    ]
+  },
+  {
+    "id": 298,
+    "type": "free_answer",
+    "question": "Donne le nom du format de données utilisé par Elasticsearch pour stocker les documents.",
+    "correct": [
+      "json"
+    ]
+  },
+  {
+    "id": 299,
+    "type": "free_answer",
+    "question": "Comment s’appelle la structure Elasticsearch comparable à une base de données relationnelle ?",
+    "correct": [
+      "index"
+    ]
+  },
+  {
+    "id": 300,
+    "type": "free_answer",
+    "question": "Comment s’appelle la structure Elasticsearch comparable à une table relationnelle ?",
+    "correct": [
+      "type"
+    ]
+  },
+  {
+    "id": 301,
+    "type": "free_answer",
+    "question": "Comment s’appelle la définition du schéma dans Elasticsearch ?",
+    "correct": [
+      "mapping",
+      "mappings"
+    ]
+  },
+  {
+    "id": 302,
+    "type": "free_answer",
+    "question": "Comment appelle-t-on une instance d’Elasticsearch ?",
+    "correct": [
+      "node",
+      "noeud",
+      "nœud"
+    ]
+  },
+  {
+    "id": 303,
+    "type": "free_answer",
+    "question": "Comment appelle-t-on une collection de nodes Elasticsearch ?",
+    "correct": [
+      "cluster"
+    ]
+  },
+  {
+    "id": 304,
+    "type": "free_answer",
+    "question": "Comment appelle-t-on les copies des shards primaires ?",
+    "correct": [
+      "replicas",
+      "replica"
+    ]
+  },
+  {
+    "id": 305,
+    "type": "free_answer",
+    "question": "Quel mot-clé DSL permet de chercher des documents contenant un champ non null et non vide ?",
+    "correct": [
+      "exists"
+    ]
+  },
+  {
+    "id": 306,
+    "type": "free_answer",
+    "question": "Quel mot-clé DSL permet de trier les résultats ?",
+    "correct": [
+      "sort"
+    ]
+  },
+  {
+    "id": 307,
+    "type": "free_answer",
+    "question": "Quel mot-clé abrégé peut remplacer “aggregations” dans une requête Elasticsearch ?",
+    "correct": [
+      "aggs"
+    ]
+  },
+  {
+    "id": 308,
+    "type": "free_answer",
+    "question": "Donne le nom de l’agrégation Elasticsearch comparable à un regroupement par valeur unique d’un champ.",
+    "correct": [
+      "terms"
+    ]
+  },
+  {
+    "id": 309,
+    "type": "free_answer",
+    "question": "Quel est le verbe HTTP utilisé dans le cours pour supprimer un document ou un index ?",
+    "correct": [
+      "delete"
+    ]
+  },
+  {
+    "id": 310,
+    "type": "free_answer",
+    "question": "Quel est le verbe HTTP utilisé dans le cours pour récupérer un document ?",
+    "correct": [
+      "get"
+    ]
+  }
+]
