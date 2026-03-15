@@ -1,968 +1,1258 @@
 [
   {
     "id": 1,
-    "type": "multiple_choice",
-    "question": "Quelle est la définition la plus précise du Big Data ?",
-    "options": [
-      "Un concept permettant de stocker un nombre indicible d'informations sur une base numérique, né de l'explosion quantitative des données",
-      "Un logiciel de gestion de base de données relationnel conçu pour les grandes entreprises",
-      "Un protocole réseau pour le transfert de fichiers volumineux entre serveurs",
-      "Un langage de programmation dédié au traitement des données scientifiques"
-    ],
+    "type": "free_answer",
+    "question": "Que signifie littéralement l'expression Big Data en français ?",
     "correct": [
-      "Un concept permettant de stocker un nombre indicible d'informations sur une base numérique, né de l'explosion quantitative des données"
+      "mégadonnées",
+      "grosses données",
+      "données massives"
     ]
   },
   {
     "id": 2,
     "type": "multiple_choice",
-    "question": "Quelle quantité approximative de données est produite chaque jour dans le monde ?",
+    "question": "Le Big Data désigne principalement :",
     "options": [
-      "2,5 trillions d'octets",
-      "1 milliard d'octets",
-      "500 millions de gigaoctets",
-      "2,5 milliards de mégaoctets"
+      "Un ensemble très volumineux de données qu’aucun outil classique ne peut vraiment traiter",
+      "Une petite base de données relationnelle locale",
+      "Un logiciel unique de visualisation",
+      "Un protocole réseau temps réel"
     ],
     "correct": [
-      "2,5 trillions d'octets"
+      "Un ensemble très volumineux de données qu’aucun outil classique ne peut vraiment traiter"
     ]
   },
   {
     "id": 3,
     "type": "multiple_choice",
-    "question": "Quels sont les 5V du Big Data ?",
+    "question": "Selon le cours, combien d’octets de données sont produits environ chaque jour ?",
     "options": [
-      "Volume, Vélocité, Variété, Véracité, Valeur",
-      "Volume, Vitesse, Versatilité, Vérification, Validité",
-      "Volume, Virtualisation, Variété, Véracité, Visibilité",
-      "Volumétrie, Vélocité, Variabilité, Vérité, Valeur"
+      "2,5 trillions d’octets",
+      "2,5 millions d’octets",
+      "2,5 kilo-octets",
+      "2,5 giga-octets"
     ],
     "correct": [
-      "Volume, Vélocité, Variété, Véracité, Valeur"
+      "2,5 trillions d’octets"
     ]
   },
   {
     "id": 4,
-    "type": "multiple_choice",
-    "question": "Que désigne la Vélocité dans les caractéristiques du Big Data ?",
-    "options": [
-      "La vitesse de création et de diffusion des nouvelles données, comme la viralité des messages sur les réseaux sociaux",
-      "La vitesse à laquelle les disques durs stockent les données dans un data center",
-      "La rapidité avec laquelle les algorithmes de machine learning s'entraînent sur les données",
-      "La fréquence de sauvegarde des bases de données relationnelles"
-    ],
+    "type": "free_answer",
+    "question": "Donne le nom du modèle des caractéristiques fondamentales du Big Data présenté dans le cours.",
     "correct": [
-      "La vitesse de création et de diffusion des nouvelles données, comme la viralité des messages sur les réseaux sociaux"
+      "les 5v",
+      "5v"
     ]
   },
   {
     "id": 5,
     "type": "multiple_choice",
-    "question": "Quelle proportion des données mondiales sont des données structurées (stockées dans des tables relationnelles) ?",
+    "question": "Parmi les propositions suivantes, laquelle ne fait PAS partie des 5V du Big Data dans le cours ?",
+    "options": [
+      "Vision",
+      "Volume",
+      "Vélocité",
+      "Valeur"
+    ],
+    "correct": [
+      "Vision"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "question": "Dans le Big Data, le Volume correspond à :",
+    "options": [
+      "La masse d’informations produite",
+      "La qualité visuelle des données",
+      "Le nombre d’utilisateurs d’un cluster",
+      "Le coût de stockage"
+    ],
+    "correct": [
+      "La masse d’informations produite"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "question": "La Vélocité correspond à :",
+    "options": [
+      "La vitesse des échanges et de génération des données",
+      "La taille d’un cluster Hadoop",
+      "Le nombre de bases NoSQL",
+      "La consommation électrique des serveurs"
+    ],
+    "correct": [
+      "La vitesse des échanges et de génération des données"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "question": "Selon le cours, environ quelle proportion des données est structurée ?",
     "options": [
       "20%",
       "50%",
       "80%",
-      "35%"
+      "95%"
     ],
     "correct": [
       "20%"
     ]
   },
   {
-    "id": 6,
-    "type": "free_answer",
-    "question": "Qu'est-ce que la Véracité dans le contexte du Big Data, et pourquoi est-elle difficile à garantir ?",
-    "correct": [
-      "La véracité concerne la fiabilité et la crédibilité des informations collectées. Elle est difficile à garantir car le Big Data collecte un nombre indéfini de données sous plusieurs formes très variées, rendant difficile la vérification de l'authenticité des contenus."
-    ]
-  },
-  {
-    "id": 7,
-    "type": "multiple_choice",
-    "question": "Lequel de ces éléments N'est PAS un cas d'usage classique du Big Data ?",
-    "options": [
-      "La compilation de code source sur un poste de développeur local",
-      "L'analyse prédictive des comportements clients",
-      "La détection de fraude et la sécurité des accès",
-      "L'analyse des logs de serveurs"
-    ],
-    "correct": [
-      "La compilation de code source sur un poste de développeur local"
-    ]
-  },
-  {
-    "id": 8,
-    "type": "multiple_choice",
-    "question": "Parmi les sources de flux non structurés du Big Data, lesquelles sont mentionnées dans le cours ?",
-    "options": [
-      "Transactions e-commerce, logs, géolocalisation, social media, emails, IoT, images, vidéos/audio",
-      "Fichiers Excel, bases SQL, PDF, documents Word, présentations PowerPoint",
-      "Schémas de base de données, vues SQL, triggers, procédures stockées",
-      "Fichiers de configuration, scripts shell, logs système Unix uniquement"
-    ],
-    "correct": [
-      "Transactions e-commerce, logs, géolocalisation, social media, emails, IoT, images, vidéos/audio"
-    ]
-  },
-  {
     "id": 9,
     "type": "multiple_choice",
-    "question": "Pourquoi les SGBDR sont-ils insuffisants dans un contexte Big Data ?",
+    "question": "Selon le cours, environ quelle proportion des données est non structurée ?",
     "options": [
-      "Parce que leurs contraintes sont trop lourdes et ils ne gèrent pas les données non structurées",
-      "Parce qu'ils sont trop rapides et génèrent trop de données en sortie",
-      "Parce qu'ils ne supportent pas le langage SQL dans les environnements distribués",
-      "Parce qu'ils ne permettent pas de créer des index sur les colonnes"
+      "80%",
+      "20%",
+      "10%",
+      "5%"
     ],
     "correct": [
-      "Parce que leurs contraintes sont trop lourdes et ils ne gèrent pas les données non structurées"
+      "80%"
     ]
   },
   {
     "id": 10,
     "type": "multiple_choice",
-    "question": "Quelles sont les quatre grandes familles de stockage NoSQL ?",
+    "question": "La Véracité concerne surtout :",
     "options": [
-      "Clé/valeur, orienté documents, orienté colonnes, orienté graphes",
-      "Clé/valeur, orienté tableaux, orienté lignes, orienté arbres",
-      "Relationnel, hiérarchique, réseau, objet",
-      "Clé/valeur, orienté JSON, orienté XML, orienté CSV"
+      "La fiabilité et la crédibilité des informations collectées",
+      "La vitesse du réseau",
+      "La taille des blocs HDFS",
+      "Le coût des licences logicielles"
     ],
     "correct": [
-      "Clé/valeur, orienté documents, orienté colonnes, orienté graphes"
+      "La fiabilité et la crédibilité des informations collectées"
     ]
   },
   {
     "id": 11,
     "type": "multiple_choice",
-    "question": "Dans le stockage NoSQL clé/valeur, que peut contenir la valeur ?",
+    "question": "La Valeur du Big Data correspond :",
     "options": [
-      "Des données complexes représentées sous forme de liste, tableau, ou d'autres clés pointant vers d'autres valeurs, avec des métadonnées",
-      "Uniquement des chaînes de caractères alphanumériques de 255 caractères maximum",
-      "Uniquement des entiers ou des nombres à virgule flottante",
-      "Des données XML structurées selon un schéma défini à l'avance"
+      "Au profit qu’on peut tirer de son usage",
+      "Au nombre de colonnes d’une table",
+      "Au nombre de fichiers d’un dossier",
+      "À la tension électrique du cluster"
     ],
     "correct": [
-      "Des données complexes représentées sous forme de liste, tableau, ou d'autres clés pointant vers d'autres valeurs, avec des métadonnées"
+      "Au profit qu’on peut tirer de son usage"
     ]
   },
   {
     "id": 12,
     "type": "multiple_choice",
-    "question": "Quels sont des exemples de bases de données clé/valeur cités dans le cours ?",
+    "question": "Lequel des éléments suivants est cité comme cas d’usage du Big Data ?",
     "options": [
-      "Redis et Amazon DynamoDB",
-      "MongoDB et CouchDB",
-      "Cassandra et HBase",
-      "Neo4j et OrientDB"
+      "La détection de fraude",
+      "La compilation d’un noyau Linux uniquement",
+      "Le câblage physique d’un réseau",
+      "La réparation matérielle d’un disque"
     ],
     "correct": [
-      "Redis et Amazon DynamoDB"
+      "La détection de fraude"
     ]
   },
   {
     "id": 13,
     "type": "multiple_choice",
-    "question": "Qu'est-ce qui distingue principalement le stockage orienté documents par rapport au stockage clé/valeur simple ?",
+    "question": "Le Big Data manipule :",
     "options": [
-      "Le stockage orienté documents offre des fonctionnalités avancées comme la sélection/modification de champs à l'intérieur d'un document et le requêtage/indexation de certains champs",
-      "Le stockage orienté documents ne permet que d'écrire des données, jamais de les lire",
-      "Le stockage orienté documents utilise obligatoirement le format XML, alors que le clé/valeur utilise le JSON",
-      "Le stockage orienté documents est plus lent mais plus fiable grâce à un mécanisme de validation systématique"
+      "Des données structurées et non structurées",
+      "Uniquement des données relationnelles",
+      "Uniquement des images",
+      "Uniquement des données chiffrées"
     ],
     "correct": [
-      "Le stockage orienté documents offre des fonctionnalités avancées comme la sélection/modification de champs à l'intérieur d'un document et le requêtage/indexation de certains champs"
+      "Des données structurées et non structurées"
     ]
   },
   {
     "id": 14,
-    "type": "free_answer",
-    "question": "Citez au moins deux exemples de bases de données orientées documents mentionnés dans le cours.",
+    "type": "multiple_choice",
+    "question": "Laquelle des propositions suivantes est une origine fréquente de flux d’entrée non structurés dans le Big Data ?",
+    "options": [
+      "Transactions e-commerce",
+      "Seulement des registres papier",
+      "Uniquement des données SQL déjà normalisées",
+      "Uniquement des BIOS de machine"
+    ],
     "correct": [
-      "MongoDB, CouchDB, DocumentDB"
+      "Transactions e-commerce"
     ]
   },
   {
     "id": 15,
     "type": "multiple_choice",
-    "question": "Quelle est la caractéristique clé du stockage orienté colonnes par rapport aux SGBDR ?",
+    "question": "Parmi les sources suivantes, laquelle est explicitement citée dans le cours comme source de données Big Data ?",
     "options": [
-      "Les données sont stockées par colonnes et non par lignes, les tables ne sont pas reliées entre elles (pas de jointures), et les colonnes peuvent être dynamiques",
-      "Les données sont stockées en XML et peuvent être requêtées via XPath et XSLT",
-      "Les tables sont toujours normalisées en 3NF et les jointures sont optimisées par des index B-Tree",
-      "Les colonnes sont toutes de type fixe, défini au moment de la création de la table, comme dans un SGBDR"
+      "Internet of Things (capteurs)",
+      "Seulement les manuels imprimés",
+      "Uniquement les films DVD",
+      "Les cartes perforées"
     ],
     "correct": [
-      "Les données sont stockées par colonnes et non par lignes, les tables ne sont pas reliées entre elles (pas de jointures), et les colonnes peuvent être dynamiques"
+      "Internet of Things (capteurs)"
     ]
   },
   {
     "id": 16,
     "type": "multiple_choice",
-    "question": "Quels sont les exemples de bases orientées colonnes cités dans le cours ?",
+    "question": "Pourquoi les SGBDR sont-ils limités dans un contexte Big Data ?",
     "options": [
-      "Cassandra, HBase, DocumentDB",
-      "Redis, Amazon DynamoDB",
-      "Neo4j, OrientDB",
-      "MongoDB, CouchDB"
+      "Leurs contraintes sont trop lourdes et ils ne sont pas conçus pour les données non structurées",
+      "Ils ne savent pas faire de projection",
+      "Ils ne savent pas stocker de texte",
+      "Ils n’autorisent aucun utilisateur"
     ],
     "correct": [
-      "Cassandra, HBase, DocumentDB"
+      "Leurs contraintes sont trop lourdes et ils ne sont pas conçus pour les données non structurées"
     ]
   },
   {
     "id": 17,
     "type": "multiple_choice",
-    "question": "Sur quels deux niveaux de données s'appuie une base de données orientée graphes ?",
+    "question": "Les moteurs NoSQL peuvent :",
     "options": [
-      "Les nœuds et les relations",
-      "Les tables et les colonnes",
-      "Les clés et les valeurs",
-      "Les documents et les collections"
+      "Ne pas avoir de schéma ou avoir un schéma relaxé",
+      "Obligatoirement imposer un schéma strict unique",
+      "Refuser les documents JSON",
+      "Fonctionner uniquement en mémoire cache"
     ],
     "correct": [
-      "Les nœuds et les relations"
+      "Ne pas avoir de schéma ou avoir un schéma relaxé"
     ]
   },
   {
     "id": 18,
-    "type": "free_answer",
-    "question": "Quel type de problèmes les bases de données orientées graphes permettent-elles de résoudre ? Donnez un exemple concret de base orientée graphes.",
+    "type": "multiple_choice",
+    "question": "Lequel de ces types n’est PAS un type de stockage NoSQL présenté dans le cours ?",
+    "options": [
+      "Orienté diaporamas",
+      "Clé/valeur",
+      "Orienté documents",
+      "Orienté graphes"
+    ],
     "correct": [
-      "Elles permettent de résoudre des problèmes très difficiles voire impossibles à résoudre dans une BDD relationnelle, notamment grâce à une représentation optimisée des relations entre entités. Exemples : Neo4j, OrientDB."
+      "Orienté diaporamas"
     ]
   },
   {
     "id": 19,
     "type": "multiple_choice",
-    "question": "Quelles sont les trois couches de l'architecture Lambda ?",
+    "question": "Quel exemple de base est donné pour le stockage clé/valeur ?",
     "options": [
-      "La couche batch, la couche de vitesse/temps réel (speeding), et la couche de service (serving)",
-      "La couche stockage, la couche traitement, et la couche présentation",
-      "La couche ingestion, la couche transformation, et la couche visualisation",
-      "La couche MapReduce, la couche HDFS, et la couche YARN"
+      "Redis",
+      "MySQL",
+      "PostgreSQL",
+      "SQLite"
     ],
     "correct": [
-      "La couche batch, la couche de vitesse/temps réel (speeding), et la couche de service (serving)"
+      "Redis"
     ]
   },
   {
     "id": 20,
     "type": "multiple_choice",
-    "question": "Quel est le rôle principal de la couche batch dans l'architecture Lambda ?",
+    "question": "Quel exemple de base est donné pour le stockage orienté documents ?",
     "options": [
-      "Récupérer et stocker les données brutes dans un Data Lake, puis lancer périodiquement des traitements pour précalculer des résultats sous forme de vues logiques",
-      "Traiter les flux de données en temps réel sans prétraitement préalable",
-      "Rendre exploitables les résultats précalculés pour effectuer des requêtes ad hoc",
-      "Gérer l'authentification et les droits d'accès aux données du cluster"
+      "MongoDB",
+      "Oracle Database",
+      "MariaDB",
+      "DB2"
     ],
     "correct": [
-      "Récupérer et stocker les données brutes dans un Data Lake, puis lancer périodiquement des traitements pour précalculer des résultats sous forme de vues logiques"
+      "MongoDB"
     ]
   },
   {
     "id": 21,
     "type": "multiple_choice",
-    "question": "Avec quelles technologies peut-on implémenter la couche batch de l'architecture Lambda ?",
+    "question": "Dans un stockage orienté colonnes, les données sont stockées :",
     "options": [
-      "Apache Hadoop, MapReduce, Spark",
-      "Apache Storm et Spark Streaming",
-      "Apache HBase, Cassandra et ElasticSearch",
-      "Kafka et Akka"
+      "Par colonnes et non par lignes",
+      "Uniquement sous forme de graphes",
+      "Toujours en fichiers XML",
+      "Seulement en mémoire RAM"
     ],
     "correct": [
-      "Apache Hadoop, MapReduce, Spark"
+      "Par colonnes et non par lignes"
     ]
   },
   {
     "id": 22,
     "type": "multiple_choice",
-    "question": "Quelle est la limitation des vues produites par la couche de vitesse (speeding) dans l'architecture Lambda ?",
+    "question": "Quel exemple de base est donné pour le stockage orienté graphes ?",
     "options": [
-      "Les résultats fournis ne sont pas aussi fiables que ceux de la couche batch, car il n'y a aucun prétraitement des données",
-      "La couche speeding ne peut traiter que des données de moins de 1 Go simultanément",
-      "Les résultats de la couche speeding ne sont disponibles qu'après un délai minimum de 10 minutes",
-      "La couche speeding nécessite une licence commerciale payante pour fonctionner"
+      "Neo4j",
+      "Redis",
+      "Cassandra",
+      "HBase"
     ],
     "correct": [
-      "Les résultats fournis ne sont pas aussi fiables que ceux de la couche batch, car il n'y a aucun prétraitement des données"
+      "Neo4j"
     ]
   },
   {
     "id": 23,
-    "type": "multiple_choice",
-    "question": "Quelles technologies peut-on utiliser pour la couche de service (serving) dans l'architecture Lambda ?",
-    "options": [
-      "Apache HBase, Cassandra et ElasticSearch, qui permettent de fusionner les vues batch et temps réel",
-      "Apache Storm et Spark Streaming, pour le traitement continu des données",
-      "Apache Hadoop, MapReduce et HDFS, pour le stockage et le précalcul",
-      "Kafka, Akka et Mesos, pour l'ingestion et la gestion des ressources"
-    ],
+    "type": "free_answer",
+    "question": "Donne les trois couches de l’architecture Lambda.",
     "correct": [
-      "Apache HBase, Cassandra et ElasticSearch, qui permettent de fusionner les vues batch et temps réel"
-    ]
+      "couche batch",
+      "couche de vitesse",
+      "couche temps réel",
+      "couche de service",
+      "batch",
+      "speeding",
+      "serving"
+    ],
+    "number_of_answers": 3
   },
   {
     "id": 24,
-    "type": "free_answer",
-    "question": "Expliquez en quoi l'architecture Kappa simplifie l'architecture Lambda.",
+    "type": "multiple_choice",
+    "question": "La couche batch de l’architecture Lambda est responsable notamment de :",
+    "options": [
+      "Stocker les données brutes et lancer périodiquement des traitements",
+      "Assurer uniquement l’affichage graphique",
+      "Supprimer automatiquement toutes les anciennes données",
+      "Gérer exclusivement les utilisateurs"
+    ],
     "correct": [
-      "L'architecture Kappa fusionne la couche batch et la couche speeding, partant du constat que la plupart des bases sont capables de faire à la fois des traitements temps réel (streaming) et batch. Elle modifie aussi les SGBD qui doivent être un système de fichiers de log immuable. Kappa est destinée uniquement au traitement des données, pas à leur stockage."
+      "Stocker les données brutes et lancer périodiquement des traitements"
     ]
   },
   {
     "id": 25,
     "type": "multiple_choice",
-    "question": "Que signifie l'acronyme SMACK ?",
+    "question": "Les données brutes dans l’architecture Lambda sont typiquement stockées dans :",
     "options": [
-      "Spark, Mesos, Akka, Cassandra, Kafka",
-      "Spark, MapReduce, Akka, Cassandra, Kubernetes",
-      "Storm, Mesos, Akka, Cassandra, Kafka",
-      "Spark, Mesos, Akka, CouchDB, Kafka"
+      "Un Data Lake",
+      "Un BIOS",
+      "Un navigateur web",
+      "Une simple clé USB unique"
     ],
     "correct": [
-      "Spark, Mesos, Akka, Cassandra, Kafka"
+      "Un Data Lake"
     ]
   },
   {
     "id": 26,
     "type": "multiple_choice",
-    "question": "Dans l'architecture SMACK, quel est le rôle de Mesos ?",
+    "question": "La couche de vitesse (temps réel) dans Lambda sert principalement à :",
     "options": [
-      "La gestion des ressources du cluster (CPU/RAM) avec haute disponibilité grâce à Zookeeper",
-      "Le stockage des événements de mise à jour afin d'assurer leur persistance",
-      "Le traitement des données batch et streaming",
-      "L'implémentation du paradigme acteurs pour la JVM"
+      "Traiter les nouveaux flux de données en temps réel",
+      "Remplacer toutes les bases NoSQL",
+      "Créer des schémas relationnels fixes",
+      "Compresser les vidéos"
     ],
     "correct": [
-      "La gestion des ressources du cluster (CPU/RAM) avec haute disponibilité grâce à Zookeeper"
+      "Traiter les nouveaux flux de données en temps réel"
     ]
   },
   {
     "id": 27,
     "type": "multiple_choice",
-    "question": "Dans l'architecture SMACK, quel est le rôle de Kafka ?",
+    "question": "Les vues produites par la couche temps réel de Lambda sont :",
     "options": [
-      "Le stockage des événements : les événements de mise à jour sont stockés dans Kafka pour assurer leur persistance",
-      "La gestion des ressources du cluster et l'ordonnancement des tâches",
-      "Le traitement distribué des données via le paradigme MapReduce",
-      "Le stockage des données brutes et l'analyse des données"
+      "Moins fiables que celles de la couche batch",
+      "Toujours plus fiables que la couche batch",
+      "Identiques en tous points à la couche batch",
+      "Toujours inutilisables"
     ],
     "correct": [
-      "Le stockage des événements : les événements de mise à jour sont stockés dans Kafka pour assurer leur persistance"
+      "Moins fiables que celles de la couche batch"
     ]
   },
   {
     "id": 28,
     "type": "multiple_choice",
-    "question": "Quelle intégration dans SMACK nécessite de s'appuyer sur des projets tiers comme ceux de Mesosphere ?",
+    "question": "Quelle technologie est citée pour implémenter la couche temps réel de Lambda ?",
     "options": [
-      "L'intégration de Cassandra dans Mesos",
-      "L'intégration de Kafka dans Spark",
-      "L'intégration d'Akka dans Cassandra",
-      "L'intégration de Zookeeper dans Mesos"
+      "Apache Storm",
+      "SQLite",
+      "Neo4j uniquement",
+      "Microsoft Access"
     ],
     "correct": [
-      "L'intégration de Cassandra dans Mesos"
+      "Apache Storm"
     ]
   },
   {
     "id": 29,
     "type": "multiple_choice",
-    "question": "Quels sont les quatre principaux frameworks du Big Data cités dans le cours ?",
+    "question": "La couche de service de Lambda permet surtout de :",
     "options": [
-      "Hadoop, Apache Spark, Apache Flink, Storm",
-      "Hadoop, Cassandra, Kafka, Zookeeper",
-      "MapReduce, HDFS, YARN, HBase",
-      "Spark, Mesos, Akka, Neo4j"
+      "Rendre exploitables les résultats batch et temps réel pour des requêtes ad hoc",
+      "Compiler du code Java",
+      "Créer des cartes réseau virtuelles",
+      "Supprimer les métadonnées HDFS"
     ],
     "correct": [
-      "Hadoop, Apache Spark, Apache Flink, Storm"
+      "Rendre exploitables les résultats batch et temps réel pour des requêtes ad hoc"
     ]
   },
   {
     "id": 30,
     "type": "multiple_choice",
-    "question": "Quelle est la nature d'Hadoop et quel langage est à sa base ?",
+    "question": "L’architecture Kappa simplifie Lambda en :",
     "options": [
-      "Un framework logiciel open source basé sur Java, faisant partie du projet Apache sponsorisé par la Apache Software Foundation",
-      "Un langage de programmation propriétaire développé par Google pour le traitement distribué",
-      "Une base de données NoSQL orientée colonnes développée par Facebook",
-      "Un système d'exploitation distribué basé sur Linux, optimisé pour les clusters de machines"
+      "Fusionnant la couche batch et la couche speeding",
+      "Supprimant toute couche de traitement",
+      "Ajoutant deux couches réseau",
+      "Transformant les données en SQL uniquement"
     ],
     "correct": [
-      "Un framework logiciel open source basé sur Java, faisant partie du projet Apache sponsorisé par la Apache Software Foundation"
+      "Fusionnant la couche batch et la couche speeding"
     ]
   },
   {
     "id": 31,
-    "type": "free_answer",
-    "question": "Quelles sont les trois grandes capacités offertes par Hadoop ?",
+    "type": "multiple_choice",
+    "question": "Selon le cours, l’architecture Kappa est destinée :",
+    "options": [
+      "Au traitement des données, pas à leur stockage",
+      "Uniquement au stockage des données",
+      "Uniquement à la compression",
+      "Exclusivement à la visualisation"
+    ],
     "correct": [
-      "Un espace de stockage massif pour tous les types de données, une immense puissance de traitement, et la possibilité de prendre en charge une quantité de tâches virtuellement illimitée."
+      "Au traitement des données, pas à leur stockage"
     ]
   },
   {
     "id": 32,
-    "type": "multiple_choice",
-    "question": "Pourquoi Apache Spark est-il considéré comme en passe de remplacer Hadoop ?",
-    "options": [
-      "Grâce à sa vitesse, sa simplicité d'usage et sa polyvalence, notamment via le traitement in-memory qui augmente les performances analytiques",
-      "Parce qu'il est développé par Microsoft et bénéficie d'un support commercial complet",
-      "Parce qu'il utilise exclusivement le SQL pour requêter les données, ce qui le rend accessible à tous",
-      "Parce qu'il fonctionne uniquement sur des machines locales sans nécessiter de cluster"
-    ],
+    "type": "free_answer",
+    "question": "Que signifie l’acronyme SMACK ?",
     "correct": [
-      "Grâce à sa vitesse, sa simplicité d'usage et sa polyvalence, notamment via le traitement in-memory qui augmente les performances analytiques"
+      "spark mesos akka cassandra kafka"
     ]
   },
   {
     "id": 33,
     "type": "multiple_choice",
-    "question": "Dans quel langage Apache Spark est-il codé, et quels types de sources de données peut-il traiter ?",
+    "question": "Dans l’architecture SMACK, Mesos sert à :",
     "options": [
-      "Scala ; il peut traiter des données de HDFS, des bases NoSQL, ou des data stores relationnels comme Apache Hive",
-      "Java ; il peut uniquement traiter des données stockées dans HDFS ou des bases MySQL",
-      "Python ; il peut traiter exclusivement des fichiers CSV et JSON stockés sur disque local",
-      "C++ ; il peut traiter des données de bases Oracle, SQL Server et PostgreSQL uniquement"
+      "La gestion des ressources du cluster",
+      "La création de documents JSON",
+      "Le chiffrement des fichiers HDFS",
+      "La visualisation des tableaux de bord"
     ],
     "correct": [
-      "Scala ; il peut traiter des données de HDFS, des bases NoSQL, ou des data stores relationnels comme Apache Hive"
+      "La gestion des ressources du cluster"
     ]
   },
   {
     "id": 34,
     "type": "multiple_choice",
-    "question": "Qu'est-ce qui différencie principalement Apache Flink des autres frameworks comme Hadoop MapReduce ou Spark ?",
+    "question": "Dans l’architecture SMACK, Kafka sert surtout à :",
     "options": [
-      "Une API de streaming native qui offre des fonctionnalités étendues par rapport au framework MapReduce, ainsi que des opérateurs itératifs",
-      "L'absence totale de composant de gestion de fichiers distribués, tout étant géré en mémoire vive",
-      "Le fait qu'il soit écrit uniquement en Python et ne supporte pas les autres langages",
-      "Une intégration native avec les bases de données relationnelles Oracle et SQL Server"
+      "Stocker les événements pour assurer leur persistance",
+      "Faire uniquement des jointures SQL",
+      "Remplacer HDFS complètement",
+      "Créer des index B-tree"
     ],
     "correct": [
-      "Une API de streaming native qui offre des fonctionnalités étendues par rapport au framework MapReduce, ainsi que des opérateurs itératifs"
+      "Stocker les événements pour assurer leur persistance"
     ]
   },
   {
     "id": 35,
     "type": "multiple_choice",
-    "question": "En mode standalone de Flink, de quels composants est composé le système par défaut ?",
+    "question": "Lequel des frameworks suivants est cité parmi les principaux frameworks Big Data du cours ?",
     "options": [
-      "Un JobManager et un TaskManager qui se partagent les ressources de la même machine",
-      "Un NameNode et un DataNode qui se partagent le stockage",
-      "Un ResourceManager et un ApplicationMaster qui gèrent le cluster",
-      "Un JobTracker et un TaskTracker qui coordonnent les traitements"
+      "Apache Flink",
+      "Photoshop",
+      "LibreOffice Calc",
+      "GIMP"
     ],
     "correct": [
-      "Un JobManager et un TaskManager qui se partagent les ressources de la même machine"
+      "Apache Flink"
     ]
   },
   {
     "id": 36,
     "type": "multiple_choice",
-    "question": "Quels gestionnaires de ressources peut utiliser Flink pour un déploiement sur machines à distance ?",
+    "question": "Hadoop est présenté comme :",
     "options": [
-      "Yarn, Mesos ou Docker",
-      "Kubernetes, OpenStack ou VMware",
-      "Zookeeper, Mesos ou Akka",
-      "HDFS, YARN ou HBase"
+      "Une plateforme majeure du Big Data pour le stockage et le traitement",
+      "Un simple langage de requêtage",
+      "Un antivirus pour clusters",
+      "Un système d’exploitation mobile"
     ],
     "correct": [
-      "Yarn, Mesos ou Docker"
+      "Une plateforme majeure du Big Data pour le stockage et le traitement"
     ]
   },
   {
     "id": 37,
-    "type": "free_answer",
-    "question": "Quelles sont les deux caractéristiques particulières de Storm qui le rendent adapté aux environnements instables ?",
+    "type": "multiple_choice",
+    "question": "Hadoop est un framework :",
+    "options": [
+      "Open source",
+      "Propriétaire et fermé",
+      "Exclusivement payant",
+      "Réservé aux bases relationnelles"
+    ],
     "correct": [
-      "Storm peut traiter des données même si un nœud connecté du cluster ne fonctionne plus, et même si les messages sont perdus. Il est aussi adapté à tous les langages de programmation."
+      "Open source"
     ]
   },
   {
     "id": 38,
     "type": "multiple_choice",
-    "question": "Pour quels types d'usages Storm est-il particulièrement recommandé ?",
+    "question": "Apache Spark est surtout décrit comme :",
     "options": [
-      "Le traitement Big Data en temps réel, le RPC distribué et le Machine Learning en ligne",
-      "Le stockage de données froides à long terme et l'archivage de fichiers volumineux",
-      "L'entraînement de modèles de Deep Learning sur GPU en mode batch",
-      "La gestion de bases de données relationnelles à haute disponibilité"
+      "Un moteur rapide de traitement distribué de données",
+      "Un simple outil de sauvegarde locale",
+      "Un éditeur de texte",
+      "Un système de fichiers"
     ],
     "correct": [
-      "Le traitement Big Data en temps réel, le RPC distribué et le Machine Learning en ligne"
+      "Un moteur rapide de traitement distribué de données"
     ]
   },
   {
     "id": 39,
     "type": "multiple_choice",
-    "question": "Quels sont les deux composants au cœur d'Hadoop (version 1) ?",
+    "question": "L’un des grands avantages de Spark par rapport à Hadoop mentionné dans le cours est :",
     "options": [
-      "HDFS (Hadoop Distributed File System) et le framework logiciel MapReduce",
-      "HDFS et YARN",
-      "MapReduce et Zookeeper",
-      "HDFS et HBase"
+      "Sa vitesse",
+      "Son absence totale de mémoire",
+      "Son incompatibilité avec les clusters",
+      "Le fait qu’il soit uniquement graphique"
     ],
     "correct": [
-      "HDFS (Hadoop Distributed File System) et le framework logiciel MapReduce"
+      "Sa vitesse"
     ]
   },
   {
     "id": 40,
-    "type": "free_answer",
-    "question": "Comment s'appelle un ensemble de machines fonctionnant avec HDFS et MapReduce dans Hadoop ? Et comment s'appelle chaque machine individuelle ?",
+    "type": "multiple_choice",
+    "question": "Spark prend en charge le traitement :",
+    "options": [
+      "In-memory",
+      "Uniquement sur bandes magnétiques",
+      "Sans aucune mémoire ni disque",
+      "Seulement sur smartphone"
+    ],
     "correct": [
-      "Un ensemble de machines fonctionnant avec HDFS et MapReduce s'appelle un Cluster Hadoop. Chaque machine individuelle s'appelle un nœud."
+      "In-memory"
     ]
   },
   {
     "id": 41,
     "type": "multiple_choice",
-    "question": "Quelle est la taille standard des blocs manipulés par HDFS ?",
+    "question": "Ce qui différencie particulièrement Flink selon le cours est :",
+    "options": [
+      "Une API de streaming native",
+      "L’absence de tout support SQL",
+      "Le refus des clusters",
+      "L’impossibilité de fonctionner en Java"
+    ],
+    "correct": [
+      "Une API de streaming native"
+    ]
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "question": "Pour des tests et expérimentations, Flink peut être lancé en mode standalone avec :",
+    "options": [
+      "Un JobManager et un TaskManager",
+      "Un NameNode et un DataNode",
+      "Un JobTracker et un NodeManager",
+      "Un ResourceManager et un HiveServer"
+    ],
+    "correct": [
+      "Un JobManager et un TaskManager"
+    ]
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "question": "Storm est décrit comme :",
+    "options": [
+      "Un système open source de traitement Big Data en temps réel",
+      "Une base de données relationnelle",
+      "Un ordonnanceur de disque",
+      "Un compilateur Java"
+    ],
+    "correct": [
+      "Un système open source de traitement Big Data en temps réel"
+    ]
+  },
+  {
+    "id": 44,
+    "type": "free_answer",
+    "question": "Quels sont les deux composants du cœur d’Hadoop ?",
+    "correct": [
+      "hdfs",
+      "mapreduce"
+    ],
+    "number_of_answers": 2
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "question": "Un ensemble de machines fonctionnant avec HDFS et MapReduce (ou HDFS et YARN en v2) s’appelle :",
+    "options": [
+      "Un cluster Hadoop",
+      "Un bucket SQL",
+      "Un namespace local",
+      "Un job tracker"
+    ],
+    "correct": [
+      "Un cluster Hadoop"
+    ]
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "question": "HDFS signifie :",
+    "options": [
+      "Hadoop Distributed File System",
+      "High Data Fast Storage",
+      "Hybrid Distributed Functional Server",
+      "Host Data File Service"
+    ],
+    "correct": [
+      "Hadoop Distributed File System"
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "question": "HDFS est optimisé pour manipuler :",
+    "options": [
+      "Des blocs de taille importante",
+      "Uniquement des petits fichiers de quelques octets",
+      "Des tables SQL indexées",
+      "Des graphes en mémoire seulement"
+    ],
+    "correct": [
+      "Des blocs de taille importante"
+    ]
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "question": "La taille courante d’un bloc HDFS mentionnée dans le cours est :",
     "options": [
       "64 ou 128 Mo",
-      "1 Go ou 2 Go",
-      "4 Ko ou 8 Ko",
-      "512 Mo ou 1 Go"
+      "1 Ko ou 2 Ko",
+      "8 ou 16 Go",
+      "256 octets ou 512 octets"
     ],
     "correct": [
       "64 ou 128 Mo"
     ]
   },
   {
-    "id": 42,
-    "type": "multiple_choice",
-    "question": "Combien d'exemplaires de chaque bloc HDFS sont sauvegardés, et comment ?",
-    "options": [
-      "3 exemplaires, sur des nœuds distincts dans le cluster, pour garantir fiabilité et disponibilité",
-      "2 exemplaires, sur le même nœud maître, pour optimiser les performances de lecture",
-      "5 exemplaires, répartis aléatoirement sur tous les nœuds, y compris les nœuds maîtres",
-      "1 exemplaire, compressé et chiffré sur un nœud dédié à la sauvegarde"
-    ],
-    "correct": [
-      "3 exemplaires, sur des nœuds distincts dans le cluster, pour garantir fiabilité et disponibilité"
-    ]
-  },
-  {
-    "id": 43,
-    "type": "multiple_choice",
-    "question": "Quelle est la contrainte principale du système de fichiers HDFS concernant les écritures ?",
-    "options": [
-      "HDFS est un système 'write once' : il n'est pas possible de gérer des écritures aléatoires dans un fichier HDFS",
-      "HDFS ne permet pas d'écrire des fichiers de plus de 1 To en une seule opération",
-      "HDFS nécessite que tous les fichiers soient écrits en format JSON ou XML structuré",
-      "HDFS n'accepte que les écritures provenant du nœud NameNode principal"
-    ],
-    "correct": [
-      "HDFS est un système 'write once' : il n'est pas possible de gérer des écritures aléatoires dans un fichier HDFS"
-    ]
-  },
-  {
-    "id": 44,
-    "type": "multiple_choice",
-    "question": "Quels sont les trois types de daemons qui assurent le fonctionnement de HDFS ?",
-    "options": [
-      "Le NameNode (nœud maître), le SecondaryNameNode (nœud maître), et le DataNode (nœud esclave)",
-      "Le JobTracker (nœud maître), le TaskTracker (nœud esclave), et le DataNode (nœud de stockage)",
-      "Le ResourceManager, l'ApplicationMaster, et le NodeManager",
-      "Le NameNode, le DataNode, et le CheckpointNode"
-    ],
-    "correct": [
-      "Le NameNode (nœud maître), le SecondaryNameNode (nœud maître), et le DataNode (nœud esclave)"
-    ]
-  },
-  {
-    "id": 45,
-    "type": "free_answer",
-    "question": "Quelles informations (métadonnées) héberge le NameNode dans un cluster Hadoop ?",
-    "correct": [
-      "La correspondance entre un fichier et les blocs le constituant, la localisation de ces blocs dans le cluster, et les informations sur les propriétaires de fichiers et les autorisations."
-    ]
-  },
-  {
-    "id": 46,
-    "type": "multiple_choice",
-    "question": "Comment les métadonnées du NameNode sont-elles stockées et gérées ?",
-    "options": [
-      "Stockées sur disque (fichier fsimage) et chargées en mémoire vive au démarrage ; les modifications sont enregistrées dans un journal (fichier edits) sur disque",
-      "Stockées uniquement en mémoire vive, sans persistance sur disque, pour maximiser les performances",
-      "Stockées dans une base de données relationnelle PostgreSQL sur le nœud maître",
-      "Stockées dans le fichier edits uniquement, qui est rechargé à chaque redémarrage du cluster"
-    ],
-    "correct": [
-      "Stockées sur disque (fichier fsimage) et chargées en mémoire vive au démarrage ; les modifications sont enregistrées dans un journal (fichier edits) sur disque"
-    ]
-  },
-  {
-    "id": 47,
-    "type": "multiple_choice",
-    "question": "La localisation des blocs dans le cluster est-elle sauvegardée dans le fichier fsimage ou edits du NameNode ?",
-    "options": [
-      "Non, elle n'est conservée ni dans fsimage, ni dans edits ; elle est reconstruite à chaque démarrage via les échanges entre les DataNodes et le NameNode",
-      "Oui, elle est sauvegardée dans le fichier fsimage qui est mis à jour à chaque modification",
-      "Oui, elle est sauvegardée dans le fichier edits en temps réel lors de chaque modification de bloc",
-      "Oui, elle est stockée dans un troisième fichier appelé blockmap.dat sur le nœud maître"
-    ],
-    "correct": [
-      "Non, elle n'est conservée ni dans fsimage, ni dans edits ; elle est reconstruite à chaque démarrage via les échanges entre les DataNodes et le NameNode"
-    ]
-  },
-  {
-    "id": 48,
-    "type": "multiple_choice",
-    "question": "Quel est le vrai rôle du SecondaryNameNode (SNN) dans HDFS ?",
-    "options": [
-      "Effectuer des tâches de maintenance pour le NameNode : consolider régulièrement les modifications du journal (fichier edits) et les reporter dans le fichier fsimage",
-      "Servir de copie de secours (backup) du NameNode, prêt à le remplacer immédiatement en cas de panne",
-      "Gérer les requêtes de lecture des clients quand le NameNode est surchargé",
-      "Synchroniser les données entre plusieurs clusters Hadoop géographiquement distants"
-    ],
-    "correct": [
-      "Effectuer des tâches de maintenance pour le NameNode : consolider régulièrement les modifications du journal (fichier edits) et les reporter dans le fichier fsimage"
-    ]
-  },
-  {
     "id": 49,
     "type": "multiple_choice",
-    "question": "Quand le SecondaryNameNode intervient-il pour effectuer sa maintenance ?",
+    "question": "HDFS est plus performant lorsqu’il travaille sur :",
     "options": [
-      "Soit quand le fichier edits atteint une taille prédéfinie, soit à intervalle régulier (par exemple une fois par heure), selon le paramétrage de l'administrateur",
-      "Uniquement lors du redémarrage du cluster Hadoop, jamais en cours de fonctionnement",
-      "À chaque fois qu'un nouveau fichier est écrit dans HDFS, de manière synchrone",
-      "Uniquement à la demande manuelle de l'administrateur Hadoop via une commande CLI"
+      "Des fichiers de taille importante",
+      "Uniquement des milliards de très petits fichiers",
+      "Des images déjà compressées",
+      "Des fichiers temporaires d’un octet"
     ],
     "correct": [
-      "Soit quand le fichier edits atteint une taille prédéfinie, soit à intervalle régulier (par exemple une fois par heure), selon le paramétrage de l'administrateur"
+      "Des fichiers de taille importante"
     ]
   },
   {
     "id": 50,
-    "type": "free_answer",
-    "question": "Qu'est-ce qu'un SPOF (Single Point Of Failure) dans le contexte de Hadoop ? Quel composant est concerné et pourquoi ?",
+    "type": "multiple_choice",
+    "question": "Le mode d’écriture historique de HDFS est surtout de type :",
+    "options": [
+      "Write once",
+      "Write everywhere aléatoire",
+      "No write",
+      "Delete first"
+    ],
     "correct": [
-      "Un SPOF (Single Point Of Failure = maillon faible) est un composant dont la panne entraîne l'arrêt de l'ensemble du système. Dans Hadoop, le NameNode est le SPOF car une panne du NN entraîne inéluctablement la panne de tout le cluster, puisque seul le NN possède la cartographie des données."
+      "Write once"
     ]
   },
   {
     "id": 51,
     "type": "multiple_choice",
-    "question": "Avant Hadoop 2.0.0, quelles étaient les deux seules façons de pallier la défaillance du NameNode ?",
+    "question": "Chaque bloc HDFS est sauvegardé en combien d’exemplaires par défaut selon le cours ?",
     "options": [
-      "Lui affecter une machine à haute tolérance aux pannes, et avoir une machine 'miroir' prête à démarrer en cas de défaillance",
-      "Utiliser la réplication automatique de HDFS et activer le mode Federation",
-      "Déployer plusieurs NameNodes en parallèle sur des machines différentes",
-      "Sauvegarder les métadonnées dans une base de données relationnelle externe"
+      "3",
+      "1",
+      "2",
+      "10"
     ],
     "correct": [
-      "Lui affecter une machine à haute tolérance aux pannes, et avoir une machine 'miroir' prête à démarrer en cas de défaillance"
+      "3"
     ]
   },
   {
     "id": 52,
     "type": "multiple_choice",
-    "question": "Quelles fonctionnalités MapReduce implémente-t-il automatiquement pour le développeur ?",
+    "question": "Quel daemon HDFS est le nœud maître qui héberge les métadonnées ?",
     "options": [
-      "Le parallélisme automatique des programmes Hadoop, la gestion transparente du mode distribué, et la tolérance aux pannes",
-      "L'optimisation automatique des requêtes SQL, la gestion des transactions ACID, et les rollbacks automatiques",
-      "Le chiffrement automatique des données au repos, la compression des fichiers, et la déduplication des blocs",
-      "La génération automatique de schémas NoSQL, la création d'index, et le partitionnement des tables"
+      "NameNode",
+      "DataNode",
+      "TaskTracker",
+      "NodeManager"
     ],
     "correct": [
-      "Le parallélisme automatique des programmes Hadoop, la gestion transparente du mode distribué, et la tolérance aux pannes"
+      "NameNode"
     ]
   },
   {
     "id": 53,
     "type": "multiple_choice",
-    "question": "Dans MapReduce version 1, quels sont les deux types de daemons qui assurent son fonctionnement ?",
+    "question": "Quel daemon HDFS est implanté sur chaque machine esclave du cluster ?",
     "options": [
-      "Le JobTracker (nœud maître, machine dédiée) et le TaskTracker (nœud esclave, implanté sur chaque machine du cluster)",
-      "Le NameNode (nœud maître) et le DataNode (nœud esclave)",
-      "Le ResourceManager (nœud maître) et le NodeManager (nœud esclave)",
-      "Le ApplicationMaster (nœud maître) et le ContainerExecutor (nœud esclave)"
+      "DataNode",
+      "NameNode",
+      "SecondaryNameNode",
+      "ResourceManager"
     ],
     "correct": [
-      "Le JobTracker (nœud maître, machine dédiée) et le TaskTracker (nœud esclave, implanté sur chaque machine du cluster)"
+      "DataNode"
     ]
   },
   {
     "id": 54,
-    "type": "free_answer",
-    "question": "Quelle est la différence entre un 'job' et une 'tâche' au sens Hadoop ?",
+    "type": "multiple_choice",
+    "question": "Le SecondaryNameNode est :",
+    "options": [
+      "Un nœud de maintenance, pas une copie de secours du NameNode",
+      "Une sauvegarde parfaite et immédiate du NameNode",
+      "Le seul nœud de stockage des blocs",
+      "Un outil SQL"
+    ],
     "correct": [
-      "Un job est l'exécution d'un programme Hadoop sur un ensemble de données complet. Une tâche est une tâche map ou reduce, qui ne traite qu'une partie seulement de l'ensemble des données du job."
+      "Un nœud de maintenance, pas une copie de secours du NameNode"
     ]
   },
   {
     "id": 55,
-    "type": "multiple_choice",
-    "question": "Quelles sont les responsabilités du JobTracker (JT) dans Hadoop v1 ?",
-    "options": [
-      "Recevoir les soumissions de jobs, assigner des identifiants, déterminer la taille des InputSplits, distribuer les tâches map/reduce aux nœuds, et suivre l'avancement des tâches",
-      "Gérer le stockage des fichiers dans HDFS et maintenir la cartographie des blocs dans le cluster",
-      "Exécuter les tâches map et reduce directement sur les données stockées dans les DataNodes",
-      "Consolider les fichiers de journal et mettre à jour le fichier fsimage à intervalle régulier"
-    ],
+    "type": "free_answer",
+    "question": "Comment appelle-t-on un composant qui représente un point unique de défaillance ?",
     "correct": [
-      "Recevoir les soumissions de jobs, assigner des identifiants, déterminer la taille des InputSplits, distribuer les tâches map/reduce aux nœuds, et suivre l'avancement des tâches"
+      "spof",
+      "single point of failure"
     ]
   },
   {
     "id": 56,
     "type": "multiple_choice",
-    "question": "Quels sont les trois schedulers (ordonnanceurs) principaux disponibles pour Hadoop ?",
+    "question": "Dans le cours, le NameNode est qualifié de :",
     "options": [
-      "FIFOScheduler, FairScheduler et CapacityScheduler",
-      "RoundRobinScheduler, PriorityScheduler et FIFOScheduler",
-      "FIFOScheduler, LIFOScheduler et RandomScheduler",
-      "FairScheduler, SLAScheduler et DynamicScheduler"
+      "SPOF",
+      "Bucket",
+      "Wrapper",
+      "Mapper"
     ],
     "correct": [
-      "FIFOScheduler, FairScheduler et CapacityScheduler"
+      "SPOF"
     ]
   },
   {
     "id": 57,
     "type": "multiple_choice",
-    "question": "Quels sont les deux inconvénients majeurs du FIFOScheduler ?",
+    "question": "MapReduce est un modèle de programmation conçu pour :",
     "options": [
-      "Il n'est pas préemptif (ne convient pas aux jobs interactifs), et un processus de longue durée retarde tous les jobs qui se trouvent derrière lui",
-      "Il est trop lent pour les petits jobs et consomme trop de RAM sur le NameNode",
-      "Il ne supporte pas plus de 10 jobs simultanés et ne fonctionne que sur des clusters de moins de 100 nœuds",
-      "Il nécessite une configuration manuelle complexe et ne prend pas en charge les jobs MapReduce"
+      "Lire, traiter et écrire de très grands volumes de données",
+      "Gérer uniquement les transactions bancaires",
+      "Créer des interfaces graphiques",
+      "Administrer des comptes Windows"
     ],
     "correct": [
-      "Il n'est pas préemptif (ne convient pas aux jobs interactifs), et un processus de longue durée retarde tous les jobs qui se trouvent derrière lui"
+      "Lire, traiter et écrire de très grands volumes de données"
     ]
   },
   {
     "id": 58,
     "type": "multiple_choice",
-    "question": "Comment le FairScheduler répartit-il les ressources par défaut, et sur quelle base peut-il être configuré pour prendre des décisions d'équité ?",
+    "question": "MapReduce implémente notamment :",
     "options": [
-      "Par défaut, il base ses décisions uniquement sur la mémoire ; il peut être configuré pour planifier à la fois la mémoire et le CPU via la notion d'équité des ressources dominantes",
-      "Par défaut, il base ses décisions sur le nombre de cœurs CPU ; il peut être configuré pour prendre en compte la mémoire vive disponible",
-      "Par défaut, il attribue les ressources selon la priorité définie par l'administrateur ; sans configuration, tous les jobs reçoivent 10% des ressources",
-      "Par défaut, il base ses décisions sur la taille des fichiers en entrée ; il peut être configuré pour prioriser les jobs soumis par certains utilisateurs"
+      "Le parallélisme automatique, le mode distribué et la tolérance aux pannes",
+      "La compression ZIP des fichiers et des images",
+      "L’authentification LDAP ainsi que les permissions POSIX qui vont avec",
+      "Le rendu 3D nécessaire lors de l’affichage de tableaux de bord graphiques"
     ],
     "correct": [
-      "Par défaut, il base ses décisions uniquement sur la mémoire ; il peut être configuré pour planifier à la fois la mémoire et le CPU via la notion d'équité des ressources dominantes"
+      "Le parallélisme automatique, le mode distribué et la tolérance aux pannes"
     ]
   },
   {
     "id": 59,
-    "type": "free_answer",
-    "question": "Quelle est la différence entre le FairScheduler et le FIFOScheduler en termes de comportement lorsque plusieurs jobs coexistent ?",
+    "type": "multiple_choice",
+    "question": "Dans Hadoop v1, quel daemon reçoit les soumissions de jobs et les coordonne ?",
+    "options": [
+      "JobTracker",
+      "TaskTracker",
+      "NodeManager",
+      "DataNode"
+    ],
     "correct": [
-      "Le FIFOScheduler exécute les jobs dans l'ordre d'arrivée, sans préemption : un long job bloque tous les jobs suivants. Le FairScheduler distribue les ressources équitablement entre les applications au fil du temps, permettant aux jobs courts de se terminer rapidement sans priver les jobs longs, et attribue des partages minimums garantis aux files d'attente."
+      "JobTracker"
     ]
   },
   {
     "id": 60,
     "type": "multiple_choice",
-    "question": "Quel est l'objectif principal du CapacityScheduler ?",
+    "question": "Dans Hadoop v1, quel daemon exécute les tâches assignées par le JobTracker ?",
     "options": [
-      "Permettre le partage d'un grand cluster entre plusieurs organisations tout en donnant à chacune des garanties de capacité, en optimisant le débit et l'utilisation du cluster",
-      "Maximiser le nombre de jobs exécutés simultanément en supprimant toute notion de priorité ou de quota",
-      "Remplacer HDFS par un système de fichiers local pour chaque organisation utilisant le cluster partagé",
-      "Attribuer 100% des ressources au job le plus prioritaire jusqu'à sa complétion, puis passer au suivant"
+      "TaskTracker",
+      "ResourceManager",
+      "SecondaryNameNode",
+      "HiveServer"
     ],
     "correct": [
-      "Permettre le partage d'un grand cluster entre plusieurs organisations tout en donnant à chacune des garanties de capacité, en optimisant le débit et l'utilisation du cluster"
+      "TaskTracker"
     ]
   },
   {
     "id": 61,
     "type": "multiple_choice",
-    "question": "Que sont les SLA (Service Level Agreements) dans le contexte du CapacityScheduler Hadoop ?",
+    "question": "Lequel des ordonnanceurs suivants était la technique par défaut utilisée dans Hadoop ?",
     "options": [
-      "Des accords de service garantissant aux utilisateurs métier des niveaux minimums de performance et de service sur leurs investissements informatiques",
-      "Des contrats de licence commerciale permettant d'utiliser Hadoop dans un contexte d'entreprise",
-      "Des fichiers de configuration définissant la taille maximale des blocs HDFS par utilisateur",
-      "Des métriques de monitoring automatiquement collectées par le JobTracker pour chaque job"
+      "FIFOScheduler",
+      "RoundRobinScheduler",
+      "ShortestJobFirstScheduler",
+      "PriorityAgingScheduler"
     ],
     "correct": [
-      "Des accords de service garantissant aux utilisateurs métier des niveaux minimums de performance et de service sur leurs investissements informatiques"
+      "FIFOScheduler"
     ]
   },
   {
     "id": 62,
     "type": "multiple_choice",
-    "question": "Dans quel format les données sont-elles toujours lues ou écrites dans MapReduce ?",
+    "question": "Le FIFOScheduler privilégie :",
     "options": [
-      "Le format <clé, valeur> (key, value)",
-      "Le format JSON avec un schéma défini à l'avance",
-      "Le format CSV avec délimiteur configurable",
-      "Le format XML avec une DTD ou un schéma XSD"
+      "Les jobs arrivés le plus tôt",
+      "Les jobs les plus courts uniquement",
+      "Les jobs les plus gourmands en mémoire",
+      "Les jobs de plus faible priorité"
     ],
     "correct": [
-      "Le format <clé, valeur> (key, value)"
+      "Les jobs arrivés le plus tôt"
     ]
   },
   {
     "id": 63,
     "type": "multiple_choice",
-    "question": "Quels sont les quatre principaux apports de la version 2 de Hadoop ?",
+    "question": "Un inconvénient majeur du FIFOScheduler est :",
     "options": [
-      "High Availability, Federation, YARN, et la possibilité d'installer Hadoop sous Windows",
-      "YARN, Spark integration, NoSQL support, et le mode cluster automatique",
-      "High Availability, CapacityScheduler, Federation, et le support de Python",
-      "YARN, HBase, Zookeeper, et le support des bases de données relationnelles"
+      "Un long job peut retarder tous ceux qui suivent",
+      "Il répartit toujours parfaitement les ressources",
+      "Il est préemptif",
+      "Il n’accepte qu’un seul utilisateur dans le cluster"
     ],
     "correct": [
-      "High Availability, Federation, YARN, et la possibilité d'installer Hadoop sous Windows"
+      "Un long job peut retarder tous ceux qui suivent"
     ]
   },
   {
     "id": 64,
-    "type": "free_answer",
-    "question": "Expliquez le mode High Availability (HA) introduit dans Hadoop 2.0.0 : quels sont les deux NameNodes et leurs rôles respectifs ?",
+    "type": "multiple_choice",
+    "question": "Le FairScheduler vise principalement à :",
+    "options": [
+      "Donner en moyenne une part égale des ressources aux applications dans le temps",
+      "Faire passer tous les jobs courts avant les longs sans exception",
+      "Supprimer la mémoire du cluster",
+      "Empêcher le multi-utilisateur"
+    ],
     "correct": [
-      "En mode HA, il existe deux NameNodes : un Active NN (actif) et un Stand By NN (en veille). Le Stand By NN est prêt à remplacer automatiquement l'Active NN en cas de défaillance, en quelques secondes en mode automatique. Le Stand By NN dispose aussi de la cartographie des données et assume la fonction du SNN. Le basculement peut être automatique (AutomaticFailover) ou manuel (ManualFailover), surveillé par ZooKeeper."
+      "Donner en moyenne une part égale des ressources aux applications dans le temps"
     ]
   },
   {
     "id": 65,
     "type": "multiple_choice",
-    "question": "Quel daemon est responsable du déclenchement de l'AutomaticFailover dans le mode High Availability de Hadoop ?",
+    "question": "Le CapacityScheduler est conçu pour :",
+    "options": [
+      "Partager un grand cluster entre plusieurs organisations avec des garanties de capacité",
+      "Interdire l’accès aux organisations externes ainsi que les utilisateurs non autorisés",
+      "Remplacer HDFS (qui permet de stocker des données) par un système de fichiers en mémoire uniquement",
+      "Créer des graphes orientés"
+    ],
+    "correct": [
+      "Partager un grand cluster entre plusieurs organisations avec des garanties de capacité"
+    ]
+  },
+  {
+    "id": 66,
+    "type": "free_answer",
+    "question": "Dans MapReduce, sous quel format les données sont-elles toujours lues ou écrites ?",
+    "correct": [
+      "<key, value>",
+      "<clé, valeur>",
+      "key value",
+      "clé valeur"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "question": "Quel est le type d’enregistrement par défaut dans Hadoop pour lire les données textuelles ligne par ligne ?",
+    "options": [
+      "TextInputFormat",
+      "GraphInputFormat",
+      "BinaryOnlyInputFormat",
+      "NodeInputFormat"
+    ],
+    "correct": [
+      "TextInputFormat"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "question": "Dans KeyValueTextInputFormat, le séparateur par défaut est :",
+    "options": [
+      "La tabulation",
+      "La virgule",
+      "Le point-virgule",
+      "Le slash"
+    ],
+    "correct": [
+      "La tabulation"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "question": "Dans Hadoop, les valeurs doivent implémenter l’interface :",
+    "options": [
+      "Writable",
+      "SerializableOnly",
+      "Runnable",
+      "Cloneable"
+    ],
+    "correct": [
+      "Writable"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "multiple_choice",
+    "question": "L’interface Writable sert notamment à :",
+    "options": [
+      "Optimiser la sérialisation lors des accès disque",
+      "Créer des interfaces web",
+      "Réaliser du chiffrement asymétrique",
+      "Dessiner des graphes"
+    ],
+    "correct": [
+      "Optimiser la sérialisation lors des accès disque"
+    ]
+  },
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "question": "Parmi les apports majeurs de Hadoop v2, lequel est cité dans le cours ?",
+    "options": [
+      "YARN",
+      "Suppression de HDFS",
+      "Abandon de la distribution",
+      "Fin du clustering"
+    ],
+    "correct": [
+      "YARN"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "multiple_choice",
+    "question": "Le mode High Availability de Hadoop v2 permet principalement que :",
+    "options": [
+      "Le NameNode ne soit plus un SPOF unique",
+      "Il n’y ait plus de réplication",
+      "Les DataNodes deviennent inutiles",
+      "MapReduce disparaisse totalement"
+    ],
+    "correct": [
+      "Le NameNode ne soit plus un SPOF unique"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "multiple_choice",
+    "question": "En mode HA, on trouve :",
+    "options": [
+      "Un Active NameNode et un Standby NameNode",
+      "Deux TaskTrackers uniquement",
+      "Trois JobTrackers obligatoires",
+      "Un seul DataNode"
+    ],
+    "correct": [
+      "Un Active NameNode et un Standby NameNode"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "multiple_choice",
+    "question": "Quel outil est chargé de surveiller les NameNodes et de déclencher l’AutomaticFailover ?",
     "options": [
       "ZooKeeper",
-      "Le SecondaryNameNode",
-      "Le ResourceManager",
-      "Le ApplicationMaster"
+      "HiveQL",
+      "Pig Latin",
+      "Parquet"
     ],
     "correct": [
       "ZooKeeper"
     ]
   },
   {
-    "id": 66,
-    "type": "multiple_choice",
-    "question": "Que permet le dispositif HDFS Federation introduit dans Hadoop 2 ?",
-    "options": [
-      "Faire cohabiter plusieurs NameNodes indépendants au sein d'un même cluster physique, chacun gérant son propre espace de nommage, pour améliorer le scaling et la séparation des namespaces",
-      "Synchroniser automatiquement plusieurs clusters Hadoop géographiquement distribués à travers un réseau WAN",
-      "Fusionner plusieurs clusters Hadoop distincts en un seul cluster logique géré par un NameNode unique",
-      "Permettre aux DataNodes de communiquer directement entre eux sans passer par le NameNode"
-    ],
-    "correct": [
-      "Faire cohabiter plusieurs NameNodes indépendants au sein d'un même cluster physique, chacun gérant son propre espace de nommage, pour améliorer le scaling et la séparation des namespaces"
-    ]
-  },
-  {
-    "id": 67,
-    "type": "multiple_choice",
-    "question": "Quelle est la principale différence architecturale entre Hadoop version 1 et version 2 concernant la gestion des ressources ?",
-    "options": [
-      "Dans la v1, MapReduce gère à la fois les ressources (via JT/TT) et le traitement des données. Dans la v2, YARN gère les ressources et MapReduce (ou d'autres modèles) s'appuie sur YARN uniquement pour le traitement",
-      "Dans la v1, YARN gère les ressources mais uniquement pour MapReduce. Dans la v2, YARN est remplacé par Mesos pour une meilleure flexibilité",
-      "Dans la v1, chaque nœud gère ses propres ressources de manière autonome. Dans la v2, un cluster centralisé gère toutes les ressources",
-      "Dans la v1, Spark gère les ressources. Dans la v2, MapReduce reprend ce rôle en s'intégrant directement à HDFS"
-    ],
-    "correct": [
-      "Dans la v1, MapReduce gère à la fois les ressources (via JT/TT) et le traitement des données. Dans la v2, YARN gère les ressources et MapReduce (ou d'autres modèles) s'appuie sur YARN uniquement pour le traitement"
-    ]
-  },
-  {
-    "id": 68,
-    "type": "multiple_choice",
-    "question": "Dans Hadoop v2 avec YARN, quels daemons remplacent le JobTracker et le TaskTracker ?",
-    "options": [
-      "Le ResourceManager (un par cluster), l'ApplicationMaster (un par job), et le NodeManager (un par nœud esclave)",
-      "Le NameNode, le SecondaryNameNode et le DataNode",
-      "Le JobManager, le TaskManager et le ClusterManager",
-      "Le SchedulerMaster, le ExecutorWorker et le MonitorAgent"
-    ],
-    "correct": [
-      "Le ResourceManager (un par cluster), l'ApplicationMaster (un par job), et le NodeManager (un par nœud esclave)"
-    ]
-  },
-  {
-    "id": 69,
-    "type": "free_answer",
-    "question": "Quel est le rôle de l'ApplicationMaster (AM) dans YARN ? Comment est-il créé et où est-il exécuté ?",
-    "correct": [
-      "L'ApplicationMaster est un daemon esclave (un par job) chargé de négocier avec le ResourceManager les ressources nécessaires à l'exécution du job, et de collaborer avec les NodeManagers pour assurer le bon déroulement des tâches (il est responsable de la tolérance aux pannes, rôle autrefois assumé par le JT). Il est créé par le ResourceManager à la demande du programme client, et est exécuté dans un 'container'."
-    ]
-  },
-  {
-    "id": 70,
-    "type": "multiple_choice",
-    "question": "Quel avantage YARN apporte-t-il par rapport à Hadoop v1 concernant l'allocation des ressources entre tâches map et reduce ?",
-    "options": [
-      "Dans la v1, la répartition nœuds map / nœuds reduce est figée. YARN optimise l'allocation dynamiquement : si un job manque de nœuds reduce mais a des nœuds map inutilisés, il peut les réaffecter",
-      "YARN supprime la distinction entre tâches map et reduce, traitant toutes les opérations de manière uniforme",
-      "YARN force chaque nœud à effectuer à la fois les tâches map et reduce, éliminant la spécialisation des nœuds",
-      "YARN attribue systématiquement 50% des nœuds aux tâches map et 50% aux tâches reduce, quelle que soit la charge"
-    ],
-    "correct": [
-      "Dans la v1, la répartition nœuds map / nœuds reduce est figée. YARN optimise l'allocation dynamiquement : si un job manque de nœuds reduce mais a des nœuds map inutilisés, il peut les réaffecter"
-    ]
-  },
-  {
-    "id": 71,
-    "type": "multiple_choice",
-    "question": "Quelle définition correspond le mieux à la 'Valeur' dans les 5V du Big Data ?",
-    "options": [
-      "Le profit ou les avantages concrets que les entreprises peuvent tirer de l'exploitation de leurs données massives",
-      "La valeur monétaire des données stockées, évaluée en fonction du volume et de la rareté des informations",
-      "La valeur numérique associée à chaque enregistrement dans une base de données NoSQL clé/valeur",
-      "La valeur ajoutée des algorithmes de compression utilisés pour réduire la taille des données stockées"
-    ],
-    "correct": [
-      "Le profit ou les avantages concrets que les entreprises peuvent tirer de l'exploitation de leurs données massives"
-    ]
-  },
-  {
-    "id": 72,
-    "type": "multiple_choice",
-    "question": "Concernant l'architecture Lambda, quelle affirmation est VRAIE ?",
-    "options": [
-      "Elle est indépendante de la technologie et se base sur le précalcul des résultats, les stocke dans une base, puis les envoie au demandeur",
-      "Elle est liée à une stack technologique précise et ne peut fonctionner qu'avec Apache Hadoop",
-      "Elle est destinée uniquement au traitement temps réel, sans aucune couche de stockage de données historiques",
-      "Elle fusionne la couche batch et la couche speeding en un seul flux de traitement continu"
-    ],
-    "correct": [
-      "Elle est indépendante de la technologie et se base sur le précalcul des résultats, les stocke dans une base, puis les envoie au demandeur"
-    ]
-  },
-  {
-    "id": 73,
-    "type": "free_answer",
-    "question": "Dans quel langage est implanté Apache Flink, et quels mécanismes lui permettent de supporter d'autres langages ?",
-    "correct": [
-      "Flink est implanté en Java, mais dispose de wrappers (composants enveloppes) permettant de supporter Scala et Python. Il dispose aussi d'un langage de requêtage Flink SQL qui interagit avec l'API Table."
-    ]
-  },
-  {
-    "id": 74,
-    "type": "multiple_choice",
-    "question": "Quelle est la différence entre le mode 'standalone' et le mode 'cluster local' de Flink ?",
-    "options": [
-      "En standalone, un seul JobManager et un seul TaskManager partagent les ressources d'une même machine. En cluster local, l'utilisateur peut ajouter autant de TaskManagers que ses ressources le permettent sur plusieurs machines",
-      "En standalone, Flink utilise HDFS pour le stockage. En cluster local, Flink utilise un système de fichiers local",
-      "En standalone, Flink supporte uniquement Python. En cluster local, il supporte aussi Java et Scala",
-      "En standalone, Flink est géré par YARN. En cluster local, il est géré par Mesos"
-    ],
-    "correct": [
-      "En standalone, un seul JobManager et un seul TaskManager partagent les ressources d'une même machine. En cluster local, l'utilisateur peut ajouter autant de TaskManagers que ses ressources le permettent sur plusieurs machines"
-    ]
-  },
-  {
     "id": 75,
     "type": "multiple_choice",
-    "question": "Quelle affirmation sur le ResourceManager (RM) dans YARN est correcte ?",
+    "question": "La Federation HDFS permet notamment :",
     "options": [
-      "Le RM est un daemon maître et un SPOF, mais il peut fonctionner en mode High Availability ; il s'appuie sur un scheduler amovible (FairScheduler, CapacityScheduler ou autre) pour allouer les ressources",
-      "Le RM est un daemon esclave créé à la demande du programme client, exécuté dans un container YARN",
-      "Le RM remplace entièrement le NameNode dans Hadoop v2 et gère également les métadonnées HDFS",
-      "Le RM est stateless et peut être instancié en autant d'exemplaires que nécessaire sans risque de conflit"
+      "De faire cohabiter plusieurs NameNodes dans un même cluster physique",
+      "De supprimer tous les namespaces",
+      "D’obliger un seul disque par cluster physique",
+      "De remplacer tous les DataNodes par des clients légers uniquement"
     ],
     "correct": [
-      "Le RM est un daemon maître et un SPOF, mais il peut fonctionner en mode High Availability ; il s'appuie sur un scheduler amovible (FairScheduler, CapacityScheduler ou autre) pour allouer les ressources"
+      "De faire cohabiter plusieurs NameNodes dans un même cluster physique"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "multiple_choice",
+    "question": "Quel est l’intérêt de la Federation selon le cours ?",
+    "options": [
+      "Faciliter le scaling out et isoler les namespaces",
+      "Empêcher toute montée en charge",
+      "Réduire tous les clusters à un seul nœud",
+      "Supprimer HDFS"
+    ],
+    "correct": [
+      "Faciliter le scaling out et isoler les namespaces"
+    ]
+  },
+  {
+    "id": 77,
+    "type": "multiple_choice",
+    "question": "Dans Hadoop v2, YARN assure :",
+    "options": [
+      "La gestion des ressources du cluster",
+      "Uniquement le stockage des images",
+      "Le langage SQL de Hive",
+      "Le partitionnement des buckets Hive"
+    ],
+    "correct": [
+      "La gestion des ressources du cluster"
+    ]
+  },
+  {
+    "id": 78,
+    "type": "multiple_choice",
+    "question": "Dans Hadoop v2, les daemons JobTracker et TaskTracker sont remplacés notamment par :",
+    "options": [
+      "ResourceManager, ApplicationMaster et NodeManager",
+      "Only NameNode and DataNode",
+      "Hive et Pig",
+      "Storm et Kafka"
+    ],
+    "correct": [
+      "ResourceManager, ApplicationMaster et NodeManager"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "multiple_choice",
+    "question": "Le ResourceManager dans YARN est chargé de :",
+    "options": [
+      "Allouer les ressources entre les jobs et optimiser l’utilisation du cluster",
+      "Stocker directement les blocs HDFS dans la mémoire RAM, quel que soit le job",
+      "Compiler les requêtes HiveQL",
+      "Créer les documents JSON pour les bases orientées documents"
+    ],
+    "correct": [
+      "Allouer les ressources entre les jobs et optimiser l’utilisation du cluster"
+    ]
+  },
+  {
+    "id": 80,
+    "type": "multiple_choice",
+    "question": "L’ApplicationMaster est créé :",
+    "options": [
+      "Par le ResourceManager à la demande du programme client",
+      "Par le DataNode",
+      "Par le NameNode au démarrage",
+      "Par le navigateur web"
+    ],
+    "correct": [
+      "Par le ResourceManager à la demande du programme client"
+    ]
+  },
+  {
+    "id": 81,
+    "type": "multiple_choice",
+    "question": "Le NodeManager est présent :",
+    "options": [
+      "Un par nœud esclave",
+      "Un par fichier HDFS",
+      "Un par bucket Hive",
+      "Un tous les dix clusters"
+    ],
+    "correct": [
+      "Un par nœud esclave"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "multiple_choice",
+    "question": "La version 2 de Hadoop supporte officiellement :",
+    "options": [
+      "Windows Server et Windows Azure",
+      "Uniquement Linux",
+      "Uniquement macOS",
+      "Uniquement Android"
+    ],
+    "correct": [
+      "Windows Server et Windows Azure"
+    ]
+  },
+  {
+    "id": 83,
+    "type": "multiple_choice",
+    "question": "Selon le cours, les outils de l’écosystème Hadoop se classent en combien de grandes catégories ?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "correct": [
+      "3"
+    ]
+  },
+  {
+    "id": 84,
+    "type": "multiple_choice",
+    "question": "Parmi ces outils, lequel permet de programmer des jobs Hadoop sans utiliser Java ?",
+    "options": [
+      "Hive",
+      "BIOS",
+      "Ext4",
+      "Docker Hub"
+    ],
+    "correct": [
+      "Hive"
+    ]
+  },
+  {
+    "id": 85,
+    "type": "multiple_choice",
+    "question": "Hive a été développé par :",
+    "options": [
+      "Facebook",
+      "Google",
+      "Microsoft",
+      "Oracle"
+    ],
+    "correct": [
+      "Facebook"
+    ]
+  },
+  {
+    "id": 86,
+    "type": "multiple_choice",
+    "question": "Le langage de requêtage de Hive s’appelle :",
+    "options": [
+      "HiveQL",
+      "PigQL",
+      "StormSQL",
+      "MapQL"
+    ],
+    "correct": [
+      "HiveQL"
+    ]
+  },
+  {
+    "id": 87,
+    "type": "multiple_choice",
+    "question": "HiveQL est fortement inspiré de :",
+    "options": [
+      "SQL",
+      "HTML",
+      "CSS",
+      "Bash"
+    ],
+    "correct": [
+      "SQL"
+    ]
+  },
+  {
+    "id": 88,
+    "type": "multiple_choice",
+    "question": "Selon le cours, les requêtes SQL de Hive sont transformées vers leur équivalent en :",
+    "options": [
+      "Map/Reduce",
+      "RPC",
+      "Graph traversal",
+      "YAML"
+    ],
+    "correct": [
+      "Map/Reduce"
+    ]
+  },
+  {
+    "id": 89,
+    "type": "multiple_choice",
+    "question": "HiveQL, contrairement à SQL-92, ne supporte pas :",
+    "options": [
+      "Les transactions",
+      "Les requêtes",
+      "Les colonnes",
+      "Les tables"
+    ],
+    "correct": [
+      "Les transactions"
+    ]
+  },
+  {
+    "id": 90,
+    "type": "multiple_choice",
+    "question": "Pig est présenté comme :",
+    "options": [
+      "Un langage de traitement des données d’Hadoop",
+      "Une base de données graphe",
+      "Un ordonnanceur YARN",
+      "Un daemon HDFS"
+    ],
+    "correct": [
+      "Un langage de traitement des données d’Hadoop"
+    ]
+  },
+  {
+    "id": 91,
+    "type": "free_answer",
+    "question": "Comment s’appelle le langage propre à Pig ?",
+    "correct": [
+      "pig latin"
+    ]
+  },
+  {
+    "id": 92,
+    "type": "multiple_choice",
+    "question": "Le langage Pig Latin est décrit comme :",
+    "options": [
+      "Un langage procédural pour les traitements parallèles sur des flux de données",
+      "Un langage purement orienté objet pour GUI qu’il faut compiler en C++",
+      "Un langage machine pour microcontrôleurs uniquement",
+      "Un simple format de fichier binaire propriétaire qui ne peut être lu que par Pig"
+    ],
+    "correct": [
+      "Un langage procédural pour les traitements parallèles sur des flux de données"
     ]
   }
 ]
