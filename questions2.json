@@ -1,0 +1,1077 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "Que signifie l'acronyme ACID dans le contexte des bases de données relationnelles ?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Access, Control, Integrity, Distribution",
+      "Atomicity, Centralization, Isolation, Durability",
+      "Availability, Consistency, Isolation, Durability"
+    ],
+    "correct": [
+      "Atomicity, Consistency, Isolation, Durability"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "free_answer",
+    "question": "Donne le nom du modèle transactionnel garanti par les SGBD relationnels.",
+    "correct": [
+      "ACID"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "question": "Que signifie l'atomicité dans le modèle ACID ?",
+    "options": [
+      "Une transaction se fait au complet ou pas du tout",
+      "Toutes les transactions doivent être parallèles",
+      "Les données doivent être dupliquées sur tous les serveurs",
+      "Chaque transaction doit utiliser SQL"
+    ],
+    "correct": [
+      "Une transaction se fait au complet ou pas du tout"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "question": "Que signifie la cohérence dans le modèle ACID ?",
+    "options": [
+      "Les modifications doivent rester valides vis-à-vis des contraintes de la base",
+      "Toutes les tables doivent avoir le même nombre de colonnes",
+      "Les transactions doivent être exécutées par ordre alphabétique",
+      "Les données doivent être stockées uniquement en mémoire"
+    ],
+    "correct": [
+      "Les modifications doivent rester valides vis-à-vis des contraintes de la base"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "question": "Que signifie l'isolation dans le modèle ACID ?",
+    "options": [
+      "Les transactions simultanées ne doivent pas interférer",
+      "Les données doivent être stockées sur des serveurs séparés",
+      "Une table ne doit avoir qu'une seule clé primaire",
+      "Les utilisateurs doivent être isolés du serveur"
+    ],
+    "correct": [
+      "Les transactions simultanées ne doivent pas interférer"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "question": "Que signifie la durabilité dans le modèle ACID ?",
+    "options": [
+      "Les transactions validées sont enregistrées de façon définitive",
+      "Les données doivent être compressées",
+      "Le système doit être distribué",
+      "Les tables doivent être normalisées"
+    ],
+    "correct": [
+      "Les transactions validées sont enregistrées de façon définitive"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "question": "Parmi les propositions suivantes, lesquelles font partie du problème des 3V du Big Data ?",
+    "options": [
+      "Volume",
+      "Variety",
+      "Velocity",
+      "Virtualization"
+    ],
+    "correct": [
+      "Volume",
+      "Variety",
+      "Velocity"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "free_answer",
+    "question": "Donne les trois V classiques du Big Data.",
+    "correct": [
+      "volume variété vélocité",
+      "volume variety velocity",
+      "volume variete velocite"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "question": "À quoi correspond principalement le \"Volume\" dans le Big Data ?",
+    "options": [
+      "À la quantité massive de données à stocker",
+      "À la diversité des formats de fichiers",
+      "À la rapidité des requêtes SQL",
+      "À la compression des colonnes"
+    ],
+    "correct": [
+      "À la quantité massive de données à stocker"
+    ]
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "question": "À quoi correspond principalement la \"Variety\" dans le Big Data ?",
+    "options": [
+      "À l'hétérogénéité des types et sources de données",
+      "À la redondance des serveurs",
+      "À la stabilité du schéma relationnel",
+      "À la présence de transactions"
+    ],
+    "correct": [
+      "À l'hétérogénéité des types et sources de données"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "À quoi correspond principalement la \"Velocity\" dans le Big Data ?",
+    "options": [
+      "À la capacité à gérer et accéder rapidement aux flux de données",
+      "À la taille maximale d'un disque",
+      "À la vitesse du processeur uniquement",
+      "À la fréquence des sauvegardes"
+    ],
+    "correct": [
+      "À la capacité à gérer et accéder rapidement aux flux de données"
+    ]
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "question": "Pour gérer les 3V, que faut-il généralement faire ?",
+    "options": [
+      "Distribuer ou partitionner les données sur plusieurs serveurs",
+      "Paralléliser les accès aux données",
+      "Supprimer toute réplication",
+      "Limiter les données à une seule machine"
+    ],
+    "correct": [
+      "Distribuer ou partitionner les données sur plusieurs serveurs",
+      "Paralléliser les accès aux données"
+    ]
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "question": "La réplication des données sert principalement à :",
+    "options": [
+      "Améliorer la tolérance aux pannes",
+      "Supprimer les contraintes d'intégrité",
+      "Remplacer le partitionnement horizontal",
+      "Empêcher toute lecture concurrente"
+    ],
+    "correct": [
+      "Améliorer la tolérance aux pannes"
+    ]
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "question": "Dans un système distribué, le transfert d'argent entre deux banques sur deux serveurs différents illustre surtout :",
+    "options": [
+      "La difficulté de maintenir la cohérence entre plusieurs nœuds",
+      "L'inutilité des transactions",
+      "Le fait que les jointures deviennent plus rapides",
+      "L'obligation d'utiliser une base graphe"
+    ],
+    "correct": [
+      "La difficulté de maintenir la cohérence entre plusieurs nœuds"
+    ]
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "question": "Pourquoi les mécanismes relationnels classiques deviennent-ils coûteux dans un contexte fortement distribué ?",
+    "options": [
+      "À cause des jointures, de l'intégrité référentielle et des garanties ACID",
+      "Parce que SQL ne permet pas de lire des données",
+      "Parce que les tables ne supportent pas les clés primaires",
+      "Parce que les bases relationnelles ne stockent que du texte"
+    ],
+    "correct": [
+      "À cause des jointures, de l'intégrité référentielle et des garanties ACID"
+    ]
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "question": "Le théorème CAP affirme qu'un système distribué ne peut pas garantir simultanément :",
+    "options": [
+      "Consistency",
+      "Availability",
+      "Partition Tolerance",
+      "Durability"
+    ],
+    "correct": [
+      "Consistency",
+      "Availability",
+      "Partition Tolerance"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "free_answer",
+    "question": "Donne le nom du théorème qui oppose Consistency, Availability et Partition Tolerance.",
+    "correct": [
+      "théorème CAP",
+      "theoreme CAP",
+      "CAP"
+    ]
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "question": "Dans CAP, que signifie Availability ?",
+    "options": [
+      "Les données restent accessibles malgré la perte de certains nœuds",
+      "Toutes les transactions sont atomiques",
+      "Chaque client voit toujours exactement les mêmes données au même instant",
+      "Le système est obligatoirement orienté colonnes"
+    ],
+    "correct": [
+      "Les données restent accessibles malgré la perte de certains nœuds"
+    ]
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "question": "Dans CAP, que signifie Consistency ?",
+    "options": [
+      "Tous les nœuds voient les mêmes données au même moment",
+      "Le système reste disponible même en cas de panne",
+      "Les données sont partitionnées horizontalement",
+      "Les documents sont stockés sans schéma"
+    ],
+    "correct": [
+      "Tous les nœuds voient les mêmes données au même moment"
+    ]
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "Dans CAP, que signifie Partition Tolerance ?",
+    "options": [
+      "Le système continue à fonctionner malgré des défaillances réseau entre nœuds",
+      "Le système accepte les transactions SQL imbriquées",
+      "Les données sont forcément stockées en colonnes",
+      "La base utilise des verrous sur toutes les lignes"
+    ],
+    "correct": [
+      "Le système continue à fonctionner malgré des défaillances réseau entre nœuds"
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "question": "Les bases NoSQL se situent généralement, vis-à-vis du théorème CAP, dans des systèmes :",
+    "options": [
+      "AP",
+      "CP",
+      "CA uniquement",
+      "Ni AP ni CP"
+    ],
+    "correct": [
+      "AP",
+      "CP"
+    ]
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "question": "Le modèle BASE est associé à quelle idée principale ?",
+    "options": [
+      "Une cohérence éventuelle obtenue après un certain temps",
+      "Une cohérence stricte après chaque opération",
+      "Une normalisation systématique des tables",
+      "L'obligation d'utiliser SQL"
+    ],
+    "correct": [
+      "Une cohérence éventuelle obtenue après un certain temps"
+    ]
+  },
+  {
+    "id": 23,
+    "type": "free_answer",
+    "question": "Donne le nom du modèle souvent opposé à ACID dans les bases NoSQL.",
+    "correct": [
+      "BASE"
+    ]
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "question": "Que signifie le B de BASE ?",
+    "options": [
+      "Basically Available",
+      "Binary Available",
+      "Basic Atomicity",
+      "Balanced Access"
+    ],
+    "correct": [
+      "Basically Available"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "question": "Que signifie le S de BASE ?",
+    "options": [
+      "Soft state",
+      "Structured state",
+      "Serialized storage",
+      "Shared schema"
+    ],
+    "correct": [
+      "Soft state"
+    ]
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "question": "Que signifie le E de BASE ?",
+    "options": [
+      "Eventual consistency",
+      "External consistency",
+      "Extended concurrency",
+      "Elastic clustering"
+    ],
+    "correct": [
+      "Eventual consistency"
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "question": "Que signifie NoSQL dans le cours ?",
+    "options": [
+      "Not only SQL",
+      "No structured query language",
+      "New order SQL",
+      "Node oriented SQL"
+    ],
+    "correct": [
+      "Not only SQL"
+    ]
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "question": "Parmi les caractéristiques d'une base NoSQL, lesquelles sont correctes ?",
+    "options": [
+      "Elle est non relationnelle",
+      "Elle peut être sans schéma fixe ou à schéma dynamique",
+      "Elle impose toujours des jointures complexes",
+      "Elle facilite la mise à l'échelle"
+    ],
+    "correct": [
+      "Elle est non relationnelle",
+      "Elle peut être sans schéma fixe ou à schéma dynamique",
+      "Elle facilite la mise à l'échelle"
+    ]
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "Dans les caractéristiques des bases NoSQL, le stockage distribué implique souvent :",
+    "options": [
+      "Le partitionnement horizontal",
+      "La réplication des données",
+      "L'usage possible de Hadoop et MapReduce",
+      "La suppression des nœuds de secours"
+    ],
+    "correct": [
+      "Le partitionnement horizontal",
+      "La réplication des données",
+      "L'usage possible de Hadoop et MapReduce"
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "question": "Quel compromis les bases NoSQL font-elles souvent ?",
+    "options": [
+      "Moins de garanties ACID pour plus de scalabilité horizontale",
+      "Moins de lecture pour plus de jointures",
+      "Moins de distribution pour plus de cohérence stricte",
+      "Moins de documents pour plus de tables normalisées"
+    ],
+    "correct": [
+      "Moins de garanties ACID pour plus de scalabilité horizontale"
+    ]
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "question": "Quel est un avantage classique des bases NoSQL ?",
+    "options": [
+      "Gérer rapidement de gros volumes de données",
+      "Imposer un schéma fixe rigide",
+      "Garantir toujours la cohérence stricte",
+      "Utiliser un langage de requête universel unique"
+    ],
+    "correct": [
+      "Gérer rapidement de gros volumes de données"
+    ]
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "question": "Quel est un inconvénient classique des bases NoSQL ?",
+    "options": [
+      "La cohérence n'est pas toujours garantie",
+      "Il n'existe aucun système distribué",
+      "Les données ne peuvent pas être lues rapidement",
+      "Le stockage de documents est impossible"
+    ],
+    "correct": [
+      "La cohérence n'est pas toujours garantie"
+    ]
+  },
+  {
+    "id": 33,
+    "type": "free_answer",
+    "question": "Donne les quatre grands modèles de bases de données NoSQL présentés dans le cours.",
+    "correct": [
+      "clé-valeur colonnes documents graphes",
+      "cle-valeur colonnes documents graphes",
+      "key value colonnes documents graphes",
+      "clé valeur colonnes documents graphes"
+    ],
+    "number_of_answers": 4
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "question": "Dans une base NoSQL clé-valeur, comment accède-t-on généralement à un objet ?",
+    "options": [
+      "Par sa clé unique",
+      "Par jointure entre plusieurs tables",
+      "Par parcours de graphe",
+      "Uniquement par procédure stockée"
+    ],
+    "correct": [
+      "Par sa clé unique"
+    ]
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "question": "Dans le modèle clé-valeur, la valeur peut être :",
+    "options": [
+      "Une chaîne de caractères",
+      "Un objet sérialisé",
+      "Toujours une table SQL",
+      "Un document XML ou JSON laissé au développeur"
+    ],
+    "correct": [
+      "Une chaîne de caractères",
+      "Un objet sérialisé",
+      "Un document XML ou JSON laissé au développeur"
+    ]
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "question": "Quelles sont les opérations CRUD d'une base clé-valeur ?",
+    "options": [
+      "Create",
+      "Read",
+      "Update",
+      "Delete"
+    ],
+    "correct": [
+      "Create",
+      "Read",
+      "Update",
+      "Delete"
+    ]
+  },
+  {
+    "id": 37,
+    "type": "free_answer",
+    "question": "Donne les quatre opérations CRUD.",
+    "correct": [
+      "create read update delete",
+      "créer lire mettre à jour supprimer",
+      "creer lire mettre a jour supprimer"
+    ]
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "question": "Quel est un point fort des bases clé-valeur ?",
+    "options": [
+      "Très bonne mise à l'échelle horizontale",
+      "Excellentes performances en lecture et écriture",
+      "Richesse native des jointures",
+      "Gestion relationnelle avancée"
+    ],
+    "correct": [
+      "Très bonne mise à l'échelle horizontale",
+      "Excellentes performances en lecture et écriture"
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "question": "Quel est un point faible des bases clé-valeur ?",
+    "options": [
+      "Le modèle est trop simple pour des données complexes",
+      "L'interrogation se fait essentiellement par clé",
+      "Elles nécessitent toujours SQL",
+      "Une partie de la complexité est reportée sur l'application"
+    ],
+    "correct": [
+      "Le modèle est trop simple pour des données complexes",
+      "L'interrogation se fait essentiellement par clé",
+      "Une partie de la complexité est reportée sur l'application"
+    ]
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "question": "Parmi les usages suivants, lesquels correspondent bien à une base clé-valeur ?",
+    "options": [
+      "Cache",
+      "Sessions distribuées",
+      "Panier d'achat",
+      "Logs"
+    ],
+    "correct": [
+      "Cache",
+      "Sessions distribuées",
+      "Panier d'achat",
+      "Logs"
+    ]
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "question": "Dans une base orientée colonnes, les données sont principalement stockées :",
+    "options": [
+      "Par colonne plutôt que par ligne",
+      "Sous forme de graphes uniquement",
+      "Dans un seul document JSON",
+      "Exclusivement en mémoire"
+    ],
+    "correct": [
+      "Par colonne plutôt que par ligne"
+    ]
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "question": "Quel avantage a le modèle orienté colonnes ?",
+    "options": [
+      "On peut ajouter facilement des colonnes",
+      "Les colonnes semblables se compressent bien",
+      "Le nombre de colonnes peut être dynamique",
+      "Il évite certaines valeurs NULL"
+    ],
+    "correct": [
+      "On peut ajouter facilement des colonnes",
+      "Les colonnes semblables se compressent bien",
+      "Le nombre de colonnes peut être dynamique",
+      "Il évite certaines valeurs NULL"
+    ]
+  },
+  {
+    "id": 43,
+    "type": "free_answer",
+    "question": "Comment s'appelle, dans une base orientée colonnes, une colonne qui contient d'autres colonnes ?",
+    "correct": [
+      "super-colonne",
+      "super colonne",
+      "supercolonne"
+    ]
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "question": "Une famille de colonnes permet :",
+    "options": [
+      "De regrouper plusieurs colonnes ou super-colonnes",
+      "De remplacer toutes les clés",
+      "D'imposer un schéma relationnel strict",
+      "D'identifier des lignes regroupées logiquement"
+    ],
+    "correct": [
+      "De regrouper plusieurs colonnes ou super-colonnes",
+      "D'identifier des lignes regroupées logiquement"
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "question": "Quelles implémentations sont citées pour les bases orientées colonnes ?",
+    "options": [
+      "HBase",
+      "Cassandra",
+      "SimpleDB",
+      "Neo4j"
+    ],
+    "correct": [
+      "HBase",
+      "Cassandra",
+      "SimpleDB"
+    ]
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "question": "Quel type d'usage convient bien aux bases orientées colonnes ?",
+    "options": [
+      "Traitements massifs et analyse de données",
+      "MapReduce",
+      "Grandes volumétries distribuées",
+      "Parcours complexes de relations sociales"
+    ],
+    "correct": [
+      "Traitements massifs et analyse de données",
+      "MapReduce",
+      "Grandes volumétries distribuées"
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "question": "Quelle faiblesse est associée aux bases orientées colonnes ?",
+    "options": [
+      "Elles sont peu adaptées aux données fortement interconnectées",
+      "Les requêtes ad-hoc à la volée sont limitées",
+      "Elles interdisent toute lecture en temps réel",
+      "Elles peuvent demander de la maintenance sur les colonnes"
+    ],
+    "correct": [
+      "Elles sont peu adaptées aux données fortement interconnectées",
+      "Les requêtes ad-hoc à la volée sont limitées",
+      "Elles peuvent demander de la maintenance sur les colonnes"
+    ]
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "question": "Dans les bases orientées documents, les données sont stockées sous forme de :",
+    "options": [
+      "Documents semi-structurés",
+      "JSON",
+      "XML",
+      "Tables normalisées obligatoires"
+    ],
+    "correct": [
+      "Documents semi-structurés",
+      "JSON",
+      "XML"
+    ]
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "question": "Qu'est-ce qui caractérise bien une base orientée documents ?",
+    "options": [
+      "Les documents peuvent être hétérogènes",
+      "Il n'est pas nécessaire de définir à l'avance tous les champs",
+      "On peut requêter le contenu des documents",
+      "Chaque document doit avoir exactement le même schéma"
+    ],
+    "correct": [
+      "Les documents peuvent être hétérogènes",
+      "Il n'est pas nécessaire de définir à l'avance tous les champs",
+      "On peut requêter le contenu des documents"
+    ]
+  },
+  {
+    "id": 50,
+    "type": "free_answer",
+    "question": "Cite un SGBD NoSQL orienté documents vu dans le cours.",
+    "correct": [
+      "MongoDB",
+      "CouchDB"
+    ]
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "question": "Quel est un point fort des bases orientées documents ?",
+    "options": [
+      "Structures imbriquées expressives",
+      "Bonne mise à l'échelle",
+      "Requêtes assez complexes sur le contenu",
+      "Jointures relationnelles natives avancées"
+    ],
+    "correct": [
+      "Structures imbriquées expressives",
+      "Bonne mise à l'échelle",
+      "Requêtes assez complexes sur le contenu"
+    ]
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "question": "Quel est un usage classique des bases orientées documents ?",
+    "options": [
+      "Systèmes de gestion de contenu",
+      "Catalogue de produit",
+      "Analytique temps réel",
+      "Enregistrement d'événements"
+    ],
+    "correct": [
+      "Systèmes de gestion de contenu",
+      "Catalogue de produit",
+      "Analytique temps réel",
+      "Enregistrement d'événements"
+    ]
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "question": "Sur quel modèle reposent les bases orientées graphes ?",
+    "options": [
+      "La théorie des graphes",
+      "Les nœuds, relations et propriétés",
+      "Les super-colonnes",
+      "Les jointures SQL strictes"
+    ],
+    "correct": [
+      "La théorie des graphes",
+      "Les nœuds, relations et propriétés"
+    ]
+  },
+  {
+    "id": 54,
+    "type": "free_answer",
+    "question": "Quels sont les trois éléments de base d'une base orientée graphes ?",
+    "correct": [
+      "nœuds relations propriétés",
+      "noeuds relations proprietes",
+      "nœuds relations proprietes",
+      "nodes relations properties"
+    ],
+    "number_of_answers": 3
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "question": "Pourquoi les bases graphes sont-elles intéressantes ?",
+    "options": [
+      "Elles sont efficaces pour les données très liées",
+      "Elles conviennent aux réseaux sociaux",
+      "Elles sont adaptées à la cartographie",
+      "Elles remplacent toujours les SGBDR"
+    ],
+    "correct": [
+      "Elles sont efficaces pour les données très liées",
+      "Elles conviennent aux réseaux sociaux",
+      "Elles sont adaptées à la cartographie"
+    ]
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "question": "Quels langages ou modèles d'interrogation sont cités pour les bases graphes ?",
+    "options": [
+      "SPARQL",
+      "Cypher",
+      "MapReduce",
+      "REST uniquement"
+    ],
+    "correct": [
+      "SPARQL",
+      "Cypher"
+    ]
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "question": "Quel est un exemple d'usage typique d'une base orientée graphes ?",
+    "options": [
+      "Moteur de recommandation",
+      "Web sémantique",
+      "Généalogie",
+      "Catalogue de produit"
+    ],
+    "correct": [
+      "Moteur de recommandation",
+      "Web sémantique",
+      "Généalogie",
+      "Catalogue de produit"
+    ]
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "question": "Quand vaut-il mieux privilégier SQL ?",
+    "options": [
+      "Quand les données sont fortement structurées",
+      "Quand les relations entre données sont importantes",
+      "Quand on a besoin de requêtes complexes et multicritères",
+      "Quand on veut surtout accéder par une clé unique"
+    ],
+    "correct": [
+      "Quand les données sont fortement structurées",
+      "Quand les relations entre données sont importantes",
+      "Quand on a besoin de requêtes complexes et multicritères"
+    ]
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "question": "Quand le NoSQL devient-il particulièrement intéressant ?",
+    "options": [
+      "Quand les données sont peu ou semi-structurées",
+      "Quand le schéma doit évoluer facilement",
+      "Quand les accès se font surtout par une clé bien définie",
+      "Quand on veut absolument des jointures riches"
+    ],
+    "correct": [
+      "Quand les données sont peu ou semi-structurées",
+      "Quand le schéma doit évoluer facilement",
+      "Quand les accès se font surtout par une clé bien définie"
+    ]
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "question": "Selon le cours, le SQL permet principalement :",
+    "options": [
+      "La scalabilité verticale",
+      "La scalabilité horizontale",
+      "La scalabilité verticale uniquement",
+      "Aucune scalabilité"
+    ],
+    "correct": [
+      "La scalabilité verticale uniquement"
+    ]
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "question": "Selon le cours, le NoSQL permet :",
+    "options": [
+      "La scalabilité horizontale",
+      "La scalabilité verticale",
+      "La scalabilité verticale et horizontale",
+      "Uniquement la scalabilité verticale"
+    ],
+    "correct": [
+      "La scalabilité verticale et horizontale"
+    ]
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "question": "Pourquoi SQL est-il meilleur pour des recherches complexes ?",
+    "options": [
+      "Parce qu'il offre un langage déclaratif riche et des index adaptés",
+      "Parce qu'il impose toujours un stockage en mémoire",
+      "Parce qu'il ne gère pas les transactions",
+      "Parce qu'il évite toute modélisation"
+    ],
+    "correct": [
+      "Parce qu'il offre un langage déclaratif riche et des index adaptés"
+    ]
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "question": "Quel choix est recommandé pour un blog selon le cours ?",
+    "options": [
+      "Une base orientée documents",
+      "MongoDB ou CouchDB",
+      "Un SGBDR classique uniquement",
+      "Une base graphe obligatoire"
+    ],
+    "correct": [
+      "Une base orientée documents",
+      "MongoDB ou CouchDB"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "question": "Quel choix est recommandé pour des données de gestion ou un ERP ?",
+    "options": [
+      "Un SGBDR relationnel",
+      "Une base clé-valeur uniquement",
+      "Une base documents sans contrainte",
+      "Une base graphe obligatoire"
+    ],
+    "correct": [
+      "Un SGBDR relationnel"
+    ]
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "question": "Pour du reporting ou de l'OLAP, que recommande le cours ?",
+    "options": [
+      "Un moteur relationnel ou OLAP",
+      "Éventuellement une base orientée colonnes si le volume devient très important",
+      "Uniquement Redis",
+      "Toujours une base graphe"
+    ],
+    "correct": [
+      "Un moteur relationnel ou OLAP",
+      "Éventuellement une base orientée colonnes si le volume devient très important"
+    ]
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "question": "Dans l'e-commerce, quelle partie pousse plutôt vers un moteur relationnel ?",
+    "options": [
+      "La validation transactionnelle des achats",
+      "Le catalogue en lecture seule",
+      "Le cache produit",
+      "La recherche plein texte"
+    ],
+    "correct": [
+      "La validation transactionnelle des achats"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "question": "Dans l'e-commerce, quelles parties peuvent bénéficier du NoSQL ?",
+    "options": [
+      "Le catalogue semi-structuré",
+      "Le panier distribué",
+      "Le cache",
+      "L'indexation de recherche"
+    ],
+    "correct": [
+      "Le catalogue semi-structuré",
+      "Le panier distribué",
+      "Le cache",
+      "L'indexation de recherche"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "question": "Que dit le cours sur les besoins transactionnels complexes en NoSQL ?",
+    "options": [
+      "Ils sont souvent peu supportés nativement",
+      "Ils peuvent nécessiter un moteur relationnel ou un moteur supportant l'ACID",
+      "Ils sont toujours plus simples qu'en SQL",
+      "Ils n'existent jamais"
+    ],
+    "correct": [
+      "Ils sont souvent peu supportés nativement",
+      "Ils peuvent nécessiter un moteur relationnel ou un moteur supportant l'ACID"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "question": "Quel problème général est cité à propos de la conception d'une BD NoSQL ?",
+    "options": [
+      "Il n'existe pas encore de méthodologie de conception aussi mature que pour le relationnel",
+      "Les accès se font souvent par clé",
+      "On peut ajouter des attributs à tout moment",
+      "Le modèle est toujours identique quel que soit le moteur"
+    ],
+    "correct": [
+      "Il n'existe pas encore de méthodologie de conception aussi mature que pour le relationnel",
+      "Les accès se font souvent par clé",
+      "On peut ajouter des attributs à tout moment"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "multiple_choice",
+    "question": "Parmi les problèmes liés aux BD NoSQL, lesquels sont cités ?",
+    "options": [
+      "Pas de langage de requêtage aussi puissant et universel que SQL",
+      "Relâchement de la cohérence",
+      "Technologie encore peu familière",
+      "Support client parfois limité"
+    ],
+    "correct": [
+      "Pas de langage de requêtage aussi puissant et universel que SQL",
+      "Relâchement de la cohérence",
+      "Technologie encore peu familière",
+      "Support client parfois limité"
+    ]
+  },
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "question": "Quel est l'objectif général du NewSQL ?",
+    "options": [
+      "Réconcilier les mondes SQL et NoSQL",
+      "Conserver SQL tout en améliorant performances et passage à l'échelle",
+      "Garder les propriétés ACID",
+      "Supprimer définitivement SQL"
+    ],
+    "correct": [
+      "Réconcilier les mondes SQL et NoSQL",
+      "Conserver SQL tout en améliorant performances et passage à l'échelle",
+      "Garder les propriétés ACID"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "free_answer",
+    "question": "Comment s'appelle l'approche qui cherche à concilier SQL, performances proches du NoSQL et propriétés ACID ?",
+    "correct": [
+      "NewSQL",
+      "newsql"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "multiple_choice",
+    "question": "Parmi les systèmes suivants, lesquels sont cités comme systèmes NewSQL ?",
+    "options": [
+      "Clustrix",
+      "MemSQL",
+      "NuoDB",
+      "Redis"
+    ],
+    "correct": [
+      "Clustrix",
+      "MemSQL",
+      "NuoDB"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "multiple_choice",
+    "question": "Quel moteur NoSQL est présenté comme étant entre le système de cache et la base de données ?",
+    "options": [
+      "Redis",
+      "Neo4j",
+      "MongoDB",
+      "HBase"
+    ],
+    "correct": [
+      "Redis"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "multiple_choice",
+    "question": "Quel moteur NoSQL est cité comme orienté graphe ?",
+    "options": [
+      "Neo4j",
+      "OrientDB",
+      "Cassandra",
+      "Riak"
+    ],
+    "correct": [
+      "Neo4j",
+      "OrientDB"
+    ]
+  }
+]
