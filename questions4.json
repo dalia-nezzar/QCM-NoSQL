@@ -1383,7 +1383,7 @@
     {
         "id": 102,
         "type": "multiple_choice",
-        "question": "Quelle technique de transformation supprime les redondances pour rendre les données plus cohérentes et comparables ?",
+        "question": "Quelle technique de transformation supprime les redondances pour rendre les données plus cohérentes et comparables dans le processus d'ingestion de données (ETL) ?",
         "options": [
             "La normalisation",
             "L'enrichissement",
