@@ -1,0 +1,1633 @@
+[
+    {
+        "id": 1,
+        "type": "multiple_choice",
+        "question": "Que signifie l'acronyme DLM dans le contexte du Big Data ?",
+        "options": [
+            "Data Lifecycle Management",
+            "Distributed Load Management",
+            "Data Layer Mapping",
+            "Dynamic Link Manager"
+        ],
+        "correct": [
+            "Data Lifecycle Management"
+        ]
+    },
+    {
+        "id": 2,
+        "type": "multiple_choice",
+        "question": "Quelle est la première étape du cycle de vie des données selon le cours ?",
+        "options": [
+            "Collecte des données",
+            "Stockage des données",
+            "Analyse des données",
+            "Suppression des données"
+        ],
+        "correct": [
+            "Collecte des données"
+        ]
+    },
+    {
+        "id": 3,
+        "type": "multiple_choice",
+        "question": "Parmi les affirmations suivantes, laquelle décrit correctement la 'capture de données' ?",
+        "options": [
+            "Données récupérées automatiquement par les différents supports de l'entreprise",
+            "Données saisies manuellement par un collaborateur de l'organisation dans un formulaire",
+            "Données déjà existantes importées depuis une source externe à l'entreprise",
+            "Données produites par un algorithme de Machine Learning en production dans l'entreprise"
+        ],
+        "correct": [
+            "Données récupérées automatiquement par les différents supports de l'entreprise"
+        ]
+    },
+    {
+        "id": 4,
+        "type": "multiple_choice",
+        "question": "Selon le cours, quelle règle s'applique au stockage dans le cadre du DLM ?",
+        "options": [
+            "Les données fréquemment utilisées sont sur supports rapides, les anciennes sur supports lents",
+            "Toutes les données sont stockées sur des supports SSD quel que soit leur âge",
+            "Les données les plus récentes sont archivées sur bandes magnétiques lentes et les anciennes sur disques durs rapides",
+            "Les données anciennes sont déplacées vers le cloud public et les récentes en local"
+        ],
+        "correct": [
+            "Les données fréquemment utilisées sont sur supports rapides, les anciennes sur supports lents"
+        ]
+    },
+    {
+        "id": 5,
+        "type": "multiple_choice",
+        "question": "Lequel de ces outils est utilisé pour le traitement et le stockage de données en streaming en temps réel ?",
+        "options": [
+            "Apache Kafka ou Amazon Kinesis pour gérer les flux continus de données",
+            "MySQL ou PostgreSQL pour stocker les données dans des tables relationnelles",
+            "Power BI ou Tableau pour visualiser les résultats en temps réel",
+            "Talend ou StreamSets pour orchestrer les pipelines batch planifiés"
+        ],
+        "correct": [
+            "Apache Kafka ou Amazon Kinesis pour gérer les flux continus de données"
+        ]
+    },
+    {
+        "id": 6,
+        "type": "multiple_choice",
+        "question": "Qu'est-ce que le 'data wrangling' dans le traitement des données ?",
+        "options": [
+            "Une opération de nettoyage des données collectées",
+            "Une technique de compression pour réduire la taille des fichiers",
+            "Un processus de chiffrement pour sécuriser les données sensibles",
+            "Une méthode de visualisation pour représenter les données brutes"
+        ],
+        "correct": [
+            "Une opération de nettoyage des données collectées"
+        ]
+    },
+    {
+        "id": 7,
+        "type": "multiple_choice",
+        "question": "Lors de la suppression des données, de quoi dépend principalement la méthode de destruction choisie ?",
+        "options": [
+            "De la sensibilité des données concernées",
+            "De la taille en octets du fichier à supprimer",
+            "De l'âge de la donnée dans le système de stockage",
+            "Du type de base de données utilisée pour les stocker"
+        ],
+        "correct": [
+            "De la sensibilité des données concernées"
+        ]
+    },
+    {
+        "id": 8,
+        "type": "free_answer",
+        "question": "Quel règlement européen est cité dans le cours en lien avec la conformité et la protection des données personnelles ?",
+        "correct": [
+            "RGPD",
+            "Règlement général sur la protection des données"
+        ]
+    },
+    {
+        "id": 9,
+        "type": "multiple_choice",
+        "question": "Quelle est la définition correcte de l'ingestion de données ?",
+        "options": [
+            "Collecter et importer des données depuis diverses sources pour les stocker, traiter et analyser dans un référentiel centralisé",
+            "Supprimer et archiver les données obsolètes d'un entrepôt existant pour libérer de l'espace de stockage",
+            "Visualiser les données brutes sous forme de graphiques interactifs pour les décideurs de l'entreprise, afin de faciliter la prise de décision basée sur les données",
+            "Chiffrer et compresser les données avant leur transfert vers un serveur distant pour en optimiser la sécurité et les performances de transmission"
+        ],
+        "correct": [
+            "Collecter et importer des données depuis diverses sources pour les stocker, traiter et analyser dans un référentiel centralisé"
+        ]
+    },
+    {
+        "id": 10,
+        "type": "multiple_choice",
+        "question": "Quel processus est utilisé pour nettoyer et transformer les données dans un format uniforme lors de l'ingestion ?",
+        "options": [
+            "ETL (Extract, Transform, Load)",
+            "ILM (Index Lifecycle Management)",
+            "DLM (Data Lifecycle Management)",
+            "EAI (Enterprise Application Integration)"
+        ],
+        "correct": [
+            "ETL (Extract, Transform, Load)"
+        ]
+    },
+    {
+        "id": 11,
+        "type": "multiple_choice",
+        "question": "Dans un pipeline d'ingestion de données, quelle est la phase de 'découverte des données' ?",
+        "options": [
+            "La phase exploratoire où les données disponibles dans l'organisation sont identifiées et caractérisées",
+            "La phase finale où les données sont supprimées après leur période de rétention",
+            "La phase de transformation où les données sont converties dans un format standard pour l'analyse et le reporting",
+            "La phase de chargement final des données dans l'entrepôt de données ou le lac de données pour une utilisation ultérieure"
+        ],
+        "correct": [
+            "La phase exploratoire où les données disponibles dans l'organisation sont identifiées et caractérisées"
+        ]
+    },
+    {
+        "id": 12,
+        "type": "multiple_choice",
+        "question": "Quelle est la dernière étape d'un pipeline d'ingestion de données ?",
+        "options": [
+            "Le chargement des données dans un entrepôt ou un lac de données",
+            "La validation des données pour détecter les erreurs et incohérences",
+            "La transformation des données dans un format adapté à l'analyse",
+            "L'acquisition initiale des données depuis leurs sources d'origine"
+        ],
+        "correct": [
+            "Le chargement des données dans un entrepôt ou un lac de données"
+        ]
+    },
+    {
+        "id": 13,
+        "type": "multiple_choice",
+        "question": "Quelles sont les caractéristiques principales des bases de données NoSQL mentionnées dans le cours ?",
+        "options": [
+            "Évolutivité horizontale, flexibilité de schéma et hautes performances",
+            "Schémas rigides et optimisation pour les données structurées uniquement",
+            "Stockage centralisé sur un seul nœud avec réplication manuelle",
+            "Compatibilité exclusive avec le langage SQL et les jointures complexes"
+        ],
+        "correct": [
+            "Évolutivité horizontale, flexibilité de schéma et hautes performances"
+        ]
+    },
+    {
+        "id": 14,
+        "type": "multiple_choice",
+        "question": "Quel système de fichiers distribués est associé au framework Apache Hadoop ?",
+        "options": [
+            "HDFS (Hadoop Distributed File System)",
+            "NTFS (New Technology File System)",
+            "EXT4 (Fourth Extended File System)",
+            "BTRFS (B-tree File System)"
+        ],
+        "correct": [
+            "HDFS (Hadoop Distributed File System)"
+        ]
+    },
+    {
+        "id": 15,
+        "type": "multiple_choice",
+        "question": "Quel avantage principal différencie Apache Spark du MapReduce de Hadoop ?",
+        "options": [
+            "Le traitement en mémoire qui accélère considérablement les tâches de traitement",
+            "Le stockage exclusif sur disque dur pour garantir la persistance des données en cas de panne",
+            "L'absence totale de support pour les données en streaming ou en temps réel",
+            "La gestion exclusive des données structurées avec schéma prédéfini"
+        ],
+        "correct": [
+            "Le traitement en mémoire qui accélère considérablement les tâches de traitement"
+        ]
+    },
+    {
+        "id": 16,
+        "type": "multiple_choice",
+        "question": "Pour quel cas d'usage Apache Flink est-il spécialement conçu ?",
+        "options": [
+            "Le streaming de données avec des performances à faible latence en temps réel",
+            "Le stockage de données en colonnes sur des clusters distribués pour les requêtes analytiques à grande échelle",
+            "La visualisation de données via des tableaux de bord interactifs",
+            "La gestion des bases de données relationnelles à grande échelle"
+        ],
+        "correct": [
+            "Le streaming de données avec des performances à faible latence en temps réel"
+        ]
+    },
+    {
+        "id": 17,
+        "type": "free_answer",
+        "question": "Citez deux frameworks de traitement Big Data mentionnés dans le cours en dehors de Hadoop, Spark et Flink.",
+        "number_of_answers": 2,
+        "correct": [
+            "Presto",
+            "Dask",
+            "Apache Nifi"
+        ]
+    },
+    {
+        "id": 18,
+        "type": "multiple_choice",
+        "question": "Parmi les techniques d'intégration, laquelle permet d'accéder aux données via une couche d'abstraction sans les déplacer physiquement ?",
+        "options": [
+            "La virtualisation des données",
+            "L'intégration par lots planifiés",
+            "La synchronisation en temps réel via des déclencheurs",
+            "Le data wrangling sur les données sources"
+        ],
+        "correct": [
+            "La virtualisation des données"
+        ]
+    },
+    {
+        "id": 19,
+        "type": "multiple_choice",
+        "question": "Dans la transformation des données, qu'est-ce que la 'normalisation' ?",
+        "options": [
+            "La mise à l'échelle et le centrage des valeurs pour plus de cohérence et de comparabilité",
+            "La suppression des entrées dupliquées ou incorrectes dans le jeu de données",
+            "L'ajout d'informations complémentaires comme la géolocalisation ou les données démographiques",
+            "La combinaison de plusieurs sources en une valeur agrégée unique"
+        ],
+        "correct": [
+            "La mise à l'échelle et le centrage des valeurs pour plus de cohérence et de comparabilité"
+        ]
+    },
+    {
+        "id": 20,
+        "type": "multiple_choice",
+        "question": "Qu'est-ce que l''agrégation' dans le contexte de la transformation des données ?",
+        "options": [
+            "La combinaison de données de plusieurs sources en une seule valeur résumée",
+            "La mise à l'échelle des valeurs numériques pour uniformiser leur distribution",
+            "La suppression des entrées incomplètes ou incohérentes du jeu de données",
+            "L'enrichissement du jeu de données avec des attributs géographiques externes"
+        ],
+        "correct": [
+            "La combinaison de données de plusieurs sources en une seule valeur résumée"
+        ]
+    },
+    {
+        "id": 21,
+        "type": "multiple_choice",
+        "question": "Quel outil d'intégration de données supporte à la fois les processus ETL et ELT selon le cours ?",
+        "options": [
+            "Talend",
+            "Apache Flink",
+            "Kibana",
+            "Power BI"
+        ],
+        "correct": [
+            "Talend"
+        ]
+    },
+    {
+        "id": 22,
+        "type": "multiple_choice",
+        "question": "Quel type d'analyse consiste à résumer et décrire les principales caractéristiques statistiques d'un jeu de données ?",
+        "options": [
+            "L'analyse descriptive",
+            "L'analyse exploratoire",
+            "L'analyse prédictive",
+            "L'analyse prescriptive"
+        ],
+        "correct": [
+            "L'analyse descriptive"
+        ]
+    },
+    {
+        "id": 23,
+        "type": "multiple_choice",
+        "question": "En quoi consiste l'analyse prescriptive selon le cours ?",
+        "options": [
+            "Recommander des actions concrètes pour optimiser un résultat spécifique basé sur les données",
+            "Effectuer des prédictions sur des événements futurs à partir de données historiques",
+            "Identifier les patterns inhabituels et anomalies dans les données collectées",
+            "Résumer les principales caractéristiques statistiques d'un ensemble de données"
+        ],
+        "correct": [
+            "Recommander des actions concrètes pour optimiser un résultat spécifique basé sur les données"
+        ]
+    },
+    {
+        "id": 24,
+        "type": "multiple_choice",
+        "question": "Kibana est un outil de visualisation conçu pour fonctionner avec quel moteur de recherche ?",
+        "options": [
+            "Elasticsearch",
+            "MongoDB",
+            "Apache Cassandra",
+            "Apache Hadoop"
+        ],
+        "correct": [
+            "Elasticsearch"
+        ]
+    },
+    {
+        "id": 25,
+        "type": "multiple_choice",
+        "question": "Quelles fonctionnalités Kibana offre-t-il en plus de la visualisation standard ?",
+        "options": [
+            "Analyse automatique en temps réel et algorithme de recherche très flexible",
+            "Stockage distribué des données sur plusieurs nœuds du cluster",
+            "Chiffrement automatique de toutes les données sensibles indexées dans Elasticsearch",
+            "Gestion complète du cycle de vie des index Elasticsearch"
+        ],
+        "correct": [
+            "Analyse automatique en temps réel et algorithme de recherche très flexible"
+        ]
+    },
+    {
+        "id": 26,
+        "type": "multiple_choice",
+        "question": "Quelle est la principale différence entre DLM et ILM selon le cours ?",
+        "options": [
+            "Le DLM gère techniquement les données tout au long de leur vie, l'ILM inclut aussi la pertinence métier et les réglementations",
+            "Le DLM est spécifique à Elasticsearch tandis que l'ILM est une approche générique et universelle applicable à tous les types de données",
+            "L'ILM s'applique uniquement aux données structurées alors que le DLM couvre tous les types",
+            "Le DLM intègre nativement la gestion des index Elasticsearch contrairement à l'ILM qui est un concept plus large"
+        ],
+        "correct": [
+            "Le DLM gère techniquement les données tout au long de leur vie, l'ILM inclut aussi la pertinence métier et les réglementations"
+        ]
+    },
+    {
+        "id": 27,
+        "type": "multiple_choice",
+        "question": "Que permet concrètement l'ILM (Index Lifecycle Management) dans Elasticsearch ?",
+        "options": [
+            "Automatiser le passage des index à travers différentes phases selon des politiques définies",
+            "Visualiser les données indexées sous forme de graphiques interactifs en temps réel dans Kibana",
+            "Effectuer des jointures complexes entre plusieurs index Elasticsearch",
+            "Remplacer entièrement le moteur de recherche Lucene sous-jacent pour améliorer les performances de recherche"
+        ],
+        "correct": [
+            "Automatiser le passage des index à travers différentes phases selon des politiques définies"
+        ]
+    },
+    {
+        "id": 28,
+        "type": "multiple_choice",
+        "question": "Dans la phase 'Hot' de l'ILM Elasticsearch, quel type de support de stockage est privilégié ?",
+        "options": [
+            "Des disques SSD rapides pour des lectures et écritures performantes",
+            "Des disques HDD lents pour réduire les coûts d'infrastructure",
+            "Un stockage externe distant comme Amazon S3 ou Google Cloud",
+            "Des bandes magnétiques pour l'archivage longue durée économique"
+        ],
+        "correct": [
+            "Des disques SSD rapides pour des lectures et écritures performantes"
+        ]
+    },
+    {
+        "id": 29,
+        "type": "multiple_choice",
+        "question": "Dans quelle phase ILM les index sont-ils stockés dans des services de stockage externes comme Amazon S3 ?",
+        "options": [
+            "La phase Frozen",
+            "La phase Cold",
+            "La phase Warm",
+            "La phase Delete"
+        ],
+        "correct": [
+            "La phase Frozen"
+        ]
+    },
+    {
+        "id": 30,
+        "type": "multiple_choice",
+        "question": "Quel mécanisme déclenche le passage d'un index de la phase Hot vers la phase Warm ?",
+        "options": [
+            "Un rollover automatique lorsque l'index atteint un seuil de taille ou d'âge défini",
+            "La création de snapshots réguliers sur un système de stockage externe",
+            "Une détection d'anomalies par le module Machine Learning d'Elasticsearch",
+            "Une suppression manuelle des réplicas par l'administrateur du cluster"
+        ],
+        "correct": [
+            "Un rollover automatique lorsque l'index atteint un seuil de taille ou d'âge défini"
+        ]
+    },
+    {
+        "id": 31,
+        "type": "multiple_choice",
+        "question": "Concernant la phase Warm de l'ILM, quelle affirmation est correcte ?",
+        "options": [
+            "Les index sont rarement modifiés mais restent disponibles en lecture",
+            "Les index reçoivent des écritures et lectures aussi fréquentes qu'en phase Hot",
+            "Les index sont totalement inaccessibles et en attente de suppression",
+            "Les index sont en lecture seule et migrés vers Amazon S3"
+        ],
+        "correct": [
+            "Les index sont rarement modifiés mais restent disponibles en lecture"
+        ]
+    },
+    {
+        "id": 32,
+        "type": "multiple_choice",
+        "question": "Qu'est-ce qu'un 'Searchable Snapshot' dans le contexte de la phase Frozen de l'ILM ?",
+        "options": [
+            "Un instantané consultable permettant d'accéder aux données sans les restaurer entièrement",
+            "Une copie complète de l'index chargée intégralement en mémoire RAM",
+            "Un index optimisé pour les écritures intensives et les mises à jour fréquentes",
+            "Un outil de visualisation intégré au tableau de bord Kibana"
+        ],
+        "correct": [
+            "Un instantané consultable permettant d'accéder aux données sans les restaurer entièrement"
+        ]
+    },
+    {
+        "id": 33,
+        "type": "free_answer",
+        "question": "Citez les 5 phases de l'ILM Policy d'Elasticsearch dans l'ordre du cycle de vie.",
+        "number_of_answers": 5,
+        "correct": [
+            "Hot",
+            "Warm",
+            "Cold",
+            "Frozen",
+            "Delete"
+        ]
+    },
+    {
+        "id": 34,
+        "type": "multiple_choice",
+        "question": "Quel est l'objectif de la phase 'Delete' dans l'ILM Elasticsearch ?",
+        "options": [
+            "Libérer de l'espace de stockage en supprimant les index devenus obsolètes",
+            "Geler les index pour un accès très occasionnel à faible coût",
+            "Transférer les index vers un service de stockage externe comme Amazon S3",
+            "Réduire le nombre de réplicas pour optimiser les ressources du cluster"
+        ],
+        "correct": [
+            "Libérer de l'espace de stockage en supprimant les index devenus obsolètes"
+        ]
+    },
+    {
+        "id": 35,
+        "type": "multiple_choice",
+        "question": "Comment l'ILM optimise-t-il les coûts de stockage selon le cours ?",
+        "options": [
+            "En déplaçant progressivement les index vers des nœuds moins coûteux au fur et à mesure qu'ils vieillissent",
+            "En augmentant le nombre de réplicas pour améliorer la haute disponibilité globale du cluster et réduire les risques de perte de données",
+            "En forçant l'utilisation de SSD pour tous les index quel que soit leur âge",
+            "En supprimant automatiquement tous les index après une période fixe de 30 jours pour garantir une rotation rapide des données"
+        ],
+        "correct": [
+            "En déplaçant progressivement les index vers des nœuds moins coûteux au fur et à mesure qu'ils vieillissent"
+        ]
+    },
+    {
+        "id": 36,
+        "type": "multiple_choice",
+        "question": "Selon le cours, à quelle époque l'Intelligence Artificielle est-elle née ?",
+        "options": [
+            "Au milieu des années 1950",
+            "Dans les années 1980 avec l'essor des microprocesseurs",
+            "Au début des années 2000 avec Internet",
+            "Dans les années 1970 avec les premiers supercalculateurs"
+        ],
+        "correct": [
+            "Au milieu des années 1950"
+        ]
+    },
+    {
+        "id": 37,
+        "type": "multiple_choice",
+        "question": "Quelle est la différence fondamentale entre un modèle 'Process Driven' et un modèle 'Data Driven' ?",
+        "options": [
+            "Process Driven suit une séquence d'actions prédéfinie, Data Driven crée des modèles statistiques sans programmation explicite",
+            "Data Driven utilise exclusivement des règles métier codées, Process Driven exploite les données brutes pour générer des insights",
+            "Process Driven est une approche récente issue du Big Data, Data Driven est la méthode historique de l'IA classique",
+            "Il n'existe pas de différence conceptuelle entre ces deux approches dans la pratique de l'IA"
+        ],
+        "correct": [
+            "Process Driven suit une séquence d'actions prédéfinie, Data Driven crée des modèles statistiques sans programmation explicite"
+        ]
+    },
+    {
+        "id": 38,
+        "type": "multiple_choice",
+        "question": "Dans l'apprentissage supervisé, quel est le type de données fourni en entrée au modèle ?",
+        "options": [
+            "Des données étiquetées avec des résultats attendus connus",
+            "Des données non étiquetées sans aucune information de sortie associée",
+            "Des états et actions issus d'une interaction avec un environnement",
+            "Des données aléatoires générées par simulation"
+        ],
+        "correct": [
+            "Des données étiquetées avec des résultats attendus connus"
+        ]
+    },
+    {
+        "id": 39,
+        "type": "multiple_choice",
+        "question": "Quels sont les deux types d'analyses de l'apprentissage supervisé mentionnés dans le cours ?",
+        "options": [
+            "La classification et la régression",
+            "La détection d'anomalies et le clustering",
+            "La régression et l'apprentissage par renforcement",
+            "Le clustering et la classification non supervisée"
+        ],
+        "correct": [
+            "La classification et la régression"
+        ]
+    },
+    {
+        "id": 40,
+        "type": "multiple_choice",
+        "question": "En Machine Learning supervisé, à quoi sert la 'régression' ?",
+        "options": [
+            "Prédire des valeurs numériques continues comme un temps de réponse",
+            "Prédire des valeurs catégorielles discrètes comme un label ou une classe",
+            "Détecter des anomalies dans des séries temporelles en continu",
+            "Regrouper des données similaires en clusters non étiquetés"
+        ],
+        "correct": [
+            "Prédire des valeurs numériques continues comme un temps de réponse"
+        ]
+    },
+    {
+        "id": 41,
+        "type": "multiple_choice",
+        "question": "Quelle condition particulière la 'détection des anomalies' en apprentissage non supervisé nécessite-t-elle ?",
+        "options": [
+            "Des données de séries chronologiques pour construire un modèle probabiliste continu",
+            "Un jeu de données étiquetées supervisé avec des exemples d'anomalies connus pour entraîner le modèle",
+            "Un ensemble de règles métier prédéfinies par un expert du domaine",
+            "Des données géospatiales pour identifier les zones géographiques atypiques"
+        ],
+        "correct": [
+            "Des données de séries chronologiques pour construire un modèle probabiliste continu"
+        ]
+    },
+    {
+        "id": 42,
+        "type": "multiple_choice",
+        "question": "Quelle est la différence entre la détection d'anomalies et la détection de valeurs aberrantes en ML non supervisé ?",
+        "options": [
+            "La détection d'anomalies s'exécute en continu sur des séries temporelles, la détection de valeurs aberrantes analyse un jeu de données statique",
+            "La détection d'anomalies nécessite des données étiquetées tandis que la détection de valeurs aberrantes n'en a pas besoin pour fonctionner en mode non supervisé",
+            "La détection de valeurs aberrantes fonctionne en continu alors que la détection d'anomalies est une opération ponctuelle",
+            "Il n'existe aucune différence technique ou méthodologique entre ces deux approches"
+        ],
+        "correct": [
+            "La détection d'anomalies s'exécute en continu sur des séries temporelles, la détection de valeurs aberrantes analyse un jeu de données statique"
+        ]
+    },
+    {
+        "id": 43,
+        "type": "multiple_choice",
+        "question": "Dans l'apprentissage par renforcement, comment l'agent apprend-il à prendre de meilleures décisions ?",
+        "options": [
+            "Par interaction avec l'environnement via un système de récompenses et de pénalités",
+            "En analysant un grand volume de données étiquetées fournies par un superviseur humain",
+            "En détectant les anomalies dans des séries temporelles sans intervention extérieure",
+            "En regroupant automatiquement les données similaires par algorithme de clustering"
+        ],
+        "correct": [
+            "Par interaction avec l'environnement via un système de récompenses et de pénalités"
+        ]
+    },
+    {
+        "id": 44,
+        "type": "multiple_choice",
+        "question": "Parmi les applications suivantes, laquelle correspond à l'apprentissage supervisé selon le cours ?",
+        "options": [
+            "L'évaluation des risques et les prévisions de ventes",
+            "Les systèmes de recommandation et la détection d'anomalies en production",
+            "Les voitures autonomes et les agents jouant à des jeux vidéo",
+            "La visualisation de données en temps réel dans des tableaux de bord"
+        ],
+        "correct": [
+            "L'évaluation des risques et les prévisions de ventes"
+        ]
+    },
+    {
+        "id": 45,
+        "type": "multiple_choice",
+        "question": "Quels types d'apprentissage Elastic (Elasticsearch) utilise-t-il pour ses fonctionnalités ML ?",
+        "options": [
+            "L'apprentissage supervisé et l'apprentissage non supervisé",
+            "Uniquement l'apprentissage supervisé avec des données étiquetées",
+            "Uniquement l'apprentissage par renforcement via des agents autonomes",
+            "L'apprentissage par renforcement combiné à l'apprentissage supervisé"
+        ],
+        "correct": [
+            "L'apprentissage supervisé et l'apprentissage non supervisé"
+        ]
+    },
+    {
+        "id": 46,
+        "type": "multiple_choice",
+        "question": "Parmi les outils suivants, lequel est un outil d'analyse commerciale édité par Microsoft avec tableaux de bord interactifs ?",
+        "options": [
+            "Power BI",
+            "Tableau",
+            "Kibana",
+            "Grafana"
+        ],
+        "correct": [
+            "Power BI"
+        ]
+    },
+    {
+        "id": 47,
+        "type": "multiple_choice",
+        "question": "Quelle bibliothèque Python est citée dans le cours pour la visualisation de données ?",
+        "options": [
+            "matplotlib",
+            "scikit-learn",
+            "TensorFlow",
+            "SQLAlchemy"
+        ],
+        "correct": [
+            "matplotlib"
+        ]
+    },
+    {
+        "id": 48,
+        "type": "multiple_choice",
+        "question": "Elasticsearch stocke ses données sous quel format ?",
+        "options": [
+            "Documents JSON semi-structurés",
+            "Tables relationnelles avec clés étrangères",
+            "Fichiers CSV plats avec séparateurs",
+            "Objets binaires sérialisés en base64"
+        ],
+        "correct": [
+            "Documents JSON semi-structurés"
+        ]
+    },
+    {
+        "id": 49,
+        "type": "free_answer",
+        "question": "Quel terme désigne la suppression des entrées de données incorrectes, incomplètes ou en double dans la transformation des données ?",
+        "correct": [
+            "nettoyage",
+            "data cleaning",
+            "cleansing"
+        ]
+    },
+    {
+        "id": 50,
+        "type": "multiple_choice",
+        "question": "Parmi les affirmations suivantes sur le Deep Learning, laquelle est correcte selon le cours ?",
+        "options": [
+            "C'est un sous-ensemble du ML qui structure les algorithmes en couches formant un réseau neuronal artificiel",
+            "C'est une technique entièrement nouvelle qui remplace et rend obsolète le Machine Learning classique",
+            "Il ne nécessite aucune puissance de calcul particulière et peut tourner sur n'importe quel matériel",
+            "Il est apparu uniquement dans les années 2000 avec l'émergence d'Internet"
+        ],
+        "correct": [
+            "C'est un sous-ensemble du ML qui structure les algorithmes en couches formant un réseau neuronal artificiel"
+        ]
+    },
+    {
+        "id": 51,
+        "type": "multiple_choice",
+        "question": "Selon le cours, un modèle Process Driven est-il nécessairement meilleur qu'un modèle Data Driven ?",
+        "options": [
+            "Non, ils ne s'excluent pas mutuellement et sont souvent utilisés ensemble selon le cas d'usage",
+            "Oui, le Data Driven est systématiquement supérieur grâce aux données disponibles",
+            "Oui, le Process Driven est plus fiable car basé sur des règles explicites vérifiables par des experts humains",
+            "Oui, le choix dépend uniquement du volume de données disponibles"
+        ],
+        "correct": [
+            "Non, ils ne s'excluent pas mutuellement et sont souvent utilisés ensemble selon le cas d'usage"
+        ]
+    },
+    {
+        "id": 52,
+        "type": "multiple_choice",
+        "question": "Quelle technique de transformation de données permet d'ajouter des informations comme la géolocalisation ou des données démographiques ?",
+        "options": [
+            "L'enrichissement",
+            "La normalisation",
+            "L'agrégation",
+            "Le nettoyage"
+        ],
+        "correct": [
+            "L'enrichissement"
+        ]
+    },
+    {
+        "id": 53,
+        "type": "multiple_choice",
+        "question": "Les 'données par lots' (batch) sont-elles collectées de la même façon que les données en streaming ?",
+        "options": [
+            "Non, les données par lots sont collectées à intervalles spécifiques ou en masse, contrairement au streaming continu",
+            "Oui, les deux types sont collectés en continu depuis les mêmes sources IoT en permanence sans distinction de fréquence",
+            "Non, les données par lots viennent uniquement des réseaux sociaux et le streaming des capteurs industriels",
+            "Oui, la différence porte uniquement sur le volume et non sur la fréquence de collecte"
+        ],
+        "correct": [
+            "Non, les données par lots sont collectées à intervalles spécifiques ou en masse, contrairement au streaming continu"
+        ]
+    },
+    {
+        "id": 54,
+        "type": "free_answer",
+        "question": "Quel outil open source de streaming distribué est cité dans le cours pour l'intégration et le traitement des données en temps réel entre systèmes ?",
+        "correct": [
+            "Apache Kafka",
+            "Kafka"
+        ]
+    },
+    {
+        "id": 55,
+        "type": "multiple_choice",
+        "question": "Parmi les solutions de stockage suivantes, laquelle est une base de données relationnelle ?",
+        "options": [
+            "PostgreSQL",
+            "MongoDB",
+            "Cassandra",
+            "Couchbase"
+        ],
+        "correct": [
+            "PostgreSQL"
+        ]
+    },
+    {
+        "id": 56,
+        "type": "multiple_choice",
+        "question": "Quelle est la condition préalable obligatoire à toute collecte de données personnelles selon le cours ?",
+        "options": [
+            "Obtenir le consentement explicite des personnes concernées avant la collecte",
+            "Obtenir l'autorisation écrite de la direction informatique de l'entreprise",
+            "Signer un contrat de service avec un fournisseur de stockage cloud certifié",
+            "Mettre en place un système de chiffrement de bout en bout sur toutes les données"
+        ],
+        "correct": [
+            "Obtenir le consentement explicite des personnes concernées avant la collecte"
+        ]
+    },
+    {
+        "id": 57,
+        "type": "multiple_choice",
+        "question": "Lors de la collecte, comment se définit précisément l''acquisition de données' ?",
+        "options": [
+            "Des données préexistantes recueillies hors de l'entreprise puis importées depuis l'extérieur",
+            "Des données nouvelles saisies manuellement par un collaborateur de l'organisation dans un formulaire ou une application métier",
+            "Des données captées automatiquement par les équipements IoT de l'entreprise",
+            "Des données produites par un algorithme de Machine Learning en phase d'inférence sur des données d'entrée"
+        ],
+        "correct": [
+            "Des données préexistantes recueillies hors de l'entreprise puis importées depuis l'extérieur"
+        ]
+    },
+    {
+        "id": 58,
+        "type": "free_answer",
+        "question": "Quel est le nom de l'étape du cycle de vie où une copie des données est créée et stockée sur un nouveau support pour en optimiser la sécurité ?",
+        "correct": [
+            "sauvegarde",
+            "sauvegarde des données",
+            "backup"
+        ]
+    },
+    {
+        "id": 59,
+        "type": "multiple_choice",
+        "question": "La sauvegarde des données dans le cycle DLM peut être réalisée de quelles façons ?",
+        "options": [
+            "De manière complète ou différentielle, et peut être réalisée plusieurs fois durant le cycle",
+            "Uniquement de manière complète, une seule fois par cycle de vie de la donnée",
+            "Uniquement de manière différentielle pour économiser l'espace de stockage disponible",
+            "Uniquement via le cloud public, les supports locaux étant jugés insuffisamment sécurisés"
+        ],
+        "correct": [
+            "De manière complète ou différentielle, et peut être réalisée plusieurs fois durant le cycle"
+        ]
+    },
+    {
+        "id": 60,
+        "type": "multiple_choice",
+        "question": "Combien d'étapes composent le cycle de vie des données tel que décrit dans le cours ?",
+        "options": [
+            "6 étapes",
+            "3 étapes",
+            "4 étapes",
+            "8 étapes"
+        ],
+        "correct": [
+            "6 étapes"
+        ]
+    },
+    {
+        "id": 61,
+        "type": "multiple_choice",
+        "question": "Pourquoi la conservation totale de toutes les données est-elle jugée impossible selon le cours ?",
+        "options": [
+            "Le coût de conservation augmente inévitablement et certaines données deviennent obsolètes",
+            "Les bases de données ont une capacité maximale fixe qui ne peut pas être étendue",
+            "La législation impose de supprimer toutes les données personnelles après exactement un an",
+            "Les algorithmes de Machine Learning nécessitent de supprimer régulièrement les données récentes"
+        ],
+        "correct": [
+            "Le coût de conservation augmente inévitablement et certaines données deviennent obsolètes"
+        ]
+    },
+    {
+        "id": 62,
+        "type": "multiple_choice",
+        "question": "Lors du traitement des données (étape 3 du cycle de vie DLM), quelles opérations peuvent être appliquées ?",
+        "options": [
+            "Compression, cryptage des informations, data wrangling",
+            "Visualisation en temps réel, agrégation et stockage distribué",
+            "Suppression définitive, archivage longue durée et ré-ingestion",
+            "Collecte automatique, sauvegarde incrémentale et analyse prédictive"
+        ],
+        "correct": [
+            "Compression, cryptage des informations, data wrangling"
+        ]
+    },
+    {
+        "id": 63,
+        "type": "multiple_choice",
+        "question": "Dans quelle étape du cycle de vie est-il impératif de garder une traçabilité de toutes les modifications apportées aux données ?",
+        "options": [
+            "L'analyse des données, notamment pour les données les plus sensibles",
+            "La collecte initiale des données depuis les sources d'origine",
+            "Le stockage des données dans les entrepôts et lacs de données",
+            "La suppression des données obsolètes en fin de cycle de vie"
+        ],
+        "correct": [
+            "L'analyse des données, notamment pour les données les plus sensibles"
+        ]
+    },
+    {
+        "id": 64,
+        "type": "multiple_choice",
+        "question": "Selon le cours, quels outils peuvent être utilisés pour réaliser l'analyse des données ?",
+        "options": [
+            "La virtualisation de data et le Machine Learning",
+            "HDFS et MapReduce pour le traitement distribué massif",
+            "Apache Kafka et Amazon Kinesis pour le streaming",
+            "Talend et StreamSets pour les pipelines d'intégration"
+        ],
+        "correct": [
+            "La virtualisation de data et le Machine Learning"
+        ]
+    },
+    {
+        "id": 65,
+        "type": "free_answer",
+        "question": "Citez trois exemples de supports ou solutions de stockage de données mentionnés dans le cours.",
+        "number_of_answers": 3,
+        "correct": [
+            "disque dur",
+            "serveur",
+            "cloud",
+            "data warehouse"
+        ]
+    },
+    {
+        "id": 66,
+        "type": "multiple_choice",
+        "question": "Qu'est-ce qui différencie fondamentalement les données par lots des données en streaming ?",
+        "options": [
+            "Le streaming est généré et traité en continu, les données par lots sont collectées à intervalles définis",
+            "Les données par lots sont toujours plus volumineuses que celles générées par streaming et nécessitent des outils de stockage spécialisés",
+            "Le streaming ne peut pas être persisté en base, contrairement aux données par lots",
+            "Les données par lots proviennent uniquement de capteurs IoT et non de plateformes web"
+        ],
+        "correct": [
+            "Le streaming est généré et traité en continu, les données par lots sont collectées à intervalles définis"
+        ]
+    },
+    {
+        "id": 67,
+        "type": "multiple_choice",
+        "question": "Parmi les sources de données Big Data citées dans le cours, lesquelles sont correctement listées ?",
+        "options": [
+            "Appareils IoT, plateformes de réseaux sociaux, blogs et journaux d'applications",
+            "Uniquement des bases de données relationnelles internes à l'entreprise",
+            "Uniquement des fichiers Excel, CSV et documents PDF structurés",
+            "Uniquement des API REST exposées par des fournisseurs tiers certifiés"
+        ],
+        "correct": [
+            "Appareils IoT, plateformes de réseaux sociaux, blogs et journaux d'applications"
+        ]
+    },
+    {
+        "id": 68,
+        "type": "multiple_choice",
+        "question": "Pourquoi l'ingestion de données nécessite-t-elle souvent une expertise en Python selon le cours ?",
+        "options": [
+            "Pour automatiser le nettoyage, la transformation et le traitement des données efficacement",
+            "Parce que Python est le seul langage de programmation compatible avec Elasticsearch",
+            "Parce que Python remplace systématiquement tous les outils ETL dans les architectures modernes",
+            "Pour créer des interfaces graphiques de visualisation intégrées aux pipelines de données"
+        ],
+        "correct": [
+            "Pour automatiser le nettoyage, la transformation et le traitement des données efficacement"
+        ]
+    },
+    {
+        "id": 69,
+        "type": "multiple_choice",
+        "question": "En quoi consiste la 'validation des données' dans un pipeline d'ingestion ?",
+        "options": [
+            "Vérifier l'exactitude et la cohérence des données pour détecter erreurs et valeurs manquantes",
+            "Chiffrer les données sensibles avant leur transfert vers le stockage cible",
+            "Compresser les données collectées pour réduire l'espace de stockage nécessaire et accélérer les transferts",
+            "Charger les données transformées dans l'entrepôt ou le lac de données final"
+        ],
+        "correct": [
+            "Vérifier l'exactitude et la cohérence des données pour détecter erreurs et valeurs manquantes"
+        ]
+    },
+    {
+        "id": 70,
+        "type": "multiple_choice",
+        "question": "Lors de la validation des données, quels types de contrôles sont effectués selon le cours ?",
+        "options": [
+            "Vérification du type de données, des plages de valeurs acceptables et de l'unicité",
+            "Vérification de la bande passante réseau disponible pour le transfert des données",
+            "Contrôle de la validité des licences logicielles des outils utilisés dans le pipeline",
+            "Vérification du nombre de réplicas et de shards configurés dans Elasticsearch"
+        ],
+        "correct": [
+            "Vérification du type de données, des plages de valeurs acceptables et de l'unicité"
+        ]
+    },
+    {
+        "id": 71,
+        "type": "multiple_choice",
+        "question": "Comment un entrepôt de données (data warehouse) est-il décrit dans le cours ?",
+        "options": [
+            "Une destination finale pour les données transformées, accessible pour l'analyse et les rapports",
+            "Un outil dédié à la visualisation de données sous forme de tableaux de bord interactifs",
+            "Un framework de traitement distribué comparable à Apache Hadoop ou Apache Spark",
+            "Une étape intermédiaire du cycle de vie des données avant leur suppression définitive"
+        ],
+        "correct": [
+            "Une destination finale pour les données transformées, accessible pour l'analyse et les rapports"
+        ]
+    },
+    {
+        "id": 72,
+        "type": "multiple_choice",
+        "question": "Quelle est la limite principale des bases de données relationnelles face au Big Data selon le cours ?",
+        "options": [
+            "Elles risquent de ne pas s'adapter lors de la gestion de données très volumineuses ou non structurées",
+            "Elles ne supportent pas le langage SQL standard pour les requêtes complexes",
+            "Elles sont fondamentalement incompatibles avec les environnements cloud modernes et ne peuvent pas être utilisées dans des architectures distribuées",
+            "Elles ne permettent pas les jointures entre tables ni les transactions ACID pour garantir la cohérence des données"
+        ],
+        "correct": [
+            "Elles risquent de ne pas s'adapter lors de la gestion de données très volumineuses ou non structurées"
+        ]
+    },
+    {
+        "id": 73,
+        "type": "multiple_choice",
+        "question": "Quel avantage principal les systèmes de fichiers distribués (comme HDFS) apportent-ils par rapport à un stockage centralisé ?",
+        "options": [
+            "Ils améliorent les performances et la tolérance aux pannes en répartissant les données sur plusieurs machines",
+            "Ils réduisent significativement le coût des licences des logiciels de gestion de données",
+            "Ils éliminent totalement le besoin de sauvegardes régulières des données critiques",
+            "Ils permettent de stocker uniquement des données structurées avec un schéma défini et ne supportent pas les données semi-structurées ou non structurées"
+        ],
+        "correct": [
+            "Ils améliorent les performances et la tolérance aux pannes en répartissant les données sur plusieurs machines"
+        ]
+    },
+    {
+        "id": 74,
+        "type": "multiple_choice",
+        "question": "Parmi ces ensembles, lequel regroupe uniquement des bases de données NoSQL citées dans le cours ?",
+        "options": [
+            "MongoDB, Cassandra, Couchbase",
+            "MySQL, PostgreSQL, Oracle",
+            "Redis, Neo4j, InfluxDB",
+            "Hadoop, Spark, Flink"
+        ],
+        "correct": [
+            "MongoDB, Cassandra, Couchbase"
+        ]
+    },
+    {
+        "id": 75,
+        "type": "multiple_choice",
+        "question": "Apache Hadoop inclut quel composant pour le traitement parallèle et distribué des données ?",
+        "options": [
+            "MapReduce",
+            "Kafka Streams",
+            "Spark SQL",
+            "Flink CEP"
+        ],
+        "correct": [
+            "MapReduce"
+        ]
+    },
+    {
+        "id": 76,
+        "type": "multiple_choice",
+        "question": "Selon le cours, avec quels systèmes Apache Spark peut-il être intégré ?",
+        "options": [
+            "Hadoop et d'autres systèmes de stockage variés",
+            "Uniquement avec Elasticsearch et la suite Elastic",
+            "Uniquement avec Amazon S3 sur infrastructure cloud AWS",
+            "Uniquement avec des bases de données relationnelles compatibles SQL"
+        ],
+        "correct": [
+            "Hadoop et d'autres systèmes de stockage variés"
+        ]
+    },
+    {
+        "id": 77,
+        "type": "multiple_choice",
+        "question": "Quels facteurs déterminent le choix d'un outil de traitement Big Data selon le cours ?",
+        "options": [
+            "Le type de données, la vitesse de traitement, les exigences d'évolutivité et l'intégration",
+            "Uniquement le coût de la licence et le budget alloué au projet de données",
+            "Uniquement la taille de l'équipe de développement et leurs compétences techniques en Python",
+            "Uniquement la compatibilité avec les systèmes d'exploitation Windows Server ou Linux"
+        ],
+        "correct": [
+            "Le type de données, la vitesse de traitement, les exigences d'évolutivité et l'intégration"
+        ]
+    },
+    {
+        "id": 78,
+        "type": "multiple_choice",
+        "question": "Comment le cours définit-il l'intégration de données en temps réel ?",
+        "options": [
+            "Une synchronisation continue entre les sources et un emplacement central via des déclencheurs ou événements",
+            "Un transfert de données planifié à des intervalles réguliers selon un calendrier défini par l'administrateur",
+            "Un accès aux données via une couche d'abstraction sans déplacement physique des données entre les systèmes",
+            "Un chargement nocturne des données pour ne pas impacter les performances en journée dans les systèmes de production"
+        ],
+        "correct": [
+            "Une synchronisation continue entre les sources et un emplacement central via des déclencheurs ou événements"
+        ]
+    },
+    {
+        "id": 79,
+        "type": "multiple_choice",
+        "question": "Quel outil d'intégration est décrit dans le cours comme une 'plate-forme de streaming distribuée' ?",
+        "options": [
+            "Apache Kafka",
+            "Apache NiFi",
+            "Talend",
+            "StreamSets"
+        ],
+        "correct": [
+            "Apache Kafka"
+        ]
+    },
+    {
+        "id": 80,
+        "type": "multiple_choice",
+        "question": "Comment Apache NiFi est-il décrit dans le cours ?",
+        "options": [
+            "Une plateforme open source pour automatiser l'ingestion, le routage et le traitement des données",
+            "Un moteur de traitement en mémoire pour accélérer les jobs MapReduce sur Hadoop",
+            "Un outil de visualisation et d'exploration des données indexées dans Elasticsearch",
+            "Un système de fichiers distribués pour stocker les données Big Data sur plusieurs nœuds"
+        ],
+        "correct": [
+            "Une plateforme open source pour automatiser l'ingestion, le routage et le traitement des données"
+        ]
+    },
+    {
+        "id": 81,
+        "type": "multiple_choice",
+        "question": "Quelle technique de visualisation est particulièrement adaptée aux données de séries chronologiques ?",
+        "options": [
+            "Les graphiques linéaires",
+            "Les graphiques à secteurs (camemberts)",
+            "Les cartes thermiques (heatmaps)",
+            "Les graphiques à barres verticales"
+        ],
+        "correct": [
+            "Les graphiques linéaires"
+        ]
+    },
+    {
+        "id": 82,
+        "type": "multiple_choice",
+        "question": "Comment fonctionnent les cartes thermiques (heatmaps) pour représenter les données ?",
+        "options": [
+            "En utilisant des dégradés de couleurs pour représenter les valeurs d'une matrice ou d'une zone géographique",
+            "En utilisant des barres rectangulaires dont la hauteur est proportionnelle à la valeur",
+            "En utilisant des segments de cercle dont la taille est proportionnelle à la valeur représentée dans un graphique à secteurs",
+            "En utilisant des points de données reliés par des lignes pour montrer l'évolution temporelle"
+        ],
+        "correct": [
+            "En utilisant des dégradés de couleurs pour représenter les valeurs d'une matrice ou d'une zone géographique"
+        ]
+    },
+    {
+        "id": 83,
+        "type": "multiple_choice",
+        "question": "Comment le langage R est-il décrit dans le cours ?",
+        "options": [
+            "Un langage open source pour le calcul statistique et les graphiques, largement utilisé en data analysis",
+            "Un framework de traitement distribué pour le Big Data similaire à Apache Hadoop et Apache Spark",
+            "Un outil de gestion du cycle de vie des index dans Elasticsearch",
+            "Un langage de programmation spécialisé pour le développement d'applications web et mobiles"
+        ],
+        "correct": [
+            "Un langage open source pour le calcul statistique et les graphiques, largement utilisé en data analysis"
+        ]
+    },
+    {
+        "id": 84,
+        "type": "multiple_choice",
+        "question": "Quelle bibliothèque Python est citée dans le cours pour la manipulation et l'analyse de données tabulaires ?",
+        "options": [
+            "pandas",
+            "Django",
+            "Flask",
+            "SQLAlchemy"
+        ],
+        "correct": [
+            "pandas"
+        ]
+    },
+    {
+        "id": 85,
+        "type": "multiple_choice",
+        "question": "Selon le cours, comment l'ILM améliore-t-il les temps de réponse des requêtes Elasticsearch ?",
+        "options": [
+            "Grâce au rollover automatique et à la réduction du nombre de réplicas selon la phase",
+            "En augmentant systématiquement le nombre de réplicas sur tous les index actifs",
+            "En supprimant automatiquement les anciens index inutilisés depuis plus de 7 jours",
+            "En migrant tous les index vers des bases de données relationnelles plus performantes"
+        ],
+        "correct": [
+            "Grâce au rollover automatique et à la réduction du nombre de réplicas selon la phase"
+        ]
+    },
+    {
+        "id": 86,
+        "type": "multiple_choice",
+        "question": "Dans la phase Warm de l'ILM, quelle opération prépare les index pour la phase Cold ?",
+        "options": [
+            "Le force merge pour réduire le nombre de segments et améliorer les recherches",
+            "La création de snapshots réguliers vers un stockage externe",
+            "Le rollover automatique lorsqu'un seuil de taille ou d'âge est atteint",
+            "La suppression des données redondantes pour libérer de l'espace disque"
+        ],
+        "correct": [
+            "Le force merge pour réduire le nombre de segments et améliorer les recherches"
+        ]
+    },
+    {
+        "id": 87,
+        "type": "multiple_choice",
+        "question": "Quel est l'objectif principal de la phase Cold dans l'ILM Elasticsearch ?",
+        "options": [
+            "Minimiser les coûts de stockage tout en conservant les index accessibles pour une utilisation rare",
+            "Optimiser les performances de lecture et d'écriture pour les index les plus sollicités en phase Hot",
+            "Supprimer définitivement les index devenus obsolètes et libérer de l'espace",
+            "Préparer les index pour des écritures intensives lors de pics d'activité"
+        ],
+        "correct": [
+            "Minimiser les coûts de stockage tout en conservant les index accessibles pour une utilisation rare"
+        ]
+    },
+    {
+        "id": 88,
+        "type": "multiple_choice",
+        "question": "Quelle action prépare concrètement le passage de la phase Cold vers la phase Frozen dans l'ILM ?",
+        "options": [
+            "La création de snapshots réguliers vers un stockage externe longue durée",
+            "Le force merge pour fusionner les segments et optimiser la structure interne",
+            "Le rollover automatique lorsque l'index dépasse un seuil de taille configuré",
+            "La réduction du nombre de réplicas à zéro pour supprimer la redondance"
+        ],
+        "correct": [
+            "La création de snapshots réguliers vers un stockage externe longue durée"
+        ]
+    },
+    {
+        "id": 89,
+        "type": "multiple_choice",
+        "question": "L'avantage 'Flexibilité et Personnalisation' de l'ILM Policy Elasticsearch signifie que :",
+        "options": [
+            "Les utilisateurs définissent des politiques adaptées à leurs besoins en ajustant les critères de transition entre phases",
+            "L'ILM applique automatiquement des politiques optimales sans aucune configuration préalable de la part des utilisateurs",
+            "Les politiques ILM sont identiques et imposées pour tous les types d'index sans exception possible",
+            "L'ILM ne peut être configuré que par des ingénieurs certifiés Elastic Cloud Enterprise (ECE) et n'est pas accessible aux utilisateurs finaux"
+        ],
+        "correct": [
+            "Les utilisateurs définissent des politiques adaptées à leurs besoins en ajustant les critères de transition entre phases"
+        ]
+    },
+    {
+        "id": 90,
+        "type": "multiple_choice",
+        "question": "En quoi consiste la 'Préservation des Données' comme avantage de l'ILM Policy Elasticsearch ?",
+        "options": [
+            "Conserver les index importants via des snapshots en phase Frozen pour un accès long terme garanti",
+            "Dupliquer automatiquement tous les index actifs en phase Hot pour éviter toute perte",
+            "Supprimer les index inutilisés de manière automatique pour libérer les ressources",
+            "Chiffrer systématiquement toutes les données sensibles stockées en phase Cold"
+        ],
+        "correct": [
+            "Conserver les index importants via des snapshots en phase Frozen pour un accès long terme garanti"
+        ]
+    },
+    {
+        "id": 91,
+        "type": "free_answer",
+        "question": "Dans le contexte d'Elasticsearch, que signifie l'acronyme ILM ?",
+        "correct": [
+            "Index Lifecycle Management",
+            "index lifecycle management"
+        ]
+    },
+    {
+        "id": 92,
+        "type": "multiple_choice",
+        "question": "Qu'a conçu Alan Turing en 1950 selon le cours ?",
+        "options": [
+            "Un test pour évaluer la capacité d'une machine à simuler l'intelligence humaine",
+            "Le premier algorithme de réseau de neurones artificiels à plusieurs couches",
+            "Le langage de programmation LISP dédié à l'intelligence artificielle",
+            "Le premier ordinateur quantique capable de résoudre des problèmes complexes"
+        ],
+        "correct": [
+            "Un test pour évaluer la capacité d'une machine à simuler l'intelligence humaine"
+        ]
+    },
+    {
+        "id": 93,
+        "type": "multiple_choice",
+        "question": "Quel type d'apprentissage ML utilise des données sans labels et vise à découvrir les patterns sous-jacents ?",
+        "options": [
+            "L'apprentissage non supervisé",
+            "L'apprentissage supervisé",
+            "L'apprentissage par renforcement",
+            "Le Deep Learning supervisé"
+        ],
+        "correct": [
+            "L'apprentissage non supervisé"
+        ]
+    },
+    {
+        "id": 94,
+        "type": "multiple_choice",
+        "question": "Quel algorithme d'apprentissage par renforcement est cité dans le tableau comparatif du cours ?",
+        "options": [
+            "Q-learning et SARSA",
+            "SVM et KNN",
+            "Régression linéaire et logistique",
+            "K-Means et DBSCAN"
+        ],
+        "correct": [
+            "Q-learning et SARSA"
+        ]
+    },
+    {
+        "id": 95,
+        "type": "multiple_choice",
+        "question": "Dans Elastic ML, de quel type d'apprentissage la 'catégorisation' fait-elle partie ?",
+        "options": [
+            "Non supervisé, via la détection d'anomalies",
+            "Supervisé, via les trames de données étiquetées",
+            "Apprentissage par renforcement avec agents autonomes",
+            "Deep Learning avec réseaux de neurones convolutifs"
+        ],
+        "correct": [
+            "Non supervisé, via la détection d'anomalies"
+        ]
+    },
+    {
+        "id": 96,
+        "type": "multiple_choice",
+        "question": "Dans Elastic ML, quelles analyses font partie des 'trames de données' (apprentissage supervisé) ?",
+        "options": [
+            "Détection des valeurs aberrantes, classification et régression",
+            "Métrique unique, multi-métrique et population",
+            "Catégorisation, clustering non supervisé et détection d'anomalies",
+            "Rollover, force merge et gestion des snapshots"
+        ],
+        "correct": [
+            "Détection des valeurs aberrantes, classification et régression"
+        ]
+    },
+    {
+        "id": 97,
+        "type": "multiple_choice",
+        "question": "La 'détection des valeurs aberrantes' identifie les points aberrants en analysant :",
+        "options": [
+            "La proximité de chaque point par rapport aux autres et la densité du groupe environnant",
+            "Les séries temporelles en continu à l'aide d'un modèle probabiliste évolutif",
+            "Les données étiquetées fournies par un superviseur humain expert du domaine",
+            "Uniquement les transactions financières suspectes dans des systèmes bancaires"
+        ],
+        "correct": [
+            "La proximité de chaque point par rapport aux autres et la densité du groupe environnant"
+        ]
+    },
+    {
+        "id": 98,
+        "type": "multiple_choice",
+        "question": "En apprentissage supervisé, à quoi sert la 'classification' selon le cours ?",
+        "options": [
+            "Prédire des valeurs catégorielles discrètes, par exemple si un domaine est malveillant ou bénin",
+            "Prédire des valeurs numériques continues comme le temps de réponse d'une requête web ou le prix d'une action",
+            "Détecter des événements inhabituels dans des séries chronologiques en continu sans données étiquetées",
+            "Regrouper automatiquement des points de données similaires sans supervision"
+        ],
+        "correct": [
+            "Prédire des valeurs catégorielles discrètes, par exemple si un domaine est malveillant ou bénin"
+        ]
+    },
+    {
+        "id": 99,
+        "type": "multiple_choice",
+        "question": "Elasticsearch est décrit dans le cours comme capable de gérer quels types de données ?",
+        "options": [
+            "Données textuelles, numériques, géospatiales, structurées et non structurées",
+            "Uniquement des données textuelles indexées pour la recherche plein texte",
+            "Uniquement des données structurées organisées en tables avec schéma fixe",
+            "Uniquement des données numériques et géospatiales avec coordonnées GPS"
+        ],
+        "correct": [
+            "Données textuelles, numériques, géospatiales, structurées et non structurées"
+        ]
+    },
+    {
+        "id": 100,
+        "type": "multiple_choice",
+        "question": "Selon le cours, pourquoi le Deep Learning était-il difficile à mettre en pratique à ses débuts ?",
+        "options": [
+            "Il nécessitait une puissance de calcul bien supérieure à ce qui était disponible à l'époque",
+            "Les algorithmes n'étaient pas encore assez développés pour être utilisés efficacement",
+            "Il n'existait pas de données en quantité suffisante pour entraîner les modèles",
+            "Il était incompatible avec tous les langages de programmation existants à l'époque"
+        ],
+        "correct": [
+            "Il nécessitait une puissance de calcul bien supérieure à ce qui était disponible à l'époque"
+        ]
+    },
+    {
+        "id": 101,
+        "type": "free_answer",
+        "question": "En apprentissage supervisé, quel type d'analyse prédit une valeur numérique continue comme le temps de réponse d'une requête Web ?",
+        "correct": [
+            "régression",
+            "la régression"
+        ]
+    },
+    {
+        "id": 102,
+        "type": "multiple_choice",
+        "question": "Quelle technique de transformation supprime les redondances pour rendre les données plus cohérentes et comparables ?",
+        "options": [
+            "La normalisation",
+            "L'enrichissement",
+            "L'agrégation",
+            "Le nettoyage"
+        ],
+        "correct": [
+            "La normalisation"
+        ]
+    },
+    {
+        "id": 103,
+        "type": "multiple_choice",
+        "question": "Comment StreamSets est-il décrit dans le cours ?",
+        "options": [
+            "Une plateforme moderne pour concevoir, déployer et gérer des pipelines de données batch et streaming",
+            "Un moteur de recherche distribué pour indexer des données semi-structurées en JSON dans Elasticsearch",
+            "Un outil de visualisation concurrent de Kibana pour les données Elasticsearch avec des fonctionnalités de tableau de bord avancées",
+            "Un framework de Machine Learning dédié aux données en streaming temps réel"
+        ],
+        "correct": [
+            "Une plateforme moderne pour concevoir, déployer et gérer des pipelines de données batch et streaming"
+        ]
+    },
+    {
+        "id": 104,
+        "type": "multiple_choice",
+        "question": "L'analyse exploratoire de données utilise quelles méthodes selon le cours ?",
+        "options": [
+            "Des méthodes statistiques et des techniques de visualisation pour identifier patterns, relations et anomalies",
+            "Des algorithmes d'apprentissage supervisé avec des données étiquetées uniquement pour la classification et la régression",
+            "Des règles métier prédéfinies et codées en dur par des experts du domaine pour détecter des cas spécifiques d'intérêt",
+            "Uniquement des graphiques à barres et des diagrammes circulaires simples"
+        ],
+        "correct": [
+            "Des méthodes statistiques et des techniques de visualisation pour identifier patterns, relations et anomalies"
+        ]
+    },
+    {
+        "id": 105,
+        "type": "free_answer",
+        "question": "Quel outil de visualisation de données, anciennement lié à Salesforce, permet de créer des tableaux de bord interactifs et partageables ?",
+        "correct": [
+            "Tableau"
+        ]
+    },
+      {
+    "id": 106,
+    "type": "free_answer",
+    "question": "Citez les 6 étapes du cycle de vie des données (DLM) dans l'ordre.",
+    "number_of_answers": 6,
+    "correct": [
+      "collecte",
+      "stockage",
+      "traitement",
+      "analyse",
+      "sauvegarde",
+      "suppression"
+    ]
+  },
+  {
+    "id": 107,
+    "type": "free_answer",
+    "question": "Citez les 4 techniques d'analyse de données vues dans le cours.",
+    "number_of_answers": 4,
+    "correct": [
+      "analyse descriptive",
+      "analyse exploratoire",
+      "analyse prédictive",
+      "analyse prescriptive",
+      "descriptive",
+      "exploratoire",
+      "prédictive",
+      "prescriptive"
+    ]
+  },
+  {
+    "id": 108,
+    "type": "free_answer",
+    "question": "Citez les 3 types de techniques d'apprentissage en Machine Learning.",
+    "number_of_answers": 3,
+    "correct": [
+      "apprentissage supervisé",
+      "apprentissage non supervisé",
+      "apprentissage par renforcement",
+      "supervisé",
+      "non supervisé",
+      "renforcement"
+    ]
+  },
+  {
+    "id": 109,
+    "type": "free_answer",
+    "question": "Dans l'apprentissage supervisé, citez les 2 sous-types d'analyse possibles.",
+    "number_of_answers": 2,
+    "correct": [
+      "classification",
+      "régression"
+    ]
+  },
+  {
+    "id": 110,
+    "type": "free_answer",
+    "question": "Dans l'apprentissage non supervisé, citez les 2 sous-types d'analyse possibles.",
+    "number_of_answers": 2,
+    "correct": [
+      "détection des anomalies",
+      "détection des valeurs aberrantes",
+      "anomalies",
+      "valeurs aberrantes"
+    ]
+  },
+  {
+    "id": 111,
+    "type": "free_answer",
+    "question": "Citez 4 algorithmes de Machine Learning mentionnés dans le cours.",
+    "number_of_answers": 4,
+    "correct": [
+      "régression linéaire",
+      "régression logistique",
+      "arbre de décision",
+      "classification naïve bayésienne",
+      "SVM",
+      "K-Means",
+      "KNN",
+      "SARSA",
+      "Q-learning"
+    ]
+  },
+  {
+    "id": 112,
+    "type": "free_answer",
+    "question": "Citez les 5 étapes d'un pipeline d'ingestion de données dans l'ordre.",
+    "number_of_answers": 5,
+    "correct": [
+      "découverte",
+      "acquisition",
+      "validation",
+      "transformation",
+      "chargement"
+    ]
+  },
+  {
+    "id": 113,
+    "type": "free_answer",
+    "question": "Citez les 3 techniques d'intégration de données vues dans le cours.",
+    "number_of_answers": 3,
+    "correct": [
+      "intégration par lots",
+      "intégration en temps réel",
+      "virtualisation des données",
+      "par lots",
+      "temps réel",
+      "virtualisation"
+    ]
+  },
+  {
+    "id": 114,
+    "type": "free_answer",
+    "question": "Citez les 4 techniques de transformation de données vues dans le cours.",
+    "number_of_answers": 4,
+    "correct": [
+      "nettoyage",
+      "normalisation",
+      "agrégation",
+      "enrichissement"
+    ]
+  },
+  {
+    "id": 115,
+    "type": "free_answer",
+    "question": "Citez les 3 bases de données NoSQL mentionnées dans le cours.",
+    "number_of_answers": 3,
+    "correct": [
+      "MongoDB",
+      "Cassandra",
+      "Couchbase"
+    ]
+  },
+  {
+    "id": 116,
+    "type": "free_answer",
+    "question": "Citez 3 outils d'analyse et de visualisation des données mentionnés dans le cours.",
+    "number_of_answers": 3,
+    "correct": [
+      "R",
+      "Python",
+      "Tableau",
+      "Power BI",
+      "Kibana"
+    ]
+  },
+  {
+    "id": 117,
+    "type": "free_answer",
+    "question": "Citez les 3 frameworks de traitement Big Data les plus détaillés dans le cours.",
+    "number_of_answers": 3,
+    "correct": [
+      "Apache Hadoop",
+      "Apache Spark",
+      "Apache Flink",
+      "Hadoop",
+      "Spark",
+      "Flink"
+    ]
+  },
+  {
+    "id": 118,
+    "type": "free_answer",
+    "question": "Citez les 5 types de visualisation de données mentionnés dans le cours.",
+    "number_of_answers": 5,
+    "correct": [
+      "graphiques à barres",
+      "graphiques à secteurs",
+      "graphiques linéaires",
+      "cartes thermiques",
+      "barres",
+      "secteurs",
+      "linéaires",
+      "heatmaps",
+      "camembert"
+    ]
+  },
+  {
+    "id": 119,
+    "type": "free_answer",
+    "question": "Citez les 3 types de solutions de stockage détaillés dans le cours (pas les supports physiques).",
+    "number_of_answers": 3,
+    "correct": [
+      "bases de données relationnelles",
+      "bases de données NoSQL",
+      "systèmes de fichiers distribués",
+      "relationnelles",
+      "NoSQL",
+      "distribués"
+    ]
+  },
+  {
+    "id": 120,
+    "type": "free_answer",
+    "question": "Que signifie l'acronyme ETL ?",
+    "correct": [
+      "Extract Transform Load",
+      "Extract, Transform, Load",
+      "extraction transformation chargement"
+    ]
+  }
+]

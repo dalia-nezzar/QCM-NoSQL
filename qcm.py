@@ -3,7 +3,7 @@ import json
 import random
 from difflib import SequenceMatcher
 
-st.set_page_config(page_title="QCM - Système", layout="centered")
+st.set_page_config(page_title="QCM - Communication", layout="centered")
 
 def calculate_similarity(user_answer, correct_answer):
     """Calcule le pourcentage de similarité entre deux réponses"""
@@ -64,8 +64,9 @@ if "shuffled_options" not in st.session_state:
 
 parts = {
     "Chapitre 1 - Introduction au BIG DATA (big dètaè)": "questions.json",
-    "Chapitre 2 -  Introduction aux bases de données NoSQL": "questions2.json",
+    "Chapitre 2 - Introduction aux bases de données NoSQL": "questions2.json",
     "Chapitre 3 - Introduction à Elasticsearch": "questions3.json",
+    "Chapitre 4 - La donnée au coeur du BIG DATA (big dètaè)": "questions4.json",
 }
 
 if not st.session_state.started:
