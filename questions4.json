@@ -226,7 +226,8 @@
         "correct": [
             "Presto",
             "Dask",
-            "Apache Nifi"
+            "Apache Nifi",
+            "NiFi"
         ]
     },
     {
@@ -1570,6 +1571,7 @@
     "correct": [
       "R",
       "Python",
+      "matplotlib",
       "Tableau",
       "Power BI",
       "Kibana"
@@ -1592,8 +1594,8 @@
   {
     "id": 118,
     "type": "free_answer",
-    "question": "Citez les 5 types de visualisation de données mentionnés dans le cours.",
-    "number_of_answers": 5,
+    "question": "Citez les 4 types de visualisation de données mentionnés dans le cours.",
+    "number_of_answers": 4,
     "correct": [
       "graphiques à barres",
       "graphiques à secteurs",
